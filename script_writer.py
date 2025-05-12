@@ -5,12 +5,14 @@ from models import Assembly, Part
 ADD_PART_PROC = '''
 procedure AddPart(AsmPath: String; ItemType: String; SKU: String; Descr: String; Qty: Double; CostEach: Double);
 begin
-  P := Planswift.NewItem(AsmPath, ItemType, Descr);
+  P := Planswift.NewItem(AsmPath, ItemType, 'Mat');
+
   Planswift.SetPropertyFormula(P.FullPath, 'Selected Item', SKU);
   Planswift.SetPropertyFormula(P.FullPath, 'SKU #', SKU);
   Planswift.SetPropertyFormula(P.FullPath, 'Cost Each', CostEach);
   Planswift.SetPropertyFormula(P.FullPath, 'Qty Per Count', Qty);
   Planswift.SetPropertyFormula(P.FullPath, 'Description', Descr);
+  Planswift.SetPropertyFormula(P.FullPath, 'Name', '[..] - [Description]');
 end;
 
 '''
