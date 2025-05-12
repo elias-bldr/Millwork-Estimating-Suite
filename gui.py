@@ -8,7 +8,7 @@ import db, script_writer
 
 APP_FILE = pathlib.Path(__file__).with_name("assemblies.json")
 
-FOLDER_CHOICES = ["Exterior Doors", "Interior Doors", "Closets", "Trim", "Misc"]
+FOLDER_CHOICES = ["Exterior Doors", "Interior Doors", "Base", "Casing", "Closets", "Stairs", "Hardware", "Misc"]
 
 # mapping from dataset → PlanSwift ItemType
 TYPE_MAP = {
