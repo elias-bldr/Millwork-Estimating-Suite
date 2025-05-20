@@ -5,7 +5,7 @@
 You need an Assembly that is not included in the prebuilt Millwork Template.
 
 === "Demo"
-    ![Create a Custom Assembly](../assets/video/createcustomassembly.webp){ width="350" .center }
+    ![type:video](../assets/video/createcustomassembly.mp4){: .mx-auto preload="metadata" .no-glb }
 
 === "Flowchart"
     ``` mermaid
@@ -24,7 +24,8 @@ You need an Assembly that is not included in the prebuilt Millwork Template.
 <center>
 It is important to understand that certain PlanSwift Reports will separate Part and Material data. This can ultimately affect how quotes are generated via PlanSwift Reports.
 </center>
-![Parts VS Materials](../assets/video/partsvsmaterials.webp){ width="350" .center }
+
+![type:video](../assets/video/partsvsmaterials.mp4){: .mx-auto preload="metadata" .no-glb }
 
 ---
 
@@ -56,4 +57,4 @@ It is important to understand that certain PlanSwift Reports will separate Part 
 
 You’re done!  
 
-Ready for automation? Head to [Quick-start • Assembly Builder](quick-start-assembly-builder.md).
+Ready for automation? Head to [Quick-start • Assembly Builder](../getting-started/quick-start-assembly-builder.md).

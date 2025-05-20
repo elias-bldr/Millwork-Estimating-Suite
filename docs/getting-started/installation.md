@@ -35,4 +35,4 @@
 
 ![Millwork Databases required files](../assets/screenshots/millworkdatabasesfiles.png){ width="350" .center }
 
-Next: [Quick-start ▸ Plugin](quick-start-plugin.md).
+Next: [Quick-start ▸ Plugin](quick-start-plugin-package.md).

@@ -7,7 +7,7 @@ Complete a millwork takeoff that pulls inventory costs from the included list da
 ## Step 1: Create A New Job
 
 === "Demo"
-    ![Create new Millwork Job](../assets/video/createjob.webp){ width="350" .center }
+    ![type:video](../assets/video/createjob.mp4){: .mx-auto preload="metadata" .no-glb }
 
 === "Flowchart"
     ``` mermaid
@@ -21,7 +21,7 @@ Complete a millwork takeoff that pulls inventory costs from the included list da
 ## Step 2: Complete Your Takeoff
 
 === "Demo"
-    ![Complete Takeoff](../assets/video/begintakeoff.webp){ width="350" .center }
+    ![type:video](../assets/video/begintakeoff.mp4){: .mx-auto preload="metadata" .no-glb }
 
 === "Flowchart"
     ``` mermaid
@@ -39,7 +39,7 @@ Complete a millwork takeoff that pulls inventory costs from the included list da
 ## Step 3: Adjust Margins & Generate Reports
 
 === "Demo"
-    ![Adjust Margins and generate reports](../assets/video/marginsandreports.webp){ width="350" .center }
+    ![type:video](../assets/video/marginsandreports.mp4){: .mx-auto preload="metadata" .no-glb }
 
 === "Flowchart"
     ``` mermaid

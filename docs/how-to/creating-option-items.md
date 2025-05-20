@@ -5,7 +5,7 @@ You need to include an external item in an Assembly.
 ## Add External Items To PlanSwift List Database
 
 === "Demo"
-    ![type:video](../assets/video/addingoptionstolist.mp4){: .mx-auto preload="metadata" }
+    ![type:video](../assets/video/addingoptionstolist.mp4){: .mx-auto preload="metadata" .no-glb }
 
 
 === "Flowchart"
@@ -24,7 +24,7 @@ You need to include an external item in an Assembly.
 ## Add "Other" (Option) Items To Takeoff Assembly Item
 
 === "Demo"
-    ![type:video](../assets/video/creatingoptionitems.mp4){: .mx-auto preload="metadata" }
+    ![type:video](../assets/video/creatingoptionitems.mp4){: .mx-auto preload="metadata" .no-glb }
 
 === "Flowchart"
     ``` mermaid
@@ -42,7 +42,7 @@ You need to include an external item in an Assembly.
 ## Display Options Data With PlanSwift Reports
 
 === "Demo"
-    ![type:video](../assets/video/optionsreportdata.mp4){: .mx-auto preload="metadata" }
+    ![type:video](../assets/video/optionsreportdata.mp4){: .mx-auto preload="metadata" .no-glb }
 
 === "Flowchart"
     ``` mermaid

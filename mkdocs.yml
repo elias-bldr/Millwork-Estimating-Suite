@@ -73,6 +73,8 @@ nav:
 plugins:
   - glightbox:
       auto_caption: true
+      skip_classes:
+        - no-glb
   - search
   - mkdocs-video:
       is_video: true

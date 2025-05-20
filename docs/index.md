@@ -19,7 +19,7 @@ Start with [**Getting Started → Installation**](./getting-started/installation
 
 ## Existing users
 
-Head over to [**How-to**](./how-to/create-custom-item.md) for various step-by-step instructions or browse the [**Reference**](./reference/field-definitions/count.md) section for item field definitions.
+Head over to [**How-to**](./how-to/creating-a-custom-assembly.md) for various step-by-step instructions or browse the [**Reference**](./reference/field-definitions/count.md) section for item field definitions.
 
 ---
 
