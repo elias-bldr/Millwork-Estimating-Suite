@@ -1,0 +1,74 @@
+var
+  JobItem: OleVariant;
+  JobPath, PropName, CurrentVal, NewVal: String;
+
+function ChooseProperty(Prop: String): Boolean;
+var
+  F: TForm;
+  Cmb: TComboBox;
+  BtnOK, BtnCancel: TButton;
+begin
+  F := NewForm(300, 150, 'Select Margin');
+    NewLabel(20, 20, 'Choose margin to edit:');
+    Cmb := NewComboBox(20, 40, '');
+    Cmb.Items.Text :=
+      'Gross Margin'#13+
+      'Options Gross Margin'#13+
+      'Labor Gross Margin'#13+
+      'Install Gross Margin';
+    Cmb.ItemIndex := 0;
+    BtnOK     := NewButton( 60, 80, 'OK',    mrOK);   BtnOK.Default  := True;
+    BtnCancel := NewButton(160, 80, 'Cancel',mrCancel);
+  Result := (F.ShowModal = mrOK);
+  if Result then
+    PropName := Cmb.Text;
+end;
+
+function EnterNewValue(Prop: String; Value: String): Boolean;
+var
+  F: TForm;
+  Lbl: TLabel;
+  Edt: TEdit;
+  BtnOK, BtnCancel: TButton;
+begin
+  // read current
+  CurrentVal := JobItem.GetPropertyFormula(Prop);
+
+  F := NewForm(300, 175, 'Adjust ' + Prop);
+    Lbl := NewLabel(20, 20, 'Current ' + Prop + ': ' + CurrentVal + '%');
+    Edt := NewEdit(20, 50, CurrentVal);
+    Edt.Width := 240;
+    BtnOK     := NewButton( 60, 100, 'OK',    mrOK);   BtnOK.Default  := True;
+    BtnCancel := NewButton(160, 100, 'Cancel',mrCancel);
+  Result := (F.ShowModal = mrOK);
+  if Result then
+    NewVal := Edt.Text;
+end;                    
+
+procedure Main;
+begin
+  // 1) Load the Job item
+  JobItem := PlanSwift.GetItem('\Job');
+  if VarIsClear(JobItem) then
+  begin
+    ShowMessage('Could not find the Job item.');
+    Exit;
+  end;
+  JobPath := JobItem.FullPath;
+
+  // 2) Pick which property
+  if not ChooseProperty(PropName) then
+    Exit;
+
+  // 3) Enter the new value
+  if not EnterNewValue(PropName, NewVal) then
+    Exit;
+
+  // 4) Write it back
+  PlanSwift.SetPropertyFormula(JobPath, PropName, NewVal);
+  ShowMessage(PropName + ' updated to ' + NewVal + '%');
+end;
+
+begin
+  Main;
+end;

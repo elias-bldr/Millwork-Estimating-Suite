@@ -1,0 +1,238 @@
+var
+TabToExport,FolderToExport:TComboBox; 
+AddTo:TCheckBox;                         
+tablst,Folderlst:TStringList; 
+
+
+function GetTabsText:TStrings;
+begin       
+lst := tstringlist.create;                                                     
+lst.add(GetItem('\Job\Takeoff'));                                                   
+Storages := GetItem('\Storages');                                       
+For i := 0 to childCount(Storages) -1 do begin          
+    itm := childItem(Storages,i);                                                 
+    For ii := 0 to ChildCount(itm) -1 do begin                        
+        citm := childItem(itm,ii);                                                                     
+        nme := getResultAsString(Citm,'Name','');                    
+        if nme = 'Templates' then begin                                    
+           For iii := 0 to ChildCount(Citm) -1 do begin                           
+               tab := childItem(citm,iii);                                   
+               lst.Add(tab);                                                              
+           End;                                                                                          
+        End;                                                                              
+    End;                                                                                                                            
+End;                                                                           
+Result := lst.Text;            
+end;
+
+procedure LoadTypes(itm:String;itmType:String;lst:TStringList);
+begin  
+   //if childCount(itm) = 0 then exit;
+   psitm := Planswift.GetItem(itm);                            
+   psitm.GetItem('blah');                                                               
+   if itmType = 'Folders/Assemblies' then begin             
+      For i := 0 to childCount(itm) -1 do begin         
+          citm := Childitem(itm,i); 
+          itype := GetResultAsString(citm,'Type','')                               
+          if (( itype = 'Folder') or (itype = 'Assembly')) then begin
+             Folderloc := GetResultAsString(citm,'Folder Path','');                                                     
+             //if Folderloc = '' then                                                           
+                //SetPropertyFormula(citm,'Folder Path','[..\Name]\[Name]')
+             lst.Add(citm);
+          end;
+             LoadTypes(citm,itmType,lst);                                
+      End;                                       
+   end;                                                                                 
+End;                                                                                 
+                                                          
+function GetFolders(itm:String):TStrings;                                                      
+var
+psitm:IItem;                                           
+begin
+  lst := TStringList.Create;
+  LoadTypes(itm,'Folders/Assemblies',lst);
+  Result := lst.Text;                
+  lst.Free;
+end;
+
+
+                                            
+function GetNames(ilst:TStringList;PName:String):TStrings; 
+begin                                                             
+   lst := TStringList.Create;                   
+   For i := 0 to ilst.Count-1 do begin
+     itm := GetItem(ilst.Strings[i]);                  
+     if GetResultAsString(itm,'Name','') = 'Takeoff' then     
+        lst.add('Estimating');                                  
+     else                                                            
+        lst.add(GetResultAsString(itm,PName,''));  
+   end;                                     
+   Result := lst.Text;                                                
+   lst.free;                   
+end;                                 
+                                                           
+procedure tabChanged;                      
+begin                                                                               
+     FolderToExport.Clear; 
+     index := TabToExport.ItemIndex;               
+     itm := GetItem(Tablst.Strings[index]);
+     Folderlst.Clear;                       
+     Folderlst.Text := GetFolders(itm);
+     
+     FolderToExport.Items.Text := GetNames(Folderlst,'Name');               
+End;                                                                                
+procedure CheckBoxChanged;
+begin
+     if Addto.Checked = false then exit;
+     try                                       
+         Excel := GetActiveOLEObject('Excel.Application')
+     except
+      ShowMessage('Sorry! There is no Active Sheet to add to' + #10#13 +  'Excel is not running!')
+      AddTo.Checked := False
+      Exit;   
+     end;                                                          
+End;
+Procedure GetExportItems(ExportItem:String;lst:TStringList);
+begin                                             
+     For i := 0 to ChildCount(ExportItem) -1 do begin
+         citm := ChildItem(ExportItem,i);
+         lst.Add(Citm);          
+            
+         if Childcount(citm) > 0 then 
+            GetExportItems(Citm,lst);
+     End;                                
+End;
+    
+
+begin
+Takeoff := getItem('Job\Takeoff');                                
+Templates := GetItem('Storages');               
+tablst := TStringlist.Create;  
+Tablst.Text := GetTabsText;        
+Folderlst := TStringList.Create;  
+
+//Create Form                                                                                                  
+Form := NewForm(432,200,'Export To Pro Edge CSV');                             
+newLabel(5,10,'Tab to Export:');                              
+TabToExport := NewComboBox(5, 25, 'Estimating')                  
+TabToExport.Width := 200;                                                        
+TabToExport.Items.Text := GetNames(tablst,'Name'); 
+TabToExport.ItemIndex := 0;                                                                              
+TabToExport.onChange := 'TabChanged';
+NewLabel(216,10, 'Folder/Assembly To Export:');   
+FolderToExport := NewComboBox(216, 25, ''); 
+FolderToExport.Width := 200;                                                                     
+SheetNum := NewLabel(5, 67, 'Starting Worksheet: 1');  
+SheetNum.Font.Size := 8;                                                              
+StartingRowLabel := NewLabel(146, 67, 'Starting Row:');                 
+EditBox := NewEdit(216, 64, '16');
+AddTo := NewCheckBox(5, 90, 'Add To Active WorkSheet', false); 
+AddTo.Width := 200;                                                    
+AddTo.OnClick := 'CheckBoxChanged';                
+NewButton(126, 125, 'OK', mrOk).default := true;       
+NewButton(206, 125, 'Cancel', mrCancel).Cancel := true;                                                                                
+TabChanged;  
+itm := selectedItem;
+if ((GetResultAsBoolean(itm,'isItem',False) = true) or (GetResultAsString(itm,'Type','') = 'Folder')) then begin
+   FolderToExport.Items.add(GetResultAsString(itm,'Name',''));
+   FolderLst.insert(0,itm);
+   FolderToExport.ItemIndex := 0;
+end;                       
+if Form.ShowModal <> mrok then Exit; 
+
+if TabtoExport.Text = '' then begin
+   ShowMessage('No Tab Selected');
+End;                                                            
+   Tabidx := TabToExport.ItemIndex;
+   Folderidx := FolderToExport.ItemIndex;
+               
+usingFolder := False;                             
+if FolderToExport.Text = '' then begin               
+   ExportItem := GetItem(Tablst.Strings[Tabidx])
+end else begin                                 
+    ExportItem := GetItem(Folderlst.Strings[Folderidx + 1]);
+    usingFolder := True;  
+end;
+                                                             
+srow := StrToInt(EditBox.Text);                                                                
+//Try  
+ ExportLst := TStringList.Create;                                                
+ PluginPath := GetResultAsString(ItemGUID,'PluginPath','');     
+ //DataFolder := ExeFilePath + 'Data\';      
+if AddTo.Checked = false then begin                                 
+   XL := CreateOleObject('Excel.Application');                                       
+   wb := xl.workbooks.open(PluginPath +'\Estimate.xltx');               
+   ws := wb.worksheets(1);    
+   XL.Visible := True;
+End else begin                                        
+   xl := GetActiveOLEObject('Excel.Application');       
+   wb := xl.ActiveWorkbook;                                                
+   ws := wb.ActiveSheet;                                         
+End;                                                   
+ 
+ if usingFolder = true then
+    Exportlst.add(ExportItem);                    
+                                                 
+ GetExportItems(ExportItem,ExportLst);       
+                                                                                     
+ {$REGION 'EXPORT TO EXCEL'} 
+  //Set Const                                                                                                    
+   For i := 0 to ExportLst.Count -1 do begin   
+       itm := GetItem(Exportlst.Strings[i]);  
+       if GetResultAsString(Itm,'Type','') = 'Area Label' then Continue;
+       isSect := GetResultAsBoolean(itm,'IsSection',False);                     
+       if isSect then Continue;                                                               
+                                                                                   
+       iName      := GetPropertyResult(itm,'Name');
+       iQty       := GetPropertyResult(itm,'Qty');
+       iQtyUnits := GetPropertyAttribute(itm,'Qty','Units');
+       iPriceEach   := GetPropertyResult(itm,'Price Each');
+       iPriceTotal   := GetPropertyResult(itm,'Price Total');
+       iTakeoff := GetPropertyResult(itm,'Takeoff');
+       iTakeoffUnits := GetPropertyAttribute(itm,'Takeoff','Units');
+
+       //Sleep(100)
+       //Send Name
+       if iQty > 0.00 then begin
+       cell := ws.cells(srow,1)
+       cell.value := iName;
+        if ChildCount(Itm) > 0 then                    
+          Cell.Font.Bold := true
+       end 
+
+       //Send Qty
+       if iQty = 0.00 then begin
+         // if iTakeoff <> 0.00 then begin
+         //    cell := ws.cells(srow,7);
+        //     cell.value := iTakeoff;
+        //     cell := ws.cells(srow,8);
+        //     cell.value := iTakeoffUnits;
+          //End;
+          continue
+       End else begin
+           cell := ws.cells(srow,2);
+           cell.value := iQty;
+           cell := ws.cells(srow,3);
+           cell.value := iQtyUnits;
+       End;;
+
+       //Send Price Each
+       cell := ws.cells(srow,4);
+       cell.value := iPriceEach;
+
+        //Send Price Total
+       cell := ws.cells(srow,5);
+       cell.value := iPriceTotal;
+                                    
+       inc(srow);
+   End;    
+ {$ENDREGION}                                              
+//Finally
+ExportLst.Free;   
+FolderLst.Free;          
+Tablst.Free    
+//ws.cells.columns.autofit;    
+XL := nil; 
+//End;
+    
+End;

@@ -1,0 +1,14 @@
+# venv & byte-code
+.venv/
+**/__pycache__/
+*.py[cod]
+
+# build artefacts
+build/
+dist/
+*.spec
+*.zip
+*.exe
+
+# IDE
+.vscode/

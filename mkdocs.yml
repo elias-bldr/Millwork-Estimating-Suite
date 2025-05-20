@@ -1,0 +1,82 @@
+site_name: Millwork Estimating Suite
+theme:
+  name: material
+  font:
+    text: Lora
+    code: Roboto Mono
+  logo: assets/logo.png
+  favicon: assets/favicon.ico
+  palette:
+    # Dark Mode
+    - scheme: slate
+      toggle:
+        icon: material/weather-sunny
+        name: Dark mode
+      primary: indigo
+      accent: deep orange
+
+    # Light Mode
+    - scheme: default
+      toggle:
+        icon: material/weather-night
+        name: Light mode
+      primary: blue
+      accent: deep orange
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - content.code.copy
+    - search.highlight
+markdown_extensions:
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+nav:
+  - Home: index.md
+  - Get started:
+      - Install & Setup: getting-started/installation.md
+      - Quick-start • Plugin Package: getting-started/quick-start-plugin-package.md
+      - Quick-start • Assembly Builder: getting-started/quick-start-assembly-builder.md
+  - How-to:
+      - Creating A Custom Assembly: how-to/creating-a-custom-assembly.md
+      - Creating Option Items: how-to/creating-option-items.md
+      - Generate Bulk Tools: how-to/generate-bulk-tools.md
+      - Run Custom Reports: how-to/run-custom-reports.md
+      - Structure Takeoff Tools: how-to/structure-takeoff-tools.md
+      - Update Inventory Database: how-to/update-inventory-database.md
+  - Reference:
+      - Field definitions:
+          - Job: reference/field-definitions/job.md
+          - Count: reference/field-definitions/count.md
+          - Segment: reference/field-definitions/segment.md
+          - Material: reference/field-definitions/material.md
+          - Part: reference/field-definitions/part.md
+          - Labor: reference/field-definitions/labor.md
+          - Subcontract: reference/field-definitions/subcontract.md
+      # - Database schema: reference/database-schema.md
+      # - Pascal scripts: reference/pascal-scripts.md
+  - Concepts: explanation/architecture.md
+  - Troubleshooting: troubleshooting.md
+  - FAQ: faq.md
+  - Changelog: changelog.md
+plugins:
+  - glightbox:
+      auto_caption: true
+  - search
+  - mkdocs-video:
+      is_video: true
+      video_controls: true
+copyright: '&copy; 2025 Builders FirstSource <br> Created by Elias Garcia'
+extra_css:
+  - stylesheets/extra.css

@@ -1,0 +1,43 @@
+
+procedure AddPart(AsmPath: String; ItemType: String; SKU: String; Descr: String; Qty: Double; CostEach: Double);
+begin
+  P := Planswift.NewItem(AsmPath, ItemType, 'MAT');
+  Planswift.SetPropertyFormula(P.FullPath, 'Selected Item', SKU);
+  Planswift.SetPropertyFormula(P.FullPath, 'SKU #', SKU);
+  Planswift.SetPropertyFormula(P.FullPath, 'Cost Each', CostEach);
+  Planswift.SetPropertyFormula(P.FullPath, 'Qty Per Count', Qty);
+  Planswift.SetPropertyFormula(P.FullPath, 'Description', Descr);
+  Planswift.SetPropertyFormula(P.FullPath, 'Name', '[..] - [Description]');
+end;
+
+procedure Main;
+var
+  Asm: IItem;
+  ToolCount: Integer;
+begin
+ToolCount := 0;
+
+  // --- Exterior Doors\EXT SGL THERM RP 8/0
+  AsmFolder := Planswift.NewItem('\Job\Takeoff', 'Folder','Exterior Doors');
+  Asm := Planswift.NewItem(AsmFolder.FullPath, 'Assembly', 'EXT SGL THERM RP 8/0');
+  ToolCount := ToolCount + 1;
+
+  //EXT SGL THERM RP 8/0 Parts:
+  AddPart(Asm.FullPath, 'Labor', 'OHLabor', 'Overhead Labor', 40.0, 0.65);
+  AddPart(Asm.FullPath, 'Material', 'CMB927B36', 'COMBO 927 ADJ ALL ALUM SILL 3-1/2X36" BRZ', 1.0, 21.65);
+  AddPart(Asm.FullPath, 'Material', 'EJ71268FPR', 'EXT DR JB 7-1/2 6/8 FJ PRM 2-1/8R NO MACH', 0.25, 27.2);
+  AddPart(Asm.FullPath, 'Material', 'EJ71280FPR', 'EXT DR JB 7-1/2 8/0 FJ PRM', 1.0, 31.5);
+  AddPart(Asm.FullPath, 'Material', 'WSQ650BR80', 'ENDURA 8/0 WEATHERSTRIP BRZ .650 REACH', 2.5, 2.65);
+  AddPart(Asm.FullPath, 'Material', 'QTYED', 'QUANTITY OF MANUFACTURED EXTERIOR DOORS', 1.0, 0.0);
+  AddPart(Asm.FullPath, 'Material', 'HG414SN', '4" 1/4" RAD CNR HINGE STN NKL', 4.0, 1.2);
+  AddPart(Asm.FullPath, 'Material', 'DBKR36BR', 'ENDURA 3/0 DR SWEEP DBL BULB BRZ FOR 7/8 KERF', 1.0, 2.9);
+  AddPart(Asm.FullPath, 'Material', '20MLS', 'TESTING  ', 1.0, 2.3);
+  AddPart(Asm.FullPath, 'Material', '20MLS', 'TT SMOOTH STAR 3080 2PNL SQ TP    ', 1.0, 375.25);
+  AddPart(Asm.FullPath, 'Labor', 'EDLABOR', 'Standard Labor', 30.0, 1.0);
+  AddPart(Asm.FullPath, 'Labor', 'RJLABOR', 'Rip Jamb Labor', 5.0, 1.0);
+  AddPart(Asm.FullPath, 'Labor', 'PLABOR', 'Peep Labor', 5.0, 1.0);
+
+  ShowMessage(IntToStr(ToolCount) + ' assemblies created successfully.');
+end;
+
+Main;

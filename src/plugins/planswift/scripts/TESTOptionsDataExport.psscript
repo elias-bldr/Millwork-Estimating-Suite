@@ -1,0 +1,235 @@
+var
+  TabToExport, FolderToExport: TComboBox;
+  AddTo: TCheckBox;
+  tablst, Folderlst: TStringList;
+  ExportLst: TStringList;
+  EditBox: TEdit;
+  ExportItem: String;
+  ExcelApp, wb, ws, cell: OLEVariant;
+  PluginPath: String;
+  srow, i, j: Integer;
+  itm, candidate: Variant;
+  OtherQty, OtherEach, OtherTotal: Double;
+  CreditQty, CreditEach, CreditTotal: Double;  
+  sku, itmPath: String;
+  lst, Storages, citm: Variant;
+  nme: String;
+  ii, iii: Integer;
+
+function GetTabsText: TStrings;
+begin
+  lst := TStringList.Create;
+  lst.Add(GetItem('\Job\Takeoff'));
+  Storages := GetItem('\Storages');
+  for ii := 0 to ChildCount(Storages)-1 do
+  begin
+    itm := ChildItem(Storages, ii);
+    for iii := 0 to ChildCount(itm)-1 do
+    begin
+      citm := ChildItem(itm, iii);
+      nme := GetResultAsString(citm, 'Name', '');
+      if nme = 'Templates' then
+        lst.Add(ChildItem(citm, iii));
+    end;
+  end;
+  Result := lst.Text;
+  lst.Free;
+end;
+
+procedure LoadTypes(itmPath:String; itmType:String; lst:TStringList);
+var
+  idx: Integer;
+  cur: Variant;
+  tp: String;
+begin
+  if itmType <> 'Folders/Assemblies' then Exit;
+  for idx := 0 to ChildCount(itmPath)-1 do
+  begin
+    cur := ChildItem(itmPath, idx);
+    tp := GetResultAsString(cur, 'Type', '');
+    if (tp = 'Folder') or (tp = 'Assembly') then
+      lst.Add(cur);
+    LoadTypes(cur, itmType, lst);
+  end;
+end;
+
+function GetFolders(itmPath:String):TStrings;
+begin
+  lst := TStringList.Create;
+  LoadTypes(itmPath, 'Folders/Assemblies', lst);
+  Result := lst.Text;
+  lst.Free;
+end;
+
+function GetNames(ilst:TStringList; PName:String):TStrings;
+var
+  idx: Integer;
+  cur: Variant;
+begin
+  lst := TStringList.Create;
+  for idx := 0 to ilst.Count-1 do
+  begin
+    cur := GetItem(ilst.Strings[idx]);
+    if GetResultAsString(cur,'Name','') = 'Takeoff' then
+      lst.Add('Estimating')
+    else
+      lst.Add(GetResultAsString(cur, PName, ''));
+  end;
+  Result := lst.Text;
+  lst.Free;
+end;
+
+procedure TabChanged;
+var
+  idx: Integer;
+begin
+  FolderToExport.Clear;
+  idx := TabToExport.ItemIndex;
+  if idx < 0 then Exit;
+  itmPath := tablst.Strings[idx];
+  Folderlst.Clear;
+  Folderlst.Text := GetFolders(itmPath);
+  FolderToExport.Items.Text := GetNames(Folderlst,'Name');
+end;
+
+procedure CheckBoxChanged;
+begin
+  if not AddTo.Checked then Exit;
+  try
+    ExcelApp := GetActiveOLEObject('Excel.Application');
+  except
+    ShowMessage('No active Excel session found.');
+    AddTo.Checked := False;
+    Exit;
+  end;
+end;
+
+procedure GetExportItems(basePath:String; lst:TStringList);
+var
+  idx: Integer;
+  cur: Variant;
+begin
+  for idx := 0 to ChildCount(basePath)-1 do
+  begin
+    cur := ChildItem(basePath, idx);
+    lst.Add(cur);
+    if ChildCount(cur) > 0 then
+      GetExportItems(cur, lst);
+  end;
+end;
+
+begin
+  // create lists
+  tablst := TStringList.Create;
+  Folderlst := TStringList.Create;
+  ExportLst := TStringList.Create;
+  try
+    // load tabs
+    tablst.Text := GetTabsText;
+
+    // build UI
+    Form := NewForm(480,240,'Export Options to Excel');
+      NewLabel(5,10,'Tab to Export:');
+      TabToExport := NewComboBox(5,25,'');
+      TabToExport.Width := 200;
+      TabToExport.Items.Text := GetNames(tablst,'Name');
+      TabToExport.ItemIndex := 0;
+      TabToExport.OnChange := 'TabChanged';
+
+      NewLabel(5,60,'Folder/Assembly to Export:');
+      FolderToExport := NewComboBox(5,75,'');
+      FolderToExport.Width := 200;
+
+      NewLabel(5,110,'Starting Row:');
+      EditBox := NewEdit(80,107,'1');
+
+      AddTo := NewCheckBox(5,145,'Add To Active Worksheet',False);
+      AddTo.OnClick := 'CheckBoxChanged';
+
+      NewButton(150,185,'OK',mrOk).Default := True;
+      NewButton(250,185,'Cancel',mrCancel).Cancel := True;
+    // init
+    TabChanged;
+
+    if Form.ShowModal <> mrOk then Exit;
+
+    // gather tree
+    ExportItem := Folderlst.Strings[ FolderToExport.ItemIndex ];
+    GetExportItems(ExportItem, ExportLst);
+
+    // open Excel
+    PluginPath := GetResultAsString(ItemGUID,'PluginPath','');
+    if not AddTo.Checked then
+    begin
+      ExcelApp := CreateOleObject('Excel.Application');
+      wb := ExcelApp.Workbooks.Open(PluginPath+'\Options.xltx');
+      ws := wb.Worksheets(1);
+      ExcelApp.Visible := True;
+    end else
+    begin
+      ExcelApp := GetActiveOLEObject('Excel.Application');
+      wb := ExcelApp.ActiveWorkbook;
+      ws := wb.ActiveSheet;
+    end;
+
+    // export
+    srow := StrToInt(EditBox.Text);
+    for i := 0 to ExportLst.Count-1 do
+    begin
+      itm := GetItem(ExportLst.Strings[i]);
+      if GetResultAsString(itm,'Type','') = 'Other' then
+      begin
+        // read Other props
+        OtherQty   := GetPropertyResult(itm,'Qty');
+        OtherEach  := GetPropertyResult(itm,'Cost Each');
+        OtherTotal := GetPropertyResult(itm,'Cost Total');
+        sku := GetPropertyResult(itm,'Material SKU #');
+
+        // find matching material by SKU
+        candidate := Null;
+        for j := 0 to ExportLst.Count-1 do
+        begin
+          candidate := GetItem(ExportLst.Strings[j]);
+          if (GetResultAsString(candidate,'SKU #','') = sku) then
+            Break
+          else
+            candidate := Null;
+        end;
+
+        if candidate <> Null then
+          CandidateName := GetPropertyResult(candidate,'Name')
+        else
+          CandidateName := 'Item Has No Name';
+        if candidate <> Null then
+          CreditQty  := (-1 * GetPropertyResult(candidate,'Credit Qty'))
+        else
+          CreditQty := 0;
+        if candidate <> Null then
+          CreditEach := GetPropertyResult(candidate,'Credit Cost Each')
+        else
+          CreditEach := 0;
+        if candidate <> Null then
+          CreditTotal := GetPropertyResult(candidate,'Credit Cost Total')
+        else
+          CreditTotal := 0;
+
+        // write row
+        cell := ws.Cells(srow,1); cell.Value := GetPropertyResult(itm,'Name');
+        cell := ws.Cells(srow,2); cell.Value := OtherQty;
+        cell := ws.Cells(srow,3); cell.Value := OtherEach;
+        cell := ws.Cells(srow,4); cell.Value := OtherTotal;
+        Inc(srow);
+        cell := ws.Cells(srow,1); cell.Value := CandidateName;
+        cell := ws.Cells(srow,2); cell.Value := CreditQty;
+        cell := ws.Cells(srow,3); cell.Value := CreditEach;
+        cell := ws.Cells(srow,4); cell.Value := CreditTotal;
+        Inc(srow);
+      end;
+    end;
+
+  finally
+    ExportLst.Free;
+    Folderlst.Free;
+    tablst.Free;
+  end;
+end;

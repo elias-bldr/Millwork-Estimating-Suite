@@ -1,0 +1,92 @@
+procedure Main;
+var
+  ScriptLines: TStringList;
+  DefaultPath, ManualPath, ScriptTag: String;
+  MainForm, PromptForm: TForm;
+  Combo: TComboBox;
+  PathEdit: TEdit;
+  OKButton: TButton;
+begin
+  ScriptLines := TStringList.Create;
+  try
+    // 1. Ask which bundle the user wants                   
+    MainForm := NewForm(300,150,'Choose Tool Bundle');
+      NewLabel(20,20,'Select a bundle:');
+      Combo := NewComboBox(20,45,'');
+      Combo.Items.Text := 'All'#13+
+                          'Exterior Doors'#13+
+                          'Interior Doors'#13+
+                          'Base'#13+
+                          'Casing'#13+
+                          'Closets'#13+
+                          'Stairs'#13+
+                          'Hardware'#13+
+                          'Misc';
+      Combo.ItemIndex := 0;
+      NewButton(80,90,'OK',mrOk).Default := True;
+      NewButton(160,90,'Cancel',mrCancel).Cancel := True;
+
+    if MainForm.ShowModal <> mrOk then Exit;
+
+    // 2. Map selection to file tag
+    case Combo.ItemIndex of
+      0: ScriptTag := 'All';
+      1: ScriptTag := 'ExteriorDoors';
+      2: ScriptTag := 'InteriorDoors';
+      3: ScriptTag := 'Base';
+      4: ScriptTag := 'Casing';
+      5: ScriptTag := 'Closets';
+      6: ScriptTag := 'Stairs';
+      7: ScriptTag := 'Hardware';
+      8: ScriptTag := 'Misc';
+      else ScriptTag := 'All'; // fallback
+    end;
+
+    // 3. Build default path using the tag
+    PluginPath  := GetResultAsString(ItemGUID,'PluginPath','');
+    DefaultPath := PluginPath + '\Import' + ScriptTag + 'Assemblies.psscript';
+
+    // 4. Try loading the file
+    if FileExists(DefaultPath) then
+      ScriptLines.LoadFromFile(DefaultPath)
+    else
+    begin
+      // --- original “prompt for path” block ---
+      PromptForm := NewForm(400,200,'Enter Script File Location');
+        NewLabel(20,20,'Script file not found.  Paste full path:');
+        PathEdit := NewEdit(20,60,'');
+        PathEdit.Width := 340;
+        OKButton := NewButton(150,120,'OK',mrOk);
+      if PromptForm.ShowModal = mrOk then
+      begin
+        ManualPath := PathEdit.Text;
+        if FileExists(ManualPath) then
+          ScriptLines.LoadFromFile(ManualPath)
+        else
+        begin
+          ShowMessage('The provided file path is invalid.  Script will abort.');
+          Exit;
+        end;
+      end
+      else
+      begin
+        ShowMessage('No file selected.  Script will abort.');
+        Exit;
+      end;
+    end;
+
+    // 5. Push formula and run
+    Planswift.SetPropertyFormula(
+      '\Storages\Local\Templates\Hidden Millwork Template\Millwork Tool Script\',
+      'Tool Script',
+      ScriptLines.Text);
+
+    Result := ExecuteScript(
+      '\Storages\Local\Templates\Hidden Millwork Template\Millwork Tool Script\Tool Script');
+
+  except
+    ShowMessage('Script failed.');
+  end;
+end;
+
+Main;

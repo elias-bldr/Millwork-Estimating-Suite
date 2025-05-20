@@ -1,0 +1,5931 @@
+[
+  {
+    "name": "EXT SGL THERM RP 8/0",
+    "folder": "Exterior Doors",
+    "qty": 1.0,
+    "parts": [
+      {
+        "item_type": "Labor",
+        "sku": "OHLabor",
+        "qty": 40.0,
+        "cost_each": 0.65,
+        "descr": "Overhead Labor"
+      },
+      {
+        "item_type": "Material",
+        "sku": "CMB927B36",
+        "qty": 1.0,
+        "cost_each": 21.65,
+        "descr": "COMBO 927 ADJ ALL ALUM SILL 3-1/2X36\" BRZ"
+      },
+      {
+        "item_type": "Material",
+        "sku": "EJ71268FPR",
+        "qty": 0.25,
+        "cost_each": 27.2,
+        "descr": "EXT DR JB 7-1/2 6/8 FJ PRM 2-1/8R NO MACH"
+      },
+      {
+        "item_type": "Material",
+        "sku": "EJ71280FPR",
+        "qty": 1.0,
+        "cost_each": 31.5,
+        "descr": "EXT DR JB 7-1/2 8/0 FJ PRM"
+      },
+      {
+        "item_type": "Material",
+        "sku": "WSQ650BR80",
+        "qty": 2.5,
+        "cost_each": 2.65,
+        "descr": "ENDURA 8/0 WEATHERSTRIP BRZ .650 REACH"
+      },
+      {
+        "item_type": "Material",
+        "sku": "QTYED",
+        "qty": 1.0,
+        "cost_each": 0.0,
+        "descr": "QUANTITY OF MANUFACTURED EXTERIOR DOORS"
+      },
+      {
+        "item_type": "Material",
+        "sku": "HG414SN",
+        "qty": 4.0,
+        "cost_each": 1.2,
+        "descr": "4\" 1/4\" RAD CNR HINGE STN NKL"
+      },
+      {
+        "item_type": "Material",
+        "sku": "DBKR36BR",
+        "qty": 1.0,
+        "cost_each": 2.9,
+        "descr": "ENDURA 3/0 DR SWEEP DBL BULB BRZ FOR 7/8 KERF"
+      },
+      {
+        "item_type": "Material",
+        "sku": "S82003080",
+        "qty": 1.0,
+        "cost_each": 375.25,
+        "descr": "TT SMOOTH STAR 3080 2PNL SQ TP"
+      },
+      {
+        "item_type": "Labor",
+        "sku": "EDLABOR",
+        "qty": 30.0,
+        "cost_each": 1.0,
+        "descr": "Standard Labor"
+      },
+      {
+        "item_type": "Labor",
+        "sku": "RJLABOR",
+        "qty": 5.0,
+        "cost_each": 1.0,
+        "descr": "Rip Jamb Labor"
+      },
+      {
+        "item_type": "Labor",
+        "sku": "PLABOR",
+        "qty": 5.0,
+        "cost_each": 1.0,
+        "descr": "Peep Labor"
+      },
+      {
+        "item_type": "Material",
+        "sku": "BHP507SN",
+        "qty": 1.0,
+        "cost_each": 0.35,
+        "descr": "BHP 3-3/4 SPRING DOOR STOP STN NKL"
+      },
+      {
+        "item_type": "Subcontract",
+        "sku": "0002",
+        "qty": 1.0,
+        "cost_each": 35.0,
+        "descr": "DOORS"
+      }
+    ]
+  },
+  {
+    "name": "EXT SGL MASON RP 8/0",
+    "folder": "Exterior Doors",
+    "qty": 1.0,
+    "parts": [
+      {
+        "item_type": "Labor",
+        "sku": "OHLabor",
+        "qty": 40.0,
+        "cost_each": 0.65,
+        "descr": "Overhead Labor"
+      },
+      {
+        "item_type": "Material",
+        "sku": "CMB927B36",
+        "qty": 1.0,
+        "cost_each": 21.65,
+        "descr": "COMBO 927 ADJ ALL ALUM SILL 3-1/2X36\" BRZ"
+      },
+      {
+        "item_type": "Material",
+        "sku": "EJ71268FPR",
+        "qty": 0.25,
+        "cost_each": 27.2,
+        "descr": "EXT DR JB 7-1/2 6/8 FJ PRM 2-1/8R NO MACH"
+      },
+      {
+        "item_type": "Material",
+        "sku": "EJ71280FPR",
+        "qty": 1.0,
+        "cost_each": 31.5,
+        "descr": "EXT DR JB 7-1/2 8/0 FJ PRM"
+      },
+      {
+        "item_type": "Material",
+        "sku": "WSQ650BR80",
+        "qty": 2.5,
+        "cost_each": 2.65,
+        "descr": "ENDURA 8/0 WEATHERSTRIP BRZ .650 REACH"
+      },
+      {
+        "item_type": "Material",
+        "sku": "QTYED",
+        "qty": 1.0,
+        "cost_each": 0.0,
+        "descr": "QUANTITY OF MANUFACTURED EXTERIOR DOORS"
+      },
+      {
+        "item_type": "Material",
+        "sku": "HG414SN",
+        "qty": 4.0,
+        "cost_each": 1.2,
+        "descr": "4\" 1/4\" RAD CNR HINGE STN NKL"
+      },
+      {
+        "item_type": "Material",
+        "sku": "DBKR36BR",
+        "qty": 1.0,
+        "cost_each": 2.9,
+        "descr": "ENDURA 3/0 DR SWEEP DBL BULB BRZ FOR 7/8 KERF"
+      },
+      {
+        "item_type": "Material",
+        "sku": "BLS2S3080",
+        "qty": 1.0,
+        "cost_each": 212.0,
+        "descr": "MAS BVILLE FG SM 2 PNL 3/0X8/0 NB"
+      },
+      {
+        "item_type": "Labor",
+        "sku": "EDLABOR",
+        "qty": 30.0,
+        "cost_each": 1.0,
+        "descr": "Standard Labor"
+      },
+      {
+        "item_type": "Labor",
+        "sku": "RJLABOR",
+        "qty": 5.0,
+        "cost_each": 1.0,
+        "descr": "Rip Jamb Labor"
+      },
+      {
+        "item_type": "Labor",
+        "sku": "PLABOR",
+        "qty": 5.0,
+        "cost_each": 1.0,
+        "descr": "Peep Labor"
+      },
+      {
+        "item_type": "Material",
+        "sku": "BHP507SN",
+        "qty": 1.0,
+        "cost_each": 0.35,
+        "descr": "BHP 3-3/4 SPRING DOOR STOP STN NKL"
+      },
+      {
+        "item_type": "Subcontract",
+        "sku": "0002",
+        "qty": 1.0,
+        "cost_each": 35.0,
+        "descr": "DOORS"
+      }
+    ]
+  },
+  {
+    "name": "EXT SGL MASON RP 6/8",
+    "folder": "Exterior Doors",
+    "qty": 1.0,
+    "parts": [
+      {
+        "item_type": "Labor",
+        "sku": "OHLabor",
+        "qty": 30.0,
+        "cost_each": 0.65,
+        "descr": "Overhead Labor"
+      },
+      {
+        "item_type": "Material",
+        "sku": "CMB927B36",
+        "qty": 1.0,
+        "cost_each": 21.65,
+        "descr": "COMBO 927 ADJ ALL ALUM SILL 3-1/2X36\" BRZ"
+      },
+      {
+        "item_type": "Material",
+        "sku": "EJ71268FPR",
+        "qty": 1.25,
+        "cost_each": 27.2,
+        "descr": "EXT DR JB 7-1/2 6/8 FJ PRM 2-1/8R NO MACH"
+      },
+      {
+        "item_type": "Material",
+        "sku": "WSQ650BR68",
+        "qty": 2.5,
+        "cost_each": 2.05,
+        "descr": "ENDURA 6/8 WEATHERSTRIP BRZ .650 REACH"
+      },
+      {
+        "item_type": "Material",
+        "sku": "QTYED",
+        "qty": 1.0,
+        "cost_each": 0.0,
+        "descr": "QUANTITY OF MANUFACTURED EXTERIOR DOORS"
+      },
+      {
+        "item_type": "Material",
+        "sku": "HG414SN",
+        "qty": 3.0,
+        "cost_each": 1.2,
+        "descr": "4\" 1/4\" RAD CNR HINGE STN NKL"
+      },
+      {
+        "item_type": "Material",
+        "sku": "DBKR36BR",
+        "qty": 1.0,
+        "cost_each": 2.9,
+        "descr": "ENDURA 3/0 DR SWEEP DBL BULB BRZ FOR 7/8 KERF"
+      },
+      {
+        "item_type": "Material",
+        "sku": "BLS2S3068",
+        "qty": 1.0,
+        "cost_each": 121.0,
+        "descr": "MAS BVILLE FG SM 2 PNL 3/0X6/8 NB"
+      },
+      {
+        "item_type": "Labor",
+        "sku": "EDLABOR",
+        "qty": 20.0,
+        "cost_each": 1.0,
+        "descr": "Standard Labor"
+      },
+      {
+        "item_type": "Labor",
+        "sku": "RJLABOR",
+        "qty": 5.0,
+        "cost_each": 1.0,
+        "descr": "Rip Jamb Labor"
+      },
+      {
+        "item_type": "Labor",
+        "sku": "PLABOR",
+        "qty": 5.0,
+        "cost_each": 1.0,
+        "descr": "Peep Labor"
+      },
+      {
+        "item_type": "Material",
+        "sku": "BHP507SN",
+        "qty": 1.0,
+        "cost_each": 0.35,
+        "descr": "BHP 3-3/4 SPRING DOOR STOP STN NKL"
+      },
+      {
+        "item_type": "Subcontract",
+        "sku": "0002",
+        "qty": 1.0,
+        "cost_each": 35.0,
+        "descr": "DOORS"
+      }
+    ]
+  },
+  {
+    "name": "EXT SGL MASON FLUSH 8/0",
+    "folder": "Exterior Doors",
+    "qty": 1.0,
+    "parts": [
+      {
+        "item_type": "Labor",
+        "sku": "OHLabor",
+        "qty": 40.0,
+        "cost_each": 0.65,
+        "descr": "Overhead Labor"
+      },
+      {
+        "item_type": "Material",
+        "sku": "CMB927B32",
+        "qty": 1.0,
+        "cost_each": 19.2,
+        "descr": "COMBO 927 ADJ ALL ALUM SILL 3-1/2X32\" BRZ"
+      },
+      {
+        "item_type": "Material",
+        "sku": "EJ71268FPR",
+        "qty": 0.25,
+        "cost_each": 27.2,
+        "descr": "EXT DR JB 7-1/2 6/8 FJ PRM 2-1/8R NO MACH"
+      },
+      {
+        "item_type": "Material",
+        "sku": "EJ71280FPR",
+        "qty": 1.0,
+        "cost_each": 31.5,
+        "descr": "EXT DR JB 7-1/2 8/0 FJ PRM"
+      },
+      {
+        "item_type": "Material",
+        "sku": "WSQ650BR80",
+        "qty": 2.5,
+        "cost_each": 2.65,
+        "descr": "ENDURA 8/0 WEATHERSTRIP BRZ .650 REACH"
+      },
+      {
+        "item_type": "Material",
+        "sku": "QTYED",
+        "qty": 1.0,
+        "cost_each": 0.0,
+        "descr": "QUANTITY OF MANUFACTURED EXTERIOR DOORS"
+      },
+      {
+        "item_type": "Material",
+        "sku": "HG414SN",
+        "qty": 4.0,
+        "cost_each": 1.2,
+        "descr": "4\" 1/4\" RAD CNR HINGE STN NKL"
+      },
+      {
+        "item_type": "Material",
+        "sku": "DBKR32BR",
+        "qty": 1.0,
+        "cost_each": 2.6,
+        "descr": "ENDURA 2/8 DR SWEEP DBL BULB BRZ FOR 7/8 KERF"
+      },
+      {
+        "item_type": "Material",
+        "sku": "BLS12880",
+        "qty": 1.0,
+        "cost_each": 212.0,
+        "descr": "MAS BVILLE FG SM FLUSH 2/8X8/0 NB"
+      },
+      {
+        "item_type": "Labor",
+        "sku": "EDLABOR",
+        "qty": 30.0,
+        "cost_each": 1.0,
+        "descr": "Standard Labor"
+      },
+      {
+        "item_type": "Labor",
+        "sku": "RJLABOR",
+        "qty": 5.0,
+        "cost_each": 1.0,
+        "descr": "Rip Jamb Labor"
+      },
+      {
+        "item_type": "Labor",
+        "sku": "PLABOR",
+        "qty": 5.0,
+        "cost_each": 1.0,
+        "descr": "Peep Labor"
+      },
+      {
+        "item_type": "Material",
+        "sku": "BHP507SN",
+        "qty": 1.0,
+        "cost_each": 0.35,
+        "descr": "BHP 3-3/4 SPRING DOOR STOP STN NKL"
+      },
+      {
+        "item_type": "Subcontract",
+        "sku": "0002",
+        "qty": 1.0,
+        "cost_each": 35.0,
+        "descr": "DOORS"
+      }
+    ]
+  },
+  {
+    "name": "EXT SGL MASON FLUSH 6/8",
+    "folder": "Exterior Doors",
+    "qty": 1.0,
+    "parts": [
+      {
+        "item_type": "Labor",
+        "sku": "OHLabor",
+        "qty": 30.0,
+        "cost_each": 0.65,
+        "descr": "Overhead Labor"
+      },
+      {
+        "item_type": "Material",
+        "sku": "CMB927B32",
+        "qty": 1.0,
+        "cost_each": 19.2,
+        "descr": "COMBO 927 ADJ ALL ALUM SILL 3-1/2X32\" BRZ"
+      },
+      {
+        "item_type": "Material",
+        "sku": "EJ71268FPR",
+        "qty": 1.25,
+        "cost_each": 27.2,
+        "descr": "EXT DR JB 7-1/2 6/8 FJ PRM 2-1/8R NO MACH"
+      },
+      {
+        "item_type": "Material",
+        "sku": "WSQ650BR68",
+        "qty": 2.5,
+        "cost_each": 2.05,
+        "descr": "ENDURA 6/8 WEATHERSTRIP BRZ .650 REACH"
+      },
+      {
+        "item_type": "Material",
+        "sku": "QTYED",
+        "qty": 1.0,
+        "cost_each": 0.0,
+        "descr": "QUANTITY OF MANUFACTURED EXTERIOR DOORS"
+      },
+      {
+        "item_type": "Material",
+        "sku": "HG414SN",
+        "qty": 3.0,
+        "cost_each": 1.2,
+        "descr": "4\" 1/4\" RAD CNR HINGE STN NKL"
+      },
+      {
+        "item_type": "Material",
+        "sku": "DBKR32BR",
+        "qty": 1.0,
+        "cost_each": 2.6,
+        "descr": "ENDURA 2/8 DR SWEEP DBL BULB BRZ FOR 7/8 KERF"
+      },
+      {
+        "item_type": "Material",
+        "sku": "BLS12868",
+        "qty": 1.0,
+        "cost_each": 121.0,
+        "descr": "MAS BVILLE FG SM FLUSH 2/8X6/8 NB"
+      },
+      {
+        "item_type": "Labor",
+        "sku": "EDLABOR",
+        "qty": 20.0,
+        "cost_each": 1.0,
+        "descr": "Standard Labor"
+      },
+      {
+        "item_type": "Labor",
+        "sku": "RJLABOR",
+        "qty": 5.0,
+        "cost_each": 1.0,
+        "descr": "Rip Jamb Labor"
+      },
+      {
+        "item_type": "Labor",
+        "sku": "PLABOR",
+        "qty": 5.0,
+        "cost_each": 1.0,
+        "descr": "Peep Labor"
+      },
+      {
+        "item_type": "Material",
+        "sku": "BHP507SN",
+        "qty": 1.0,
+        "cost_each": 0.35,
+        "descr": "BHP 3-3/4 SPRING DOOR STOP STN NKL"
+      },
+      {
+        "item_type": "Subcontract",
+        "sku": "0002",
+        "qty": 1.0,
+        "cost_each": 35.0,
+        "descr": "DOORS"
+      }
+    ]
+  },
+  {
+    "name": "EXT SGL MASON 1LT 8/0",
+    "folder": "Exterior Doors",
+    "qty": 1.0,
+    "parts": [
+      {
+        "item_type": "Labor",
+        "sku": "OHLabor",
+        "qty": 40.0,
+        "cost_each": 0.65,
+        "descr": "Overhead Labor"
+      },
+      {
+        "item_type": "Material",
+        "sku": "CMB927B36",
+        "qty": 1.0,
+        "cost_each": 21.65,
+        "descr": "COMBO 927 ADJ ALL ALUM SILL 3-1/2X36\" BRZ"
+      },
+      {
+        "item_type": "Material",
+        "sku": "EJ71268FPR",
+        "qty": 0.25,
+        "cost_each": 27.2,
+        "descr": "EXT DR JB 7-1/2 6/8 FJ PRM 2-1/8R NO MACH"
+      },
+      {
+        "item_type": "Material",
+        "sku": "EJ71280FPR",
+        "qty": 1.0,
+        "cost_each": 31.5,
+        "descr": "EXT DR JB 7-1/2 8/0 FJ PRM"
+      },
+      {
+        "item_type": "Material",
+        "sku": "WSQ650BR80",
+        "qty": 2.5,
+        "cost_each": 2.65,
+        "descr": "ENDURA 8/0 WEATHERSTRIP BRZ .650 REACH"
+      },
+      {
+        "item_type": "Material",
+        "sku": "QTYED",
+        "qty": 1.0,
+        "cost_each": 0.0,
+        "descr": "QUANTITY OF MANUFACTURED EXTERIOR DOORS"
+      },
+      {
+        "item_type": "Material",
+        "sku": "HG414SN",
+        "qty": 4.0,
+        "cost_each": 1.2,
+        "descr": "4\" 1/4\" RAD CNR HINGE STN NKL"
+      },
+      {
+        "item_type": "Material",
+        "sku": "DBKR36BR",
+        "qty": 1.0,
+        "cost_each": 2.9,
+        "descr": "ENDURA 3/0 DR SWEEP DBL BULB BRZ FOR 7/8 KERF"
+      },
+      {
+        "item_type": "Material",
+        "sku": "BLSFSFLVG3080FGLE",
+        "qty": 1.0,
+        "cost_each": 324.0,
+        "descr": "MAS BVILLE FG SM FULL LT VG 3/0X8/0 FL GLZ LOW-E"
+      },
+      {
+        "item_type": "Labor",
+        "sku": "EDLABOR",
+        "qty": 30.0,
+        "cost_each": 1.0,
+        "descr": "Standard Labor"
+      },
+      {
+        "item_type": "Labor",
+        "sku": "RJLABOR",
+        "qty": 5.0,
+        "cost_each": 1.0,
+        "descr": "Rip Jamb Labor"
+      },
+      {
+        "item_type": "Labor",
+        "sku": "PLABOR",
+        "qty": 5.0,
+        "cost_each": 1.0,
+        "descr": "Peep Labor"
+      },
+      {
+        "item_type": "Material",
+        "sku": "BHP507SN",
+        "qty": 1.0,
+        "cost_each": 0.35,
+        "descr": "BHP 3-3/4 SPRING DOOR STOP STN NKL"
+      },
+      {
+        "item_type": "Subcontract",
+        "sku": "0002",
+        "qty": 1.0,
+        "cost_each": 35.0,
+        "descr": "DOORS"
+      }
+    ]
+  },
+  {
+    "name": "EXT SGL MASON 1LT 6/8",
+    "folder": "Exterior Doors",
+    "qty": 1.0,
+    "parts": [
+      {
+        "item_type": "Labor",
+        "sku": "OHLabor",
+        "qty": 30.0,
+        "cost_each": 0.65,
+        "descr": "Overhead Labor"
+      },
+      {
+        "item_type": "Material",
+        "sku": "CMB927B36",
+        "qty": 1.0,
+        "cost_each": 21.65,
+        "descr": "COMBO 927 ADJ ALL ALUM SILL 3-1/2X36\" BRZ"
+      },
+      {
+        "item_type": "Material",
+        "sku": "EJ71268FPR",
+        "qty": 1.25,
+        "cost_each": 27.2,
+        "descr": "EXT DR JB 7-1/2 6/8 FJ PRM 2-1/8R NO MACH"
+      },
+      {
+        "item_type": "Material",
+        "sku": "WSQ650BR68",
+        "qty": 2.5,
+        "cost_each": 2.05,
+        "descr": "ENDURA 6/8 WEATHERSTRIP BRZ .650 REACH"
+      },
+      {
+        "item_type": "Material",
+        "sku": "QTYED",
+        "qty": 1.0,
+        "cost_each": 0.0,
+        "descr": "QUANTITY OF MANUFACTURED EXTERIOR DOORS"
+      },
+      {
+        "item_type": "Material",
+        "sku": "HG414SN",
+        "qty": 3.0,
+        "cost_each": 1.2,
+        "descr": "4\" 1/4\" RAD CNR HINGE STN NKL"
+      },
+      {
+        "item_type": "Material",
+        "sku": "DBKR36BR",
+        "qty": 1.0,
+        "cost_each": 2.9,
+        "descr": "ENDURA 3/0 DR SWEEP DBL BULB BRZ FOR 7/8 KERF"
+      },
+      {
+        "item_type": "Material",
+        "sku": "BLSFSFLVG3068FGLE",
+        "qty": 1.0,
+        "cost_each": 245.45,
+        "descr": "MAS BVILLE FG SM FULL LT VG 3/0X6/8 FL GLZ LOW-E"
+      },
+      {
+        "item_type": "Labor",
+        "sku": "EDLABOR",
+        "qty": 20.0,
+        "cost_each": 1.0,
+        "descr": "Standard Labor"
+      },
+      {
+        "item_type": "Labor",
+        "sku": "RJLABOR",
+        "qty": 5.0,
+        "cost_each": 1.0,
+        "descr": "Rip Jamb Labor"
+      },
+      {
+        "item_type": "Labor",
+        "sku": "PLABOR",
+        "qty": 5.0,
+        "cost_each": 1.0,
+        "descr": "Peep Labor"
+      },
+      {
+        "item_type": "Material",
+        "sku": "BHP507SN",
+        "qty": 1.0,
+        "cost_each": 0.35,
+        "descr": "BHP 3-3/4 SPRING DOOR STOP STN NKL"
+      },
+      {
+        "item_type": "Subcontract",
+        "sku": "0002",
+        "qty": 1.0,
+        "cost_each": 35.0,
+        "descr": "DOORS"
+      }
+    ]
+  },
+  {
+    "name": "EXT PR MASON 1LT 8/0",
+    "folder": "Exterior Doors",
+    "qty": 1.0,
+    "parts": [
+      {
+        "item_type": "Labor",
+        "sku": "OHLabor",
+        "qty": 80.0,
+        "cost_each": 0.65,
+        "descr": "Overhead Labor"
+      },
+      {
+        "item_type": "Material",
+        "sku": "CMB927B74",
+        "qty": 1.0,
+        "cost_each": 44.25,
+        "descr": "COMBO 927 ADJ ALL ALUM SILL 3-1/2X74\" BRZ"
+      },
+      {
+        "item_type": "Material",
+        "sku": "EJ71268FPR",
+        "qty": 0.5,
+        "cost_each": 27.2,
+        "descr": "EXT DR JB 7-1/2 6/8 FJ PRM 2-1/8R NO MACH"
+      },
+      {
+        "item_type": "Material",
+        "sku": "EJ71280FPR",
+        "qty": 1.0,
+        "cost_each": 31.5,
+        "descr": "EXT DR JB 7-1/2 8/0 FJ PRM"
+      },
+      {
+        "item_type": "Material",
+        "sku": "WSQ650BR80",
+        "qty": 3.0,
+        "cost_each": 2.65,
+        "descr": "ENDURA 8/0 WEATHERSTRIP BRZ .650 REACH"
+      },
+      {
+        "item_type": "Material",
+        "sku": "QTYED",
+        "qty": 2.0,
+        "cost_each": 0.0,
+        "descr": "QUANTITY OF MANUFACTURED EXTERIOR DOORS"
+      },
+      {
+        "item_type": "Material",
+        "sku": "HG414SN",
+        "qty": 8.0,
+        "cost_each": 1.2,
+        "descr": "4\" 1/4\" RAD CNR HINGE STN NKL"
+      },
+      {
+        "item_type": "Material",
+        "sku": "DBKR36BR",
+        "qty": 2.0,
+        "cost_each": 2.9,
+        "descr": "ENDURA 3/0 DR SWEEP DBL BULB BRZ FOR 7/8 KERF"
+      },
+      {
+        "item_type": "Material",
+        "sku": "ASTALITBRNTIS80",
+        "qty": 1.0,
+        "cost_each": 62.73,
+        "descr": "ASTRAGAL ALUM LITE BRWN NON THERM IS 80"
+      },
+      {
+        "item_type": "Material",
+        "sku": "BLSFSFLVG3080FGLE",
+        "qty": 2.0,
+        "cost_each": 324.0,
+        "descr": "MAS BVILLE FG SM FULL LT VG 3/0X8/0 FL GLZ LOW-E"
+      },
+      {
+        "item_type": "Labor",
+        "sku": "EDLABOR",
+        "qty": 70.0,
+        "cost_each": 1.0,
+        "descr": "Standard Labor"
+      },
+      {
+        "item_type": "Labor",
+        "sku": "RJLABOR",
+        "qty": 5.0,
+        "cost_each": 1.0,
+        "descr": "Rip Jamb Labor"
+      },
+      {
+        "item_type": "Labor",
+        "sku": "PLABOR",
+        "qty": 5.0,
+        "cost_each": 1.0,
+        "descr": "Peep Labor"
+      },
+      {
+        "item_type": "Material",
+        "sku": "BHP507SN",
+        "qty": 1.0,
+        "cost_each": 0.35,
+        "descr": "BHP 3-3/4 SPRING DOOR STOP STN NKL"
+      },
+      {
+        "item_type": "Subcontract",
+        "sku": "0002",
+        "qty": 1.0,
+        "cost_each": 35.0,
+        "descr": "DOORS"
+      }
+    ]
+  },
+  {
+    "name": "EXT PR MASON 1LT 6/8",
+    "folder": "Exterior Doors",
+    "qty": 1.0,
+    "parts": [
+      {
+        "item_type": "Labor",
+        "sku": "OHLabor",
+        "qty": 50.0,
+        "cost_each": 0.65,
+        "descr": "Overhead Labor"
+      },
+      {
+        "item_type": "Material",
+        "sku": "CMB927B74",
+        "qty": 1.0,
+        "cost_each": 44.25,
+        "descr": "COMBO 927 ADJ ALL ALUM SILL 3-1/2X74\" BRZ"
+      },
+      {
+        "item_type": "Material",
+        "sku": "EJ71268FPR",
+        "qty": 1.5,
+        "cost_each": 27.2,
+        "descr": "EXT DR JB 7-1/2 6/8 FJ PRM 2-1/8R NO MACH"
+      },
+      {
+        "item_type": "Material",
+        "sku": "WSQ650BR68",
+        "qty": 3.0,
+        "cost_each": 2.05,
+        "descr": "ENDURA 6/8 WEATHERSTRIP BRZ .650 REACH"
+      },
+      {
+        "item_type": "Material",
+        "sku": "QTYED",
+        "qty": 2.0,
+        "cost_each": 0.0,
+        "descr": "QUANTITY OF MANUFACTURED EXTERIOR DOORS"
+      },
+      {
+        "item_type": "Material",
+        "sku": "HG414SN",
+        "qty": 6.0,
+        "cost_each": 1.2,
+        "descr": "4\" 1/4\" RAD CNR HINGE STN NKL"
+      },
+      {
+        "item_type": "Material",
+        "sku": "DBKR36BR",
+        "qty": 2.0,
+        "cost_each": 2.9,
+        "descr": "ENDURA 3/0 DR SWEEP DBL BULB BRZ FOR 7/8 KERF"
+      },
+      {
+        "item_type": "Material",
+        "sku": "ASTALITBRNTIS68",
+        "qty": 1.0,
+        "cost_each": 47.76,
+        "descr": "ASTRAGAL ALUM LITE BRWN NON THERM IS 68"
+      },
+      {
+        "item_type": "Material",
+        "sku": "BLSFSFLVG3068FGLE",
+        "qty": 2.0,
+        "cost_each": 245.45,
+        "descr": "MAS BVILLE FG SM FULL LT VG 3/0X6/8 FL GLZ LOW-E"
+      },
+      {
+        "item_type": "Labor",
+        "sku": "EDLABOR",
+        "qty": 40.0,
+        "cost_each": 1.0,
+        "descr": "Standard Labor"
+      },
+      {
+        "item_type": "Labor",
+        "sku": "RJLABOR",
+        "qty": 5.0,
+        "cost_each": 1.0,
+        "descr": "Rip Jamb Labor"
+      },
+      {
+        "item_type": "Labor",
+        "sku": "PLABOR",
+        "qty": 5.0,
+        "cost_each": 1.0,
+        "descr": "Peep Labor"
+      },
+      {
+        "item_type": "Material",
+        "sku": "BHP507SN",
+        "qty": 1.0,
+        "cost_each": 0.35,
+        "descr": "BHP 3-3/4 SPRING DOOR STOP STN NKL"
+      },
+      {
+        "item_type": "Subcontract",
+        "sku": "0002",
+        "qty": 1.0,
+        "cost_each": 35.0,
+        "descr": "DOORS"
+      }
+    ]
+  },
+  {
+    "name": "EXT SGL 20MIN FL 8/0",
+    "folder": "Exterior Doors",
+    "qty": 1.0,
+    "parts": [
+      {
+        "item_type": "Labor",
+        "sku": "OHLabor",
+        "qty": 45.0,
+        "cost_each": 0.65,
+        "descr": "Overhead Labor"
+      },
+      {
+        "item_type": "Material",
+        "sku": "CMB927B32",
+        "qty": 1.0,
+        "cost_each": 19.2,
+        "descr": "COMBO 927 ADJ ALL ALUM SILL 3-1/2X32\" BRZ"
+      },
+      {
+        "item_type": "Material",
+        "sku": "EJ71268FPR",
+        "qty": 0.25,
+        "cost_each": 27.2,
+        "descr": "EXT DR JB 7-1/2 6/8 FJ PRM 2-1/8R NO MACH"
+      },
+      {
+        "item_type": "Material",
+        "sku": "EJ71280FPR",
+        "qty": 1.0,
+        "cost_each": 31.5,
+        "descr": "EXT DR JB 7-1/2 8/0 FJ PRM"
+      },
+      {
+        "item_type": "Material",
+        "sku": "WSQ650BR80",
+        "qty": 2.5,
+        "cost_each": 2.65,
+        "descr": "ENDURA 8/0 WEATHERSTRIP BRZ .650 REACH"
+      },
+      {
+        "item_type": "Material",
+        "sku": "QTYED",
+        "qty": 1.0,
+        "cost_each": 0.0,
+        "descr": "QUANTITY OF MANUFACTURED EXTERIOR DOORS"
+      },
+      {
+        "item_type": "Material",
+        "sku": "HG414SN",
+        "qty": 4.0,
+        "cost_each": 1.2,
+        "descr": "4\" 1/4\" RAD CNR HINGE STN NKL"
+      },
+      {
+        "item_type": "Material",
+        "sku": "DBKR32BR",
+        "qty": 1.0,
+        "cost_each": 2.6,
+        "descr": "ENDURA 2/8 DR SWEEP DBL BULB BRZ FOR 7/8 KERF"
+      },
+      {
+        "item_type": "Material",
+        "sku": "20MLS",
+        "qty": 1.0,
+        "cost_each": 2.3,
+        "descr": "20 MINUTE LABEL (SLAB) "
+      },
+      {
+        "item_type": "Material",
+        "sku": "HTP42880SC",
+        "qty": 1.0,
+        "cost_each": 123.25,
+        "descr": "HDBD TXTD PRM 1-3/4 2/8X8/0 SC"
+      },
+      {
+        "item_type": "Labor",
+        "sku": "EDLABOR",
+        "qty": 30.0,
+        "cost_each": 1.0,
+        "descr": "Standard Labor"
+      },
+      {
+        "item_type": "Labor",
+        "sku": "RJLABOR",
+        "qty": 5.0,
+        "cost_each": 1.0,
+        "descr": "Rip Jamb Labor"
+      },
+      {
+        "item_type": "Labor",
+        "sku": "PLABOR",
+        "qty": 5.0,
+        "cost_each": 1.0,
+        "descr": "Peep Labor"
+      },
+      {
+        "item_type": "Labor",
+        "sku": "FLABOR",
+        "qty": 5.0,
+        "cost_each": 1.0,
+        "descr": "Fire Label Labor"
+      },
+      {
+        "item_type": "Material",
+        "sku": "BHP507SN",
+        "qty": 1.0,
+        "cost_each": 0.35,
+        "descr": "BHP 3-3/4 SPRING DOOR STOP STN NKL"
+      },
+      {
+        "item_type": "Subcontract",
+        "sku": "0002",
+        "qty": 1.0,
+        "cost_each": 35.0,
+        "descr": "DOORS"
+      }
+    ]
+  },
+  {
+    "name": "EXT SGL 20MIN FL 6/8",
+    "folder": "Exterior Doors",
+    "qty": 1.0,
+    "parts": [
+      {
+        "item_type": "Labor",
+        "sku": "OHLabor",
+        "qty": 35.0,
+        "cost_each": 0.65,
+        "descr": "Overhead Labor"
+      },
+      {
+        "item_type": "Material",
+        "sku": "CMB927B32",
+        "qty": 1.0,
+        "cost_each": 19.2,
+        "descr": "COMBO 927 ADJ ALL ALUM SILL 3-1/2X32\" BRZ"
+      },
+      {
+        "item_type": "Material",
+        "sku": "EJ71268FPR",
+        "qty": 1.25,
+        "cost_each": 27.2,
+        "descr": "EXT DR JB 7-1/2 6/8 FJ PRM 2-1/8R NO MACH"
+      },
+      {
+        "item_type": "Material",
+        "sku": "WSQ650BR68",
+        "qty": 2.5,
+        "cost_each": 2.05,
+        "descr": "ENDURA 6/8 WEATHERSTRIP BRZ .650 REACH"
+      },
+      {
+        "item_type": "Material",
+        "sku": "QTYED",
+        "qty": 1.0,
+        "cost_each": 0.0,
+        "descr": "QUANTITY OF MANUFACTURED EXTERIOR DOORS"
+      },
+      {
+        "item_type": "Material",
+        "sku": "HG414SN",
+        "qty": 3.0,
+        "cost_each": 1.2,
+        "descr": "4\" 1/4\" RAD CNR HINGE STN NKL"
+      },
+      {
+        "item_type": "Material",
+        "sku": "DBKR32BR",
+        "qty": 1.0,
+        "cost_each": 2.6,
+        "descr": "ENDURA 2/8 DR SWEEP DBL BULB BRZ FOR 7/8 KERF"
+      },
+      {
+        "item_type": "Material",
+        "sku": "20MLS",
+        "qty": 1.0,
+        "cost_each": 2.3,
+        "descr": "20 MINUTE LABEL (SLAB) "
+      },
+      {
+        "item_type": "Material",
+        "sku": "HP42868SC",
+        "qty": 1.0,
+        "cost_each": 77.5,
+        "descr": "HDBD PRM 1-3/4 2/8X6/8 SC"
+      },
+      {
+        "item_type": "Labor",
+        "sku": "EDLABOR",
+        "qty": 20.0,
+        "cost_each": 1.0,
+        "descr": "Standard Labor"
+      },
+      {
+        "item_type": "Labor",
+        "sku": "RJLABOR",
+        "qty": 5.0,
+        "cost_each": 1.0,
+        "descr": "Rip Jamb Labor"
+      },
+      {
+        "item_type": "Labor",
+        "sku": "PLABOR",
+        "qty": 5.0,
+        "cost_each": 1.0,
+        "descr": "Peep Labor"
+      },
+      {
+        "item_type": "Labor",
+        "sku": "FLABOR",
+        "qty": 5.0,
+        "cost_each": 1.0,
+        "descr": "Fire Label Labor"
+      },
+      {
+        "item_type": "Material",
+        "sku": "BHP507SN",
+        "qty": 1.0,
+        "cost_each": 0.35,
+        "descr": "BHP 3-3/4 SPRING DOOR STOP STN NKL"
+      },
+      {
+        "item_type": "Subcontract",
+        "sku": "0002",
+        "qty": 1.0,
+        "cost_each": 35.0,
+        "descr": "DOORS"
+      }
+    ]
+  },
+  {
+    "name": "EXT SGL 20MIN RP 8/0",
+    "folder": "Exterior Doors",
+    "qty": 1.0,
+    "parts": [
+      {
+        "item_type": "Labor",
+        "sku": "OHLabor",
+        "qty": 45.0,
+        "cost_each": 0.65,
+        "descr": "Overhead Labor"
+      },
+      {
+        "item_type": "Material",
+        "sku": "CMB927B32",
+        "qty": 1.0,
+        "cost_each": 19.2,
+        "descr": "COMBO 927 ADJ ALL ALUM SILL 3-1/2X32\" BRZ"
+      },
+      {
+        "item_type": "Material",
+        "sku": "EJ71268FPR",
+        "qty": 0.25,
+        "cost_each": 27.2,
+        "descr": "EXT DR JB 7-1/2 6/8 FJ PRM 2-1/8R NO MACH"
+      },
+      {
+        "item_type": "Material",
+        "sku": "EJ71280FPR",
+        "qty": 1.0,
+        "cost_each": 31.5,
+        "descr": "EXT DR JB 7-1/2 8/0 FJ PRM"
+      },
+      {
+        "item_type": "Material",
+        "sku": "WSQ650BR80",
+        "qty": 2.5,
+        "cost_each": 2.65,
+        "descr": "ENDURA 8/0 WEATHERSTRIP BRZ .650 REACH"
+      },
+      {
+        "item_type": "Material",
+        "sku": "QTYED",
+        "qty": 1.0,
+        "cost_each": 0.0,
+        "descr": "QUANTITY OF MANUFACTURED EXTERIOR DOORS"
+      },
+      {
+        "item_type": "Material",
+        "sku": "HG414SN",
+        "qty": 4.0,
+        "cost_each": 1.2,
+        "descr": "4\" 1/4\" RAD CNR HINGE STN NKL"
+      },
+      {
+        "item_type": "Material",
+        "sku": "DBKR32BR",
+        "qty": 1.0,
+        "cost_each": 2.6,
+        "descr": "ENDURA 2/8 DR SWEEP DBL BULB BRZ FOR 7/8 KERF"
+      },
+      {
+        "item_type": "Material",
+        "sku": "20MLS",
+        "qty": 1.0,
+        "cost_each": 2.3,
+        "descr": "20 MINUTE LABEL (SLAB) "
+      },
+      {
+        "item_type": "Material",
+        "sku": "MAS2PSS42880SC",
+        "qty": 1.0,
+        "cost_each": 161.8,
+        "descr": "MAS 1-3/4 2P SM SQ TOP 2/8X8/0 SC"
+      },
+      {
+        "item_type": "Labor",
+        "sku": "EDLABOR",
+        "qty": 30.0,
+        "cost_each": 1.0,
+        "descr": "Standard Labor"
+      },
+      {
+        "item_type": "Labor",
+        "sku": "RJLABOR",
+        "qty": 5.0,
+        "cost_each": 1.0,
+        "descr": "Rip Jamb Labor"
+      },
+      {
+        "item_type": "Labor",
+        "sku": "PLABOR",
+        "qty": 5.0,
+        "cost_each": 1.0,
+        "descr": "Peep Labor"
+      },
+      {
+        "item_type": "Labor",
+        "sku": "FLABOR",
+        "qty": 5.0,
+        "cost_each": 1.0,
+        "descr": "Fire Label Labor"
+      },
+      {
+        "item_type": "Material",
+        "sku": "BHP507SN",
+        "qty": 1.0,
+        "cost_each": 0.35,
+        "descr": "BHP 3-3/4 SPRING DOOR STOP STN NKL"
+      },
+      {
+        "item_type": "Subcontract",
+        "sku": "0002",
+        "qty": 1.0,
+        "cost_each": 35.0,
+        "descr": "DOORS"
+      }
+    ]
+  },
+  {
+    "name": "EXT SGL 20MIN RP 6/8",
+    "folder": "Exterior Doors",
+    "qty": 1.0,
+    "parts": [
+      {
+        "item_type": "Labor",
+        "sku": "OHLabor",
+        "qty": 35.0,
+        "cost_each": 0.65,
+        "descr": "Overhead Labor"
+      },
+      {
+        "item_type": "Material",
+        "sku": "CMB927B32",
+        "qty": 1.0,
+        "cost_each": 19.2,
+        "descr": "COMBO 927 ADJ ALL ALUM SILL 3-1/2X32\" BRZ"
+      },
+      {
+        "item_type": "Material",
+        "sku": "EJ71268FPR",
+        "qty": 1.25,
+        "cost_each": 27.2,
+        "descr": "EXT DR JB 7-1/2 6/8 FJ PRM 2-1/8R NO MACH"
+      },
+      {
+        "item_type": "Material",
+        "sku": "WSQ650BR68",
+        "qty": 2.5,
+        "cost_each": 2.05,
+        "descr": "ENDURA 6/8 WEATHERSTRIP BRZ .650 REACH"
+      },
+      {
+        "item_type": "Material",
+        "sku": "QTYED",
+        "qty": 1.0,
+        "cost_each": 0.0,
+        "descr": "QUANTITY OF MANUFACTURED EXTERIOR DOORS"
+      },
+      {
+        "item_type": "Material",
+        "sku": "HG414SN",
+        "qty": 3.0,
+        "cost_each": 1.2,
+        "descr": "4\" 1/4\" RAD CNR HINGE STN NKL"
+      },
+      {
+        "item_type": "Material",
+        "sku": "DBKR32BR",
+        "qty": 1.0,
+        "cost_each": 2.6,
+        "descr": "ENDURA 2/8 DR SWEEP DBL BULB BRZ FOR 7/8 KERF"
+      },
+      {
+        "item_type": "Material",
+        "sku": "20MLS",
+        "qty": 1.0,
+        "cost_each": 2.3,
+        "descr": "20 MINUTE LABEL (SLAB) "
+      },
+      {
+        "item_type": "Material",
+        "sku": "MAS2PSS42868SC",
+        "qty": 1.0,
+        "cost_each": 119.15,
+        "descr": "MAS 1-3/4 2P SM SQ TOP 2/8X6/8 SC"
+      },
+      {
+        "item_type": "Labor",
+        "sku": "EDLABOR",
+        "qty": 20.0,
+        "cost_each": 1.0,
+        "descr": "Standard Labor"
+      },
+      {
+        "item_type": "Labor",
+        "sku": "RJLABOR",
+        "qty": 5.0,
+        "cost_each": 1.0,
+        "descr": "Rip Jamb Labor"
+      },
+      {
+        "item_type": "Labor",
+        "sku": "PLABOR",
+        "qty": 5.0,
+        "cost_each": 1.0,
+        "descr": "Peep Labor"
+      },
+      {
+        "item_type": "Labor",
+        "sku": "FLABOR",
+        "qty": 5.0,
+        "cost_each": 1.0,
+        "descr": "Fire Label Labor"
+      },
+      {
+        "item_type": "Material",
+        "sku": "BHP507SN",
+        "qty": 1.0,
+        "cost_each": 0.35,
+        "descr": "BHP 3-3/4 SPRING DOOR STOP STN NKL"
+      },
+      {
+        "item_type": "Subcontract",
+        "sku": "0002",
+        "qty": 1.0,
+        "cost_each": 35.0,
+        "descr": "DOORS"
+      }
+    ]
+  },
+  {
+    "name": "EXT SGL 20MIN FP 8/0",
+    "folder": "Exterior Doors",
+    "qty": 1.0,
+    "parts": [
+      {
+        "item_type": "Labor",
+        "sku": "OHLabor",
+        "qty": 45.0,
+        "cost_each": 0.65,
+        "descr": "Overhead Labor"
+      },
+      {
+        "item_type": "Material",
+        "sku": "CMB927B36",
+        "qty": 1.0,
+        "cost_each": 21.65,
+        "descr": "COMBO 927 ADJ ALL ALUM SILL 3-1/2X36\" BRZ"
+      },
+      {
+        "item_type": "Material",
+        "sku": "EJ71268FPR",
+        "qty": 0.25,
+        "cost_each": 27.2,
+        "descr": "EXT DR JB 7-1/2 6/8 FJ PRM 2-1/8R NO MACH"
+      },
+      {
+        "item_type": "Material",
+        "sku": "EJ71280FPR",
+        "qty": 1.0,
+        "cost_each": 31.5,
+        "descr": "EXT DR JB 7-1/2 8/0 FJ PRM"
+      },
+      {
+        "item_type": "Material",
+        "sku": "WSQ650BR80",
+        "qty": 2.5,
+        "cost_each": 2.65,
+        "descr": "ENDURA 8/0 WEATHERSTRIP BRZ .650 REACH"
+      },
+      {
+        "item_type": "Material",
+        "sku": "QTYED",
+        "qty": 1.0,
+        "cost_each": 0.0,
+        "descr": "QUANTITY OF MANUFACTURED EXTERIOR DOORS"
+      },
+      {
+        "item_type": "Material",
+        "sku": "HG414SN",
+        "qty": 4.0,
+        "cost_each": 1.2,
+        "descr": "4\" 1/4\" RAD CNR HINGE STN NKL"
+      },
+      {
+        "item_type": "Material",
+        "sku": "DBKR36BR",
+        "qty": 1.0,
+        "cost_each": 2.9,
+        "descr": "ENDURA 3/0 DR SWEEP DBL BULB BRZ FOR 7/8 KERF"
+      },
+      {
+        "item_type": "Material",
+        "sku": "20MLS",
+        "qty": 1.0,
+        "cost_each": 2.3,
+        "descr": "20 MINUTE LABEL (SLAB) "
+      },
+      {
+        "item_type": "Material",
+        "sku": "LINC43080SC",
+        "qty": 1.0,
+        "cost_each": 178.3,
+        "descr": "LINCOLN PARK 1 PNL SHAKER 1-3/4 3/0X8/0 SC"
+      },
+      {
+        "item_type": "Labor",
+        "sku": "EDLABOR",
+        "qty": 30.0,
+        "cost_each": 1.0,
+        "descr": "Standard Labor"
+      },
+      {
+        "item_type": "Labor",
+        "sku": "RJLABOR",
+        "qty": 5.0,
+        "cost_each": 1.0,
+        "descr": "Rip Jamb Labor"
+      },
+      {
+        "item_type": "Labor",
+        "sku": "PLABOR",
+        "qty": 5.0,
+        "cost_each": 1.0,
+        "descr": "Peep Labor"
+      },
+      {
+        "item_type": "Labor",
+        "sku": "FLABOR",
+        "qty": 5.0,
+        "cost_each": 1.0,
+        "descr": "Fire Label Labor"
+      },
+      {
+        "item_type": "Material",
+        "sku": "BHP507SN",
+        "qty": 1.0,
+        "cost_each": 0.35,
+        "descr": "BHP 3-3/4 SPRING DOOR STOP STN NKL"
+      },
+      {
+        "item_type": "Subcontract",
+        "sku": "0002",
+        "qty": 1.0,
+        "cost_each": 35.0,
+        "descr": "DOORS"
+      }
+    ]
+  },
+  {
+    "name": "EXT SGL 20MIN FP 6/8",
+    "folder": "Exterior Doors",
+    "qty": 1.0,
+    "parts": [
+      {
+        "item_type": "Labor",
+        "sku": "OHLabor",
+        "qty": 35.0,
+        "cost_each": 0.65,
+        "descr": "Overhead Labor"
+      },
+      {
+        "item_type": "Material",
+        "sku": "CMB927B36",
+        "qty": 1.0,
+        "cost_each": 21.65,
+        "descr": "COMBO 927 ADJ ALL ALUM SILL 3-1/2X36\" BRZ"
+      },
+      {
+        "item_type": "Material",
+        "sku": "EJ71268FPR",
+        "qty": 1.25,
+        "cost_each": 27.2,
+        "descr": "EXT DR JB 7-1/2 6/8 FJ PRM 2-1/8R NO MACH"
+      },
+      {
+        "item_type": "Material",
+        "sku": "WSQ650BR68",
+        "qty": 2.5,
+        "cost_each": 2.05,
+        "descr": "ENDURA 6/8 WEATHERSTRIP BRZ .650 REACH"
+      },
+      {
+        "item_type": "Material",
+        "sku": "QTYED",
+        "qty": 1.0,
+        "cost_each": 0.0,
+        "descr": "QUANTITY OF MANUFACTURED EXTERIOR DOORS"
+      },
+      {
+        "item_type": "Material",
+        "sku": "HG414SN",
+        "qty": 3.0,
+        "cost_each": 1.2,
+        "descr": "4\" 1/4\" RAD CNR HINGE STN NKL"
+      },
+      {
+        "item_type": "Material",
+        "sku": "DBKR36BR",
+        "qty": 1.0,
+        "cost_each": 2.9,
+        "descr": "ENDURA 3/0 DR SWEEP DBL BULB BRZ FOR 7/8 KERF"
+      },
+      {
+        "item_type": "Material",
+        "sku": "20MLS",
+        "qty": 1.0,
+        "cost_each": 2.3,
+        "descr": "20 MINUTE LABEL (SLAB) "
+      },
+      {
+        "item_type": "Material",
+        "sku": "LINC43068SC",
+        "qty": 1.0,
+        "cost_each": 135.0,
+        "descr": "LINCOLN PARK 1 PNL SHAKER 1-3/4 3/0X6/8 SC"
+      },
+      {
+        "item_type": "Labor",
+        "sku": "EDLABOR",
+        "qty": 20.0,
+        "cost_each": 1.0,
+        "descr": "Standard Labor"
+      },
+      {
+        "item_type": "Labor",
+        "sku": "RJLABOR",
+        "qty": 5.0,
+        "cost_each": 1.0,
+        "descr": "Rip Jamb Labor"
+      },
+      {
+        "item_type": "Labor",
+        "sku": "PLABOR",
+        "qty": 5.0,
+        "cost_each": 1.0,
+        "descr": "Peep Labor"
+      },
+      {
+        "item_type": "Labor",
+        "sku": "FLABOR",
+        "qty": 5.0,
+        "cost_each": 1.0,
+        "descr": "Fire Label Labor"
+      },
+      {
+        "item_type": "Material",
+        "sku": "BHP507SN",
+        "qty": 1.0,
+        "cost_each": 0.35,
+        "descr": "BHP 3-3/4 SPRING DOOR STOP STN NKL"
+      },
+      {
+        "item_type": "Subcontract",
+        "sku": "0002",
+        "qty": 1.0,
+        "cost_each": 35.0,
+        "descr": "DOORS"
+      }
+    ]
+  },
+  {
+    "name": "INT 3068 RP",
+    "folder": "Interior Doors",
+    "qty": 1.0,
+    "parts": [
+      {
+        "item_type": "Labor",
+        "sku": "OHLabor",
+        "qty": 8.0,
+        "cost_each": 0.65,
+        "descr": "Overhead Labor"
+      },
+      {
+        "item_type": "Material",
+        "sku": "FJ45868MDFPR",
+        "qty": 1.25,
+        "cost_each": 6.42,
+        "descr": "MDF FLT JAMB 11/16 4-5/8 6/8 PRM"
+      },
+      {
+        "item_type": "Material",
+        "sku": "S8977FPR",
+        "qty": 2.5,
+        "cost_each": 0.45,
+        "descr": "PINE STOP 3/8X1-3/16 7/0 FJ PRM"
+      },
+      {
+        "item_type": "Material",
+        "sku": "QTYID",
+        "qty": 1.0,
+        "cost_each": 0.0,
+        "descr": "QUANTITY OF MANUFACTURED INTERIOR DOORS"
+      },
+      {
+        "item_type": "Material",
+        "sku": "HG3514SN",
+        "qty": 3.0,
+        "cost_each": 0.7,
+        "descr": "3.5\" 1/4\" RAD CNR HINGE STN NKL"
+      },
+      {
+        "item_type": "Material",
+        "sku": "MAS2PSS3068",
+        "qty": 1.0,
+        "cost_each": 42.1,
+        "descr": "MAS 1-3/8 2P SM SQ TOP 3/0X6/8 HC"
+      },
+      {
+        "item_type": "Labor",
+        "sku": "IDLABOR",
+        "qty": 8.0,
+        "cost_each": 1.0,
+        "descr": "Standard Labor"
+      },
+      {
+        "item_type": "Material",
+        "sku": "BHP507SN",
+        "qty": 1.0,
+        "cost_each": 0.35,
+        "descr": "BHP 3-3/4 SPRING DOOR STOP STN NKL"
+      },
+      {
+        "item_type": "Subcontract",
+        "sku": "0002",
+        "qty": 1.0,
+        "cost_each": 35.0,
+        "descr": "DOORS"
+      }
+    ]
+  },
+  {
+    "name": "INT 2868 RP",
+    "folder": "Interior Doors",
+    "qty": 1.0,
+    "parts": [
+      {
+        "item_type": "Labor",
+        "sku": "OHLabor",
+        "qty": 8.0,
+        "cost_each": 0.65,
+        "descr": "Overhead Labor"
+      },
+      {
+        "item_type": "Material",
+        "sku": "FJ45868MDFPR",
+        "qty": 1.25,
+        "cost_each": 6.42,
+        "descr": "MDF FLT JAMB 11/16 4-5/8 6/8 PRM"
+      },
+      {
+        "item_type": "Material",
+        "sku": "S8977FPR",
+        "qty": 2.5,
+        "cost_each": 0.45,
+        "descr": "PINE STOP 3/8X1-3/16 7/0 FJ PRM"
+      },
+      {
+        "item_type": "Material",
+        "sku": "QTYID",
+        "qty": 1.0,
+        "cost_each": 0.0,
+        "descr": "QUANTITY OF MANUFACTURED INTERIOR DOORS"
+      },
+      {
+        "item_type": "Material",
+        "sku": "HG3514SN",
+        "qty": 3.0,
+        "cost_each": 0.7,
+        "descr": "3.5\" 1/4\" RAD CNR HINGE STN NKL"
+      },
+      {
+        "item_type": "Material",
+        "sku": "MAS2PSS2868",
+        "qty": 1.0,
+        "cost_each": 40.2,
+        "descr": "MAS 1-3/8 2P SM SQ TOP 2/8X6/8 HC"
+      },
+      {
+        "item_type": "Labor",
+        "sku": "IDLABOR",
+        "qty": 8.0,
+        "cost_each": 1.0,
+        "descr": "Standard Labor"
+      },
+      {
+        "item_type": "Material",
+        "sku": "BHP507SN",
+        "qty": 1.0,
+        "cost_each": 0.35,
+        "descr": "BHP 3-3/4 SPRING DOOR STOP STN NKL"
+      },
+      {
+        "item_type": "Subcontract",
+        "sku": "0002",
+        "qty": 1.0,
+        "cost_each": 35.0,
+        "descr": "DOORS"
+      }
+    ]
+  },
+  {
+    "name": "INT 2468 RP",
+    "folder": "Interior Doors",
+    "qty": 1.0,
+    "parts": [
+      {
+        "item_type": "Labor",
+        "sku": "OHLabor",
+        "qty": 8.0,
+        "cost_each": 0.65,
+        "descr": "Overhead Labor"
+      },
+      {
+        "item_type": "Material",
+        "sku": "FJ45868MDFPR",
+        "qty": 1.25,
+        "cost_each": 6.42,
+        "descr": "MDF FLT JAMB 11/16 4-5/8 6/8 PRM"
+      },
+      {
+        "item_type": "Material",
+        "sku": "S8977FPR",
+        "qty": 2.5,
+        "cost_each": 0.45,
+        "descr": "PINE STOP 3/8X1-3/16 7/0 FJ PRM"
+      },
+      {
+        "item_type": "Material",
+        "sku": "QTYID",
+        "qty": 1.0,
+        "cost_each": 0.0,
+        "descr": "QUANTITY OF MANUFACTURED INTERIOR DOORS"
+      },
+      {
+        "item_type": "Material",
+        "sku": "HG3514SN",
+        "qty": 3.0,
+        "cost_each": 0.7,
+        "descr": "3.5\" 1/4\" RAD CNR HINGE STN NKL"
+      },
+      {
+        "item_type": "Material",
+        "sku": "MAS2PSS2468",
+        "qty": 1.0,
+        "cost_each": 38.5,
+        "descr": "MAS 1-3/8 2P SM SQ TOP 2/4X6/8 HC"
+      },
+      {
+        "item_type": "Labor",
+        "sku": "IDLABOR",
+        "qty": 8.0,
+        "cost_each": 1.0,
+        "descr": "Standard Labor"
+      },
+      {
+        "item_type": "Material",
+        "sku": "BHP507SN",
+        "qty": 1.0,
+        "cost_each": 0.35,
+        "descr": "BHP 3-3/4 SPRING DOOR STOP STN NKL"
+      },
+      {
+        "item_type": "Subcontract",
+        "sku": "0002",
+        "qty": 1.0,
+        "cost_each": 35.0,
+        "descr": "DOORS"
+      }
+    ]
+  },
+  {
+    "name": "INT 3080 RP",
+    "folder": "Interior Doors",
+    "qty": 1.0,
+    "parts": [
+      {
+        "item_type": "Labor",
+        "sku": "OHLabor",
+        "qty": 10.0,
+        "cost_each": 0.65,
+        "descr": "Overhead Labor"
+      },
+      {
+        "item_type": "Material",
+        "sku": "FJ45868MDFPR",
+        "qty": 0.25,
+        "cost_each": 6.42,
+        "descr": "MDF FLT JAMB 11/16 4-5/8 6/8 PRM"
+      },
+      {
+        "item_type": "Material",
+        "sku": "S8977FPR",
+        "qty": 0.5,
+        "cost_each": 0.45,
+        "descr": "PINE STOP 3/8X1-3/16 7/0 FJ PRM"
+      },
+      {
+        "item_type": "Material",
+        "sku": "S8978FPR",
+        "qty": 2.0,
+        "cost_each": 1.2,
+        "descr": "PINE STOP 3/8X1-3/16 8/0 FJ PRM"
+      },
+      {
+        "item_type": "Material",
+        "sku": "FJ45880MDFPR",
+        "qty": 1.0,
+        "cost_each": 7.12,
+        "descr": "MDF FLT JAMB 11/16 4-5/8 8/0 PRM"
+      },
+      {
+        "item_type": "Material",
+        "sku": "QTYID",
+        "qty": 1.0,
+        "cost_each": 0.0,
+        "descr": "QUANTITY OF MANUFACTURED INTERIOR DOORS"
+      },
+      {
+        "item_type": "Material",
+        "sku": "HG3514SN",
+        "qty": 4.0,
+        "cost_each": 0.7,
+        "descr": "3.5\" 1/4\" RAD CNR HINGE STN NKL"
+      },
+      {
+        "item_type": "Material",
+        "sku": "MAS2PSS3080",
+        "qty": 1.0,
+        "cost_each": 76.8,
+        "descr": "MAS 1-3/8 2P SM SQ TOP 3/0X8/0 HC"
+      },
+      {
+        "item_type": "Labor",
+        "sku": "IDLABOR",
+        "qty": 10.0,
+        "cost_each": 1.0,
+        "descr": "Standard Labor"
+      },
+      {
+        "item_type": "Material",
+        "sku": "BHP507SN",
+        "qty": 1.0,
+        "cost_each": 0.35,
+        "descr": "BHP 3-3/4 SPRING DOOR STOP STN NKL"
+      },
+      {
+        "item_type": "Subcontract",
+        "sku": "0002",
+        "qty": 1.0,
+        "cost_each": 35.0,
+        "descr": "DOORS"
+      }
+    ]
+  },
+  {
+    "name": "INT 2880 RP",
+    "folder": "Interior Doors",
+    "qty": 1.0,
+    "parts": [
+      {
+        "item_type": "Labor",
+        "sku": "OHLabor",
+        "qty": 10.0,
+        "cost_each": 0.65,
+        "descr": "Overhead Labor"
+      },
+      {
+        "item_type": "Material",
+        "sku": "FJ45868MDFPR",
+        "qty": 0.25,
+        "cost_each": 6.42,
+        "descr": "MDF FLT JAMB 11/16 4-5/8 6/8 PRM"
+      },
+      {
+        "item_type": "Material",
+        "sku": "S8977FPR",
+        "qty": 0.5,
+        "cost_each": 0.45,
+        "descr": "PINE STOP 3/8X1-3/16 7/0 FJ PRM"
+      },
+      {
+        "item_type": "Material",
+        "sku": "S8978FPR",
+        "qty": 2.0,
+        "cost_each": 1.2,
+        "descr": "PINE STOP 3/8X1-3/16 8/0 FJ PRM"
+      },
+      {
+        "item_type": "Material",
+        "sku": "FJ45880MDFPR",
+        "qty": 1.0,
+        "cost_each": 7.12,
+        "descr": "MDF FLT JAMB 11/16 4-5/8 8/0 PRM"
+      },
+      {
+        "item_type": "Material",
+        "sku": "QTYID",
+        "qty": 1.0,
+        "cost_each": 0.0,
+        "descr": "QUANTITY OF MANUFACTURED INTERIOR DOORS"
+      },
+      {
+        "item_type": "Material",
+        "sku": "HG3514SN",
+        "qty": 4.0,
+        "cost_each": 0.7,
+        "descr": "3.5\" 1/4\" RAD CNR HINGE STN NKL"
+      },
+      {
+        "item_type": "Material",
+        "sku": "MAS2PSS2880",
+        "qty": 1.0,
+        "cost_each": 71.65,
+        "descr": "MAS 1-3/8 2P SM SQ TOP 2/8X8/0 HC"
+      },
+      {
+        "item_type": "Labor",
+        "sku": "IDLABOR",
+        "qty": 10.0,
+        "cost_each": 1.0,
+        "descr": "Standard Labor"
+      },
+      {
+        "item_type": "Material",
+        "sku": "BHP507SN",
+        "qty": 1.0,
+        "cost_each": 0.35,
+        "descr": "BHP 3-3/4 SPRING DOOR STOP STN NKL"
+      },
+      {
+        "item_type": "Subcontract",
+        "sku": "0002",
+        "qty": 1.0,
+        "cost_each": 35.0,
+        "descr": "DOORS"
+      }
+    ]
+  },
+  {
+    "name": "INT 2480 RP",
+    "folder": "Interior Doors",
+    "qty": 1.0,
+    "parts": [
+      {
+        "item_type": "Labor",
+        "sku": "OHLabor",
+        "qty": 10.0,
+        "cost_each": 0.65,
+        "descr": "Overhead Labor"
+      },
+      {
+        "item_type": "Material",
+        "sku": "FJ45868MDFPR",
+        "qty": 0.25,
+        "cost_each": 6.42,
+        "descr": "MDF FLT JAMB 11/16 4-5/8 6/8 PRM"
+      },
+      {
+        "item_type": "Material",
+        "sku": "S8977FPR",
+        "qty": 0.5,
+        "cost_each": 0.45,
+        "descr": "PINE STOP 3/8X1-3/16 7/0 FJ PRM"
+      },
+      {
+        "item_type": "Material",
+        "sku": "S8978FPR",
+        "qty": 2.0,
+        "cost_each": 1.2,
+        "descr": "PINE STOP 3/8X1-3/16 8/0 FJ PRM"
+      },
+      {
+        "item_type": "Material",
+        "sku": "FJ45880MDFPR",
+        "qty": 1.0,
+        "cost_each": 7.12,
+        "descr": "MDF FLT JAMB 11/16 4-5/8 8/0 PRM"
+      },
+      {
+        "item_type": "Material",
+        "sku": "QTYID",
+        "qty": 1.0,
+        "cost_each": 0.0,
+        "descr": "QUANTITY OF MANUFACTURED INTERIOR DOORS"
+      },
+      {
+        "item_type": "Material",
+        "sku": "HG3514SN",
+        "qty": 4.0,
+        "cost_each": 0.7,
+        "descr": "3.5\" 1/4\" RAD CNR HINGE STN NKL"
+      },
+      {
+        "item_type": "Material",
+        "sku": "MAS2PSS2480",
+        "qty": 1.0,
+        "cost_each": 65.45,
+        "descr": "MAS 1-3/8 2P SM SQ TOP 2/4X8/0 HC"
+      },
+      {
+        "item_type": "Labor",
+        "sku": "IDLABOR",
+        "qty": 10.0,
+        "cost_each": 1.0,
+        "descr": "Standard Labor"
+      },
+      {
+        "item_type": "Material",
+        "sku": "BHP507SN",
+        "qty": 1.0,
+        "cost_each": 0.35,
+        "descr": "BHP 3-3/4 SPRING DOOR STOP STN NKL"
+      },
+      {
+        "item_type": "Subcontract",
+        "sku": "0002",
+        "qty": 1.0,
+        "cost_each": 35.0,
+        "descr": "DOORS"
+      }
+    ]
+  },
+  {
+    "name": "INT PR 6080 RP",
+    "folder": "Interior Doors",
+    "qty": 1.0,
+    "parts": [
+      {
+        "item_type": "Labor",
+        "sku": "OHLabor",
+        "qty": 21.0,
+        "cost_each": 0.65,
+        "descr": "Overhead Labor"
+      },
+      {
+        "item_type": "Material",
+        "sku": "FJ45868MDFPR",
+        "qty": 0.5,
+        "cost_each": 6.42,
+        "descr": "MDF FLT JAMB 11/16 4-5/8 6/8 PRM"
+      },
+      {
+        "item_type": "Material",
+        "sku": "S8977FPR",
+        "qty": 1.0,
+        "cost_each": 0.45,
+        "descr": "PINE STOP 3/8X1-3/16 7/0 FJ PRM"
+      },
+      {
+        "item_type": "Material",
+        "sku": "S8978FPR",
+        "qty": 2.0,
+        "cost_each": 1.2,
+        "descr": "PINE STOP 3/8X1-3/16 8/0 FJ PRM"
+      },
+      {
+        "item_type": "Material",
+        "sku": "FJ45880MDFPR",
+        "qty": 1.0,
+        "cost_each": 7.12,
+        "descr": "MDF FLT JAMB 11/16 4-5/8 8/0 PRM"
+      },
+      {
+        "item_type": "Material",
+        "sku": "TAST80HBPR",
+        "qty": 1.0,
+        "cost_each": 26.65,
+        "descr": "PINE T-AST 1-3/8 8/0 CLR RH HEAD BOLT PREP"
+      },
+      {
+        "item_type": "Material",
+        "sku": "QTYID",
+        "qty": 2.0,
+        "cost_each": 0.0,
+        "descr": "QUANTITY OF MANUFACTURED INTERIOR DOORS"
+      },
+      {
+        "item_type": "Material",
+        "sku": "HG3514SN",
+        "qty": 8.0,
+        "cost_each": 0.7,
+        "descr": "3.5\" 1/4\" RAD CNR HINGE STN NKL"
+      },
+      {
+        "item_type": "Material",
+        "sku": "MAS2PSS3080",
+        "qty": 2.0,
+        "cost_each": 76.8,
+        "descr": "MAS 1-3/8 2P SM SQ TOP 3/0X8/0 HC"
+      },
+      {
+        "item_type": "Labor",
+        "sku": "IDLABOR",
+        "qty": 21.0,
+        "cost_each": 1.0,
+        "descr": "Standard Labor"
+      },
+      {
+        "item_type": "Material",
+        "sku": "BHP507SN",
+        "qty": 2.0,
+        "cost_each": 0.35,
+        "descr": "BHP 3-3/4 SPRING DOOR STOP STN NKL"
+      },
+      {
+        "item_type": "Subcontract",
+        "sku": "0002",
+        "qty": 1.0,
+        "cost_each": 35.0,
+        "descr": "DOORS"
+      }
+    ]
+  },
+  {
+    "name": "INT PR 5080 RP",
+    "folder": "Interior Doors",
+    "qty": 1.0,
+    "parts": [
+      {
+        "item_type": "Labor",
+        "sku": "OHLabor",
+        "qty": 24.0,
+        "cost_each": 0.65,
+        "descr": "Overhead Labor"
+      },
+      {
+        "item_type": "Material",
+        "sku": "FJ45868MDFPR",
+        "qty": 0.5,
+        "cost_each": 6.42,
+        "descr": "MDF FLT JAMB 11/16 4-5/8 6/8 PRM"
+      },
+      {
+        "item_type": "Material",
+        "sku": "S8977FPR",
+        "qty": 1.0,
+        "cost_each": 0.45,
+        "descr": "PINE STOP 3/8X1-3/16 7/0 FJ PRM"
+      },
+      {
+        "item_type": "Material",
+        "sku": "S8978FPR",
+        "qty": 2.0,
+        "cost_each": 1.2,
+        "descr": "PINE STOP 3/8X1-3/16 8/0 FJ PRM"
+      },
+      {
+        "item_type": "Material",
+        "sku": "FJ45880MDFPR",
+        "qty": 1.0,
+        "cost_each": 7.12,
+        "descr": "MDF FLT JAMB 11/16 4-5/8 8/0 PRM"
+      },
+      {
+        "item_type": "Material",
+        "sku": "TAST80HBPR",
+        "qty": 1.0,
+        "cost_each": 26.65,
+        "descr": "PINE T-AST 1-3/8 8/0 CLR RH HEAD BOLT PREP"
+      },
+      {
+        "item_type": "Material",
+        "sku": "QTYID",
+        "qty": 2.0,
+        "cost_each": 0.0,
+        "descr": "QUANTITY OF MANUFACTURED INTERIOR DOORS"
+      },
+      {
+        "item_type": "Material",
+        "sku": "HG3514SN",
+        "qty": 8.0,
+        "cost_each": 0.7,
+        "descr": "3.5\" 1/4\" RAD CNR HINGE STN NKL"
+      },
+      {
+        "item_type": "Material",
+        "sku": "FB1815FL",
+        "qty": 1.0,
+        "cost_each": 8.3,
+        "descr": "FLUSH BOLT 18\" FLIP LOCK STN NKL"
+      },
+      {
+        "item_type": "Material",
+        "sku": "MAS2PSS2680",
+        "qty": 2.0,
+        "cost_each": 71.1,
+        "descr": "MAS 1-3/8 2P SM SQ TOP 2/6X8/0 HC"
+      },
+      {
+        "item_type": "Labor",
+        "sku": "HWLABOR",
+        "qty": 3.0,
+        "cost_each": 1.0,
+        "descr": "Hardware Labor"
+      },
+      {
+        "item_type": "Labor",
+        "sku": "IDLABOR",
+        "qty": 21.0,
+        "cost_each": 1.0,
+        "descr": "Standard Labor"
+      },
+      {
+        "item_type": "Material",
+        "sku": "BHP507SN",
+        "qty": 2.0,
+        "cost_each": 0.35,
+        "descr": "BHP 3-3/4 SPRING DOOR STOP STN NKL"
+      },
+      {
+        "item_type": "Subcontract",
+        "sku": "0002",
+        "qty": 1.0,
+        "cost_each": 35.0,
+        "descr": "DOORS"
+      }
+    ]
+  },
+  {
+    "name": "INT PR 6068 RP",
+    "folder": "Interior Doors",
+    "qty": 1.0,
+    "parts": [
+      {
+        "item_type": "Labor",
+        "sku": "OHLabor",
+        "qty": 22.0,
+        "cost_each": 0.65,
+        "descr": "Overhead Labor"
+      },
+      {
+        "item_type": "Material",
+        "sku": "FJ45868MDFPR",
+        "qty": 1.5,
+        "cost_each": 6.42,
+        "descr": "MDF FLT JAMB 11/16 4-5/8 6/8 PRM"
+      },
+      {
+        "item_type": "Material",
+        "sku": "S8977FPR",
+        "qty": 3.0,
+        "cost_each": 0.45,
+        "descr": "PINE STOP 3/8X1-3/16 7/0 FJ PRM"
+      },
+      {
+        "item_type": "Material",
+        "sku": "TAST70",
+        "qty": 1.0,
+        "cost_each": 8.15,
+        "descr": "PINE T-AST 1-3/8 7/0 CLR "
+      },
+      {
+        "item_type": "Material",
+        "sku": "QTYID",
+        "qty": 2.0,
+        "cost_each": 0.0,
+        "descr": "QUANTITY OF MANUFACTURED INTERIOR DOORS"
+      },
+      {
+        "item_type": "Material",
+        "sku": "HG3514SN",
+        "qty": 6.0,
+        "cost_each": 0.7,
+        "descr": "3.5\" 1/4\" RAD CNR HINGE STN NKL"
+      },
+      {
+        "item_type": "Material",
+        "sku": "FB156",
+        "qty": 1.0,
+        "cost_each": 4.55,
+        "descr": "FLUSH BOLT 6\" STN NKL "
+      },
+      {
+        "item_type": "Material",
+        "sku": "MAS2PSS3068",
+        "qty": 2.0,
+        "cost_each": 42.1,
+        "descr": "MAS 1-3/8 2P SM SQ TOP 3/0X6/8 HC"
+      },
+      {
+        "item_type": "Labor",
+        "sku": "HWLABOR",
+        "qty": 5.0,
+        "cost_each": 1.0,
+        "descr": "Hardware Labor"
+      },
+      {
+        "item_type": "Labor",
+        "sku": "IDLABOR",
+        "qty": 17.0,
+        "cost_each": 1.0,
+        "descr": "Standard Labor"
+      },
+      {
+        "item_type": "Material",
+        "sku": "BHP507SN",
+        "qty": 2.0,
+        "cost_each": 0.35,
+        "descr": "BHP 3-3/4 SPRING DOOR STOP STN NKL"
+      },
+      {
+        "item_type": "Subcontract",
+        "sku": "0002",
+        "qty": 1.0,
+        "cost_each": 35.0,
+        "descr": "DOORS"
+      }
+    ]
+  },
+  {
+    "name": "INT PR 5068 RP",
+    "folder": "Interior Doors",
+    "qty": 1.0,
+    "parts": [
+      {
+        "item_type": "Labor",
+        "sku": "OHLabor",
+        "qty": 22.0,
+        "cost_each": 0.65,
+        "descr": "Overhead Labor"
+      },
+      {
+        "item_type": "Material",
+        "sku": "FJ45868MDFPR",
+        "qty": 1.5,
+        "cost_each": 6.42,
+        "descr": "MDF FLT JAMB 11/16 4-5/8 6/8 PRM"
+      },
+      {
+        "item_type": "Material",
+        "sku": "S8977FPR",
+        "qty": 3.0,
+        "cost_each": 0.45,
+        "descr": "PINE STOP 3/8X1-3/16 7/0 FJ PRM"
+      },
+      {
+        "item_type": "Material",
+        "sku": "TAST70",
+        "qty": 1.0,
+        "cost_each": 8.15,
+        "descr": "PINE T-AST 1-3/8 7/0 CLR "
+      },
+      {
+        "item_type": "Material",
+        "sku": "QTYID",
+        "qty": 2.0,
+        "cost_each": 0.0,
+        "descr": "QUANTITY OF MANUFACTURED INTERIOR DOORS"
+      },
+      {
+        "item_type": "Material",
+        "sku": "HG3514SN",
+        "qty": 6.0,
+        "cost_each": 0.7,
+        "descr": "3.5\" 1/4\" RAD CNR HINGE STN NKL"
+      },
+      {
+        "item_type": "Material",
+        "sku": "FB156",
+        "qty": 1.0,
+        "cost_each": 4.55,
+        "descr": "FLUSH BOLT 6\" STN NKL "
+      },
+      {
+        "item_type": "Material",
+        "sku": "MAS2PSS2668",
+        "qty": 2.0,
+        "cost_each": 38.5,
+        "descr": "MAS 1-3/8 2P SM SQ TOP 2/6X6/8 HC"
+      },
+      {
+        "item_type": "Labor",
+        "sku": "HWLABOR",
+        "qty": 5.0,
+        "cost_each": 1.0,
+        "descr": "Hardware Labor"
+      },
+      {
+        "item_type": "Labor",
+        "sku": "IDLABOR",
+        "qty": 17.0,
+        "cost_each": 1.0,
+        "descr": "Standard Labor"
+      },
+      {
+        "item_type": "Material",
+        "sku": "BHP507SN",
+        "qty": 2.0,
+        "cost_each": 0.35,
+        "descr": "BHP 3-3/4 SPRING DOOR STOP STN NKL"
+      },
+      {
+        "item_type": "Subcontract",
+        "sku": "0002",
+        "qty": 1.0,
+        "cost_each": 35.0,
+        "descr": "DOORS"
+      }
+    ]
+  },
+  {
+    "name": "INT 3080 FP",
+    "folder": "Interior Doors",
+    "qty": 1.0,
+    "parts": [
+      {
+        "item_type": "Labor",
+        "sku": "OHLabor",
+        "qty": 10.0,
+        "cost_each": 0.65,
+        "descr": "Overhead Labor"
+      },
+      {
+        "item_type": "Material",
+        "sku": "FJ45868MDFPR",
+        "qty": 0.25,
+        "cost_each": 6.42,
+        "descr": "MDF FLT JAMB 11/16 4-5/8 6/8 PRM"
+      },
+      {
+        "item_type": "Material",
+        "sku": "S8977FPR",
+        "qty": 0.5,
+        "cost_each": 0.45,
+        "descr": "PINE STOP 3/8X1-3/16 7/0 FJ PRM"
+      },
+      {
+        "item_type": "Material",
+        "sku": "S8978FPR",
+        "qty": 2.0,
+        "cost_each": 1.2,
+        "descr": "PINE STOP 3/8X1-3/16 8/0 FJ PRM"
+      },
+      {
+        "item_type": "Material",
+        "sku": "FJ45880MDFPR",
+        "qty": 1.0,
+        "cost_each": 7.12,
+        "descr": "MDF FLT JAMB 11/16 4-5/8 8/0 PRM"
+      },
+      {
+        "item_type": "Material",
+        "sku": "QTYID",
+        "qty": 1.0,
+        "cost_each": 0.0,
+        "descr": "QUANTITY OF MANUFACTURED INTERIOR DOORS"
+      },
+      {
+        "item_type": "Material",
+        "sku": "HG3514SN",
+        "qty": 4.0,
+        "cost_each": 0.7,
+        "descr": "3.5\" 1/4\" RAD CNR HINGE STN NKL"
+      },
+      {
+        "item_type": "Material",
+        "sku": "LINC3080",
+        "qty": 1.0,
+        "cost_each": 102.95,
+        "descr": "LINCOLN PARK 1P SHAKER 1-3/8 3/0X8/0 HC"
+      },
+      {
+        "item_type": "Labor",
+        "sku": "IDLABOR",
+        "qty": 10.0,
+        "cost_each": 1.0,
+        "descr": "Standard Labor"
+      },
+      {
+        "item_type": "Material",
+        "sku": "BHP507SN",
+        "qty": 1.0,
+        "cost_each": 0.35,
+        "descr": "BHP 3-3/4 SPRING DOOR STOP STN NKL"
+      },
+      {
+        "item_type": "Subcontract",
+        "sku": "0002",
+        "qty": 1.0,
+        "cost_each": 35.0,
+        "descr": "DOORS"
+      }
+    ]
+  },
+  {
+    "name": "INT 2880 FP",
+    "folder": "Interior Doors",
+    "qty": 1.0,
+    "parts": [
+      {
+        "item_type": "Labor",
+        "sku": "OHLabor",
+        "qty": 10.0,
+        "cost_each": 0.65,
+        "descr": "Overhead Labor"
+      },
+      {
+        "item_type": "Material",
+        "sku": "FJ45868MDFPR",
+        "qty": 0.25,
+        "cost_each": 6.42,
+        "descr": "MDF FLT JAMB 11/16 4-5/8 6/8 PRM"
+      },
+      {
+        "item_type": "Material",
+        "sku": "S8977FPR",
+        "qty": 0.5,
+        "cost_each": 0.45,
+        "descr": "PINE STOP 3/8X1-3/16 7/0 FJ PRM"
+      },
+      {
+        "item_type": "Material",
+        "sku": "S8978FPR",
+        "qty": 2.0,
+        "cost_each": 1.2,
+        "descr": "PINE STOP 3/8X1-3/16 8/0 FJ PRM"
+      },
+      {
+        "item_type": "Material",
+        "sku": "FJ45880MDFPR",
+        "qty": 1.0,
+        "cost_each": 7.12,
+        "descr": "MDF FLT JAMB 11/16 4-5/8 8/0 PRM"
+      },
+      {
+        "item_type": "Material",
+        "sku": "QTYID",
+        "qty": 1.0,
+        "cost_each": 0.0,
+        "descr": "QUANTITY OF MANUFACTURED INTERIOR DOORS"
+      },
+      {
+        "item_type": "Material",
+        "sku": "HG3514SN",
+        "qty": 4.0,
+        "cost_each": 0.7,
+        "descr": "3.5\" 1/4\" RAD CNR HINGE STN NKL"
+      },
+      {
+        "item_type": "Material",
+        "sku": "LINC2880",
+        "qty": 1.0,
+        "cost_each": 96.9,
+        "descr": "LINCOLN PARK 1P SHAKER 1-3/8 2/8X8/0 HC"
+      },
+      {
+        "item_type": "Labor",
+        "sku": "IDLABOR",
+        "qty": 10.0,
+        "cost_each": 1.0,
+        "descr": "Standard Labor"
+      },
+      {
+        "item_type": "Material",
+        "sku": "BHP507SN",
+        "qty": 1.0,
+        "cost_each": 0.35,
+        "descr": "BHP 3-3/4 SPRING DOOR STOP STN NKL"
+      },
+      {
+        "item_type": "Subcontract",
+        "sku": "0002",
+        "qty": 1.0,
+        "cost_each": 35.0,
+        "descr": "DOORS"
+      }
+    ]
+  },
+  {
+    "name": "INT 2480 FP",
+    "folder": "Interior Doors",
+    "qty": 1.0,
+    "parts": [
+      {
+        "item_type": "Labor",
+        "sku": "OHLabor",
+        "qty": 10.0,
+        "cost_each": 0.65,
+        "descr": "Overhead Labor"
+      },
+      {
+        "item_type": "Material",
+        "sku": "FJ45868MDFPR",
+        "qty": 0.25,
+        "cost_each": 6.42,
+        "descr": "MDF FLT JAMB 11/16 4-5/8 6/8 PRM"
+      },
+      {
+        "item_type": "Material",
+        "sku": "S8977FPR",
+        "qty": 0.5,
+        "cost_each": 0.45,
+        "descr": "PINE STOP 3/8X1-3/16 7/0 FJ PRM"
+      },
+      {
+        "item_type": "Material",
+        "sku": "S8978FPR",
+        "qty": 2.0,
+        "cost_each": 1.2,
+        "descr": "PINE STOP 3/8X1-3/16 8/0 FJ PRM"
+      },
+      {
+        "item_type": "Material",
+        "sku": "FJ45880MDFPR",
+        "qty": 1.0,
+        "cost_each": 7.12,
+        "descr": "MDF FLT JAMB 11/16 4-5/8 8/0 PRM"
+      },
+      {
+        "item_type": "Material",
+        "sku": "QTYID",
+        "qty": 1.0,
+        "cost_each": 0.0,
+        "descr": "QUANTITY OF MANUFACTURED INTERIOR DOORS"
+      },
+      {
+        "item_type": "Material",
+        "sku": "HG3514SN",
+        "qty": 4.0,
+        "cost_each": 0.7,
+        "descr": "3.5\" 1/4\" RAD CNR HINGE STN NKL"
+      },
+      {
+        "item_type": "Material",
+        "sku": "LINC2480",
+        "qty": 1.0,
+        "cost_each": 84.75,
+        "descr": "LINCOLN PARK 1P SHAKER 1-3/8 2/4X8/0 HC"
+      },
+      {
+        "item_type": "Labor",
+        "sku": "IDLABOR",
+        "qty": 10.0,
+        "cost_each": 1.0,
+        "descr": "Standard Labor"
+      },
+      {
+        "item_type": "Material",
+        "sku": "BHP507SN",
+        "qty": 1.0,
+        "cost_each": 0.35,
+        "descr": "BHP 3-3/4 SPRING DOOR STOP STN NKL"
+      },
+      {
+        "item_type": "Subcontract",
+        "sku": "0002",
+        "qty": 1.0,
+        "cost_each": 35.0,
+        "descr": "DOORS"
+      }
+    ]
+  },
+  {
+    "name": "INT 3068 FP",
+    "folder": "Interior Doors",
+    "qty": 1.0,
+    "parts": [
+      {
+        "item_type": "Labor",
+        "sku": "OHLabor",
+        "qty": 8.0,
+        "cost_each": 0.65,
+        "descr": "Overhead Labor"
+      },
+      {
+        "item_type": "Material",
+        "sku": "FJ45868MDFPR",
+        "qty": 1.25,
+        "cost_each": 6.42,
+        "descr": "MDF FLT JAMB 11/16 4-5/8 6/8 PRM"
+      },
+      {
+        "item_type": "Material",
+        "sku": "S8977FPR",
+        "qty": 2.5,
+        "cost_each": 0.45,
+        "descr": "PINE STOP 3/8X1-3/16 7/0 FJ PRM"
+      },
+      {
+        "item_type": "Material",
+        "sku": "QTYID",
+        "qty": 1.0,
+        "cost_each": 0.0,
+        "descr": "QUANTITY OF MANUFACTURED INTERIOR DOORS"
+      },
+      {
+        "item_type": "Material",
+        "sku": "HG3514SN",
+        "qty": 3.0,
+        "cost_each": 0.7,
+        "descr": "3.5\" 1/4\" RAD CNR HINGE STN NKL"
+      },
+      {
+        "item_type": "Material",
+        "sku": "LINC3068",
+        "qty": 1.0,
+        "cost_each": 54.75,
+        "descr": "LINCOLN PARK 1P SHAKER 1-3/8 3/0X6/8 HC"
+      },
+      {
+        "item_type": "Labor",
+        "sku": "IDLABOR",
+        "qty": 8.0,
+        "cost_each": 1.0,
+        "descr": "Standard Labor"
+      },
+      {
+        "item_type": "Material",
+        "sku": "BHP507SN",
+        "qty": 1.0,
+        "cost_each": 0.35,
+        "descr": "BHP 3-3/4 SPRING DOOR STOP STN NKL"
+      },
+      {
+        "item_type": "Subcontract",
+        "sku": "0002",
+        "qty": 1.0,
+        "cost_each": 35.0,
+        "descr": "DOORS"
+      }
+    ]
+  },
+  {
+    "name": "INT 2868 FP",
+    "folder": "Interior Doors",
+    "qty": 1.0,
+    "parts": [
+      {
+        "item_type": "Labor",
+        "sku": "OHLabor",
+        "qty": 8.0,
+        "cost_each": 0.65,
+        "descr": "Overhead Labor"
+      },
+      {
+        "item_type": "Material",
+        "sku": "FJ45868MDFPR",
+        "qty": 1.25,
+        "cost_each": 6.42,
+        "descr": "MDF FLT JAMB 11/16 4-5/8 6/8 PRM"
+      },
+      {
+        "item_type": "Material",
+        "sku": "S8977FPR",
+        "qty": 2.5,
+        "cost_each": 0.45,
+        "descr": "PINE STOP 3/8X1-3/16 7/0 FJ PRM"
+      },
+      {
+        "item_type": "Material",
+        "sku": "QTYID",
+        "qty": 1.0,
+        "cost_each": 0.0,
+        "descr": "QUANTITY OF MANUFACTURED INTERIOR DOORS"
+      },
+      {
+        "item_type": "Material",
+        "sku": "HG3514SN",
+        "qty": 3.0,
+        "cost_each": 0.7,
+        "descr": "3.5\" 1/4\" RAD CNR HINGE STN NKL"
+      },
+      {
+        "item_type": "Material",
+        "sku": "LINC2868",
+        "qty": 1.0,
+        "cost_each": 52.85,
+        "descr": "LINCOLN PARK 1P SHAKER 1-3/8 2/8X6/8 HC"
+      },
+      {
+        "item_type": "Labor",
+        "sku": "IDLABOR",
+        "qty": 8.0,
+        "cost_each": 1.0,
+        "descr": "Standard Labor"
+      },
+      {
+        "item_type": "Material",
+        "sku": "BHP507SN",
+        "qty": 1.0,
+        "cost_each": 0.35,
+        "descr": "BHP 3-3/4 SPRING DOOR STOP STN NKL"
+      },
+      {
+        "item_type": "Subcontract",
+        "sku": "0002",
+        "qty": 1.0,
+        "cost_each": 35.0,
+        "descr": "DOORS"
+      }
+    ]
+  },
+  {
+    "name": "INT 2468 FP",
+    "folder": "Interior Doors",
+    "qty": 1.0,
+    "parts": [
+      {
+        "item_type": "Labor",
+        "sku": "OHLabor",
+        "qty": 8.0,
+        "cost_each": 0.65,
+        "descr": "Overhead Labor"
+      },
+      {
+        "item_type": "Material",
+        "sku": "FJ45868MDFPR",
+        "qty": 1.25,
+        "cost_each": 6.42,
+        "descr": "MDF FLT JAMB 11/16 4-5/8 6/8 PRM"
+      },
+      {
+        "item_type": "Material",
+        "sku": "S8977FPR",
+        "qty": 2.5,
+        "cost_each": 0.45,
+        "descr": "PINE STOP 3/8X1-3/16 7/0 FJ PRM"
+      },
+      {
+        "item_type": "Material",
+        "sku": "QTYID",
+        "qty": 1.0,
+        "cost_each": 0.0,
+        "descr": "QUANTITY OF MANUFACTURED INTERIOR DOORS"
+      },
+      {
+        "item_type": "Material",
+        "sku": "HG3514SN",
+        "qty": 3.0,
+        "cost_each": 0.7,
+        "descr": "3.5\" 1/4\" RAD CNR HINGE STN NKL"
+      },
+      {
+        "item_type": "Material",
+        "sku": "LINC2468",
+        "qty": 1.0,
+        "cost_each": 51.0,
+        "descr": "LINCOLN PARK 1P SHAKER 1-3/8 2/4X6/8 HC"
+      },
+      {
+        "item_type": "Labor",
+        "sku": "IDLABOR",
+        "qty": 8.0,
+        "cost_each": 1.0,
+        "descr": "Standard Labor"
+      },
+      {
+        "item_type": "Material",
+        "sku": "BHP507SN",
+        "qty": 1.0,
+        "cost_each": 0.35,
+        "descr": "BHP 3-3/4 SPRING DOOR STOP STN NKL"
+      },
+      {
+        "item_type": "Subcontract",
+        "sku": "0002",
+        "qty": 1.0,
+        "cost_each": 35.0,
+        "descr": "DOORS"
+      }
+    ]
+  },
+  {
+    "name": "INT PR 6080 FP",
+    "folder": "Interior Doors",
+    "qty": 1.0,
+    "parts": [
+      {
+        "item_type": "Labor",
+        "sku": "OHLabor",
+        "qty": 24.0,
+        "cost_each": 0.65,
+        "descr": "Overhead Labor"
+      },
+      {
+        "item_type": "Material",
+        "sku": "FJ45868MDFPR",
+        "qty": 0.5,
+        "cost_each": 6.42,
+        "descr": "MDF FLT JAMB 11/16 4-5/8 6/8 PRM"
+      },
+      {
+        "item_type": "Material",
+        "sku": "S8977FPR",
+        "qty": 1.0,
+        "cost_each": 0.45,
+        "descr": "PINE STOP 3/8X1-3/16 7/0 FJ PRM"
+      },
+      {
+        "item_type": "Material",
+        "sku": "S8978FPR",
+        "qty": 2.0,
+        "cost_each": 1.2,
+        "descr": "PINE STOP 3/8X1-3/16 8/0 FJ PRM"
+      },
+      {
+        "item_type": "Material",
+        "sku": "FJ45880MDFPR",
+        "qty": 1.0,
+        "cost_each": 7.12,
+        "descr": "MDF FLT JAMB 11/16 4-5/8 8/0 PRM"
+      },
+      {
+        "item_type": "Material",
+        "sku": "TAST80HBPR",
+        "qty": 1.0,
+        "cost_each": 26.65,
+        "descr": "PINE T-AST 1-3/8 8/0 CLR RH HEAD BOLT PREP"
+      },
+      {
+        "item_type": "Material",
+        "sku": "QTYID",
+        "qty": 2.0,
+        "cost_each": 0.0,
+        "descr": "QUANTITY OF MANUFACTURED INTERIOR DOORS"
+      },
+      {
+        "item_type": "Material",
+        "sku": "HG3514SN",
+        "qty": 8.0,
+        "cost_each": 0.7,
+        "descr": "3.5\" 1/4\" RAD CNR HINGE STN NKL"
+      },
+      {
+        "item_type": "Material",
+        "sku": "FB1815FL",
+        "qty": 1.0,
+        "cost_each": 8.3,
+        "descr": "FLUSH BOLT 18\" FLIP LOCK STN NKL"
+      },
+      {
+        "item_type": "Material",
+        "sku": "LINC3080",
+        "qty": 2.0,
+        "cost_each": 102.95,
+        "descr": "LINCOLN PARK 1P SHAKER 1-3/8 3/0X8/0 HC"
+      },
+      {
+        "item_type": "Labor",
+        "sku": "HWLABOR",
+        "qty": 3.0,
+        "cost_each": 1.0,
+        "descr": "Hardware Labor"
+      },
+      {
+        "item_type": "Labor",
+        "sku": "IDLABOR",
+        "qty": 21.0,
+        "cost_each": 1.0,
+        "descr": "Standard Labor"
+      },
+      {
+        "item_type": "Material",
+        "sku": "BHP507SN",
+        "qty": 2.0,
+        "cost_each": 0.35,
+        "descr": "BHP 3-3/4 SPRING DOOR STOP STN NKL"
+      },
+      {
+        "item_type": "Subcontract",
+        "sku": "0002",
+        "qty": 1.0,
+        "cost_each": 35.0,
+        "descr": "DOORS"
+      }
+    ]
+  },
+  {
+    "name": "INT PR 5080 FP",
+    "folder": "Interior Doors",
+    "qty": 1.0,
+    "parts": [
+      {
+        "item_type": "Labor",
+        "sku": "OHLabor",
+        "qty": 24.0,
+        "cost_each": 0.65,
+        "descr": "Overhead Labor"
+      },
+      {
+        "item_type": "Material",
+        "sku": "FJ45868MDFPR",
+        "qty": 0.5,
+        "cost_each": 6.42,
+        "descr": "MDF FLT JAMB 11/16 4-5/8 6/8 PRM"
+      },
+      {
+        "item_type": "Material",
+        "sku": "S8977FPR",
+        "qty": 1.0,
+        "cost_each": 0.45,
+        "descr": "PINE STOP 3/8X1-3/16 7/0 FJ PRM"
+      },
+      {
+        "item_type": "Material",
+        "sku": "S8978FPR",
+        "qty": 2.0,
+        "cost_each": 1.2,
+        "descr": "PINE STOP 3/8X1-3/16 8/0 FJ PRM"
+      },
+      {
+        "item_type": "Material",
+        "sku": "FJ45880MDFPR",
+        "qty": 1.0,
+        "cost_each": 7.12,
+        "descr": "MDF FLT JAMB 11/16 4-5/8 8/0 PRM"
+      },
+      {
+        "item_type": "Material",
+        "sku": "TAST80HBPR",
+        "qty": 1.0,
+        "cost_each": 26.65,
+        "descr": "PINE T-AST 1-3/8 8/0 CLR RH HEAD BOLT PREP"
+      },
+      {
+        "item_type": "Material",
+        "sku": "QTYID",
+        "qty": 2.0,
+        "cost_each": 0.0,
+        "descr": "QUANTITY OF MANUFACTURED INTERIOR DOORS"
+      },
+      {
+        "item_type": "Material",
+        "sku": "HG3514SN",
+        "qty": 8.0,
+        "cost_each": 0.7,
+        "descr": "3.5\" 1/4\" RAD CNR HINGE STN NKL"
+      },
+      {
+        "item_type": "Material",
+        "sku": "FB1815FL",
+        "qty": 1.0,
+        "cost_each": 8.3,
+        "descr": "FLUSH BOLT 18\" FLIP LOCK STN NKL"
+      },
+      {
+        "item_type": "Material",
+        "sku": "LINC2680",
+        "qty": 2.0,
+        "cost_each": 90.7,
+        "descr": "LINCOLN PARK 1P SHAKER 1-3/8 2/6X8/0 HC"
+      },
+      {
+        "item_type": "Labor",
+        "sku": "HWLABOR",
+        "qty": 3.0,
+        "cost_each": 1.0,
+        "descr": "Hardware Labor"
+      },
+      {
+        "item_type": "Labor",
+        "sku": "IDLABOR",
+        "qty": 21.0,
+        "cost_each": 1.0,
+        "descr": "Standard Labor"
+      },
+      {
+        "item_type": "Material",
+        "sku": "BHP507SN",
+        "qty": 2.0,
+        "cost_each": 0.35,
+        "descr": "BHP 3-3/4 SPRING DOOR STOP STN NKL"
+      },
+      {
+        "item_type": "Subcontract",
+        "sku": "0002",
+        "qty": 1.0,
+        "cost_each": 35.0,
+        "descr": "DOORS"
+      }
+    ]
+  },
+  {
+    "name": "INT PR 6068 FP",
+    "folder": "Interior Doors",
+    "qty": 1.0,
+    "parts": [
+      {
+        "item_type": "Labor",
+        "sku": "OHLabor",
+        "qty": 22.0,
+        "cost_each": 0.65,
+        "descr": "Overhead Labor"
+      },
+      {
+        "item_type": "Material",
+        "sku": "FJ45868MDFPR",
+        "qty": 1.5,
+        "cost_each": 6.42,
+        "descr": "MDF FLT JAMB 11/16 4-5/8 6/8 PRM"
+      },
+      {
+        "item_type": "Material",
+        "sku": "S8977FPR",
+        "qty": 3.0,
+        "cost_each": 0.45,
+        "descr": "PINE STOP 3/8X1-3/16 7/0 FJ PRM"
+      },
+      {
+        "item_type": "Material",
+        "sku": "TAST70",
+        "qty": 1.0,
+        "cost_each": 8.15,
+        "descr": "PINE T-AST 1-3/8 7/0 CLR "
+      },
+      {
+        "item_type": "Material",
+        "sku": "QTYID",
+        "qty": 2.0,
+        "cost_each": 0.0,
+        "descr": "QUANTITY OF MANUFACTURED INTERIOR DOORS"
+      },
+      {
+        "item_type": "Material",
+        "sku": "HG3514SN",
+        "qty": 6.0,
+        "cost_each": 0.7,
+        "descr": "3.5\" 1/4\" RAD CNR HINGE STN NKL"
+      },
+      {
+        "item_type": "Material",
+        "sku": "FB156",
+        "qty": 1.0,
+        "cost_each": 4.55,
+        "descr": "FLUSH BOLT 6\" STN NKL "
+      },
+      {
+        "item_type": "Material",
+        "sku": "LINC3068",
+        "qty": 2.0,
+        "cost_each": 54.75,
+        "descr": "LINCOLN PARK 1P SHAKER 1-3/8 3/0X6/8 HC"
+      },
+      {
+        "item_type": "Labor",
+        "sku": "HWLABOR",
+        "qty": 5.0,
+        "cost_each": 1.0,
+        "descr": "Hardware Labor"
+      },
+      {
+        "item_type": "Labor",
+        "sku": "IDLABOR",
+        "qty": 17.0,
+        "cost_each": 1.0,
+        "descr": "Standard Labor"
+      },
+      {
+        "item_type": "Material",
+        "sku": "BHP507SN",
+        "qty": 2.0,
+        "cost_each": 0.35,
+        "descr": "BHP 3-3/4 SPRING DOOR STOP STN NKL"
+      },
+      {
+        "item_type": "Subcontract",
+        "sku": "0002",
+        "qty": 1.0,
+        "cost_each": 35.0,
+        "descr": "DOORS"
+      }
+    ]
+  },
+  {
+    "name": "INT PR 5068 FP",
+    "folder": "Interior Doors",
+    "qty": 1.0,
+    "parts": [
+      {
+        "item_type": "Labor",
+        "sku": "OHLabor",
+        "qty": 22.0,
+        "cost_each": 0.65,
+        "descr": "Overhead Labor"
+      },
+      {
+        "item_type": "Material",
+        "sku": "FJ45868MDFPR",
+        "qty": 1.5,
+        "cost_each": 6.42,
+        "descr": "MDF FLT JAMB 11/16 4-5/8 6/8 PRM"
+      },
+      {
+        "item_type": "Material",
+        "sku": "S8977FPR",
+        "qty": 3.0,
+        "cost_each": 0.45,
+        "descr": "PINE STOP 3/8X1-3/16 7/0 FJ PRM"
+      },
+      {
+        "item_type": "Material",
+        "sku": "TAST70",
+        "qty": 1.0,
+        "cost_each": 8.15,
+        "descr": "PINE T-AST 1-3/8 7/0 CLR "
+      },
+      {
+        "item_type": "Material",
+        "sku": "QTYID",
+        "qty": 2.0,
+        "cost_each": 0.0,
+        "descr": "QUANTITY OF MANUFACTURED INTERIOR DOORS"
+      },
+      {
+        "item_type": "Material",
+        "sku": "HG3514SN",
+        "qty": 6.0,
+        "cost_each": 0.7,
+        "descr": "3.5\" 1/4\" RAD CNR HINGE STN NKL"
+      },
+      {
+        "item_type": "Material",
+        "sku": "FB156",
+        "qty": 1.0,
+        "cost_each": 4.55,
+        "descr": "FLUSH BOLT 6\" STN NKL "
+      },
+      {
+        "item_type": "Material",
+        "sku": "LINC2668",
+        "qty": 2.0,
+        "cost_each": 51.0,
+        "descr": "LINCOLN PARK 1P SHAKER 1-3/8 2/6X6/8 HC"
+      },
+      {
+        "item_type": "Labor",
+        "sku": "HWLABOR",
+        "qty": 5.0,
+        "cost_each": 1.0,
+        "descr": "Hardware Labor"
+      },
+      {
+        "item_type": "Labor",
+        "sku": "IDLABOR",
+        "qty": 17.0,
+        "cost_each": 1.0,
+        "descr": "Standard Labor"
+      },
+      {
+        "item_type": "Material",
+        "sku": "BHP507SN",
+        "qty": 2.0,
+        "cost_each": 0.35,
+        "descr": "BHP 3-3/4 SPRING DOOR STOP STN NKL"
+      },
+      {
+        "item_type": "Subcontract",
+        "sku": "0002",
+        "qty": 1.0,
+        "cost_each": 35.0,
+        "descr": "DOORS"
+      }
+    ]
+  },
+  {
+    "name": "INT 3068 PHB",
+    "folder": "Interior Doors",
+    "qty": 1.0,
+    "parts": [
+      {
+        "item_type": "Labor",
+        "sku": "OHLabor",
+        "qty": 8.0,
+        "cost_each": 0.65,
+        "descr": "Overhead Labor"
+      },
+      {
+        "item_type": "Material",
+        "sku": "FJ45868MDFPR",
+        "qty": 1.25,
+        "cost_each": 6.42,
+        "descr": "MDF FLT JAMB 11/16 4-5/8 6/8 PRM"
+      },
+      {
+        "item_type": "Material",
+        "sku": "S8977FPR",
+        "qty": 2.5,
+        "cost_each": 0.45,
+        "descr": "PINE STOP 3/8X1-3/16 7/0 FJ PRM"
+      },
+      {
+        "item_type": "Material",
+        "sku": "QTYID",
+        "qty": 1.0,
+        "cost_each": 0.0,
+        "descr": "QUANTITY OF MANUFACTURED INTERIOR DOORS"
+      },
+      {
+        "item_type": "Material",
+        "sku": "HG3514SN",
+        "qty": 3.0,
+        "cost_each": 0.7,
+        "descr": "3.5\" 1/4\" RAD CNR HINGE STN NKL"
+      },
+      {
+        "item_type": "Material",
+        "sku": "HP3068",
+        "qty": 1.0,
+        "cost_each": 36.15,
+        "descr": "HDBD PRM 1-3/8 3/0X6/8 HC"
+      },
+      {
+        "item_type": "Labor",
+        "sku": "IDLABOR",
+        "qty": 8.0,
+        "cost_each": 1.0,
+        "descr": "Standard Labor"
+      },
+      {
+        "item_type": "Material",
+        "sku": "BHP507SN",
+        "qty": 1.0,
+        "cost_each": 0.35,
+        "descr": "BHP 3-3/4 SPRING DOOR STOP STN NKL"
+      },
+      {
+        "item_type": "Subcontract",
+        "sku": "0002",
+        "qty": 1.0,
+        "cost_each": 35.0,
+        "descr": "DOORS"
+      }
+    ]
+  },
+  {
+    "name": "INT 2868 PHB",
+    "folder": "Interior Doors",
+    "qty": 1.0,
+    "parts": [
+      {
+        "item_type": "Labor",
+        "sku": "OHLabor",
+        "qty": 8.0,
+        "cost_each": 0.65,
+        "descr": "Overhead Labor"
+      },
+      {
+        "item_type": "Material",
+        "sku": "FJ45868MDFPR",
+        "qty": 1.25,
+        "cost_each": 6.42,
+        "descr": "MDF FLT JAMB 11/16 4-5/8 6/8 PRM"
+      },
+      {
+        "item_type": "Material",
+        "sku": "S8977FPR",
+        "qty": 2.5,
+        "cost_each": 0.45,
+        "descr": "PINE STOP 3/8X1-3/16 7/0 FJ PRM"
+      },
+      {
+        "item_type": "Material",
+        "sku": "QTYID",
+        "qty": 1.0,
+        "cost_each": 0.0,
+        "descr": "QUANTITY OF MANUFACTURED INTERIOR DOORS"
+      },
+      {
+        "item_type": "Material",
+        "sku": "HG3514SN",
+        "qty": 3.0,
+        "cost_each": 0.7,
+        "descr": "3.5\" 1/4\" RAD CNR HINGE STN NKL"
+      },
+      {
+        "item_type": "Material",
+        "sku": "HP2868",
+        "qty": 1.0,
+        "cost_each": 33.85,
+        "descr": "HDBD PRM 1-3/8 2/8X6/8 HC"
+      },
+      {
+        "item_type": "Labor",
+        "sku": "IDLABOR",
+        "qty": 8.0,
+        "cost_each": 1.0,
+        "descr": "Standard Labor"
+      },
+      {
+        "item_type": "Material",
+        "sku": "BHP507SN",
+        "qty": 1.0,
+        "cost_each": 0.35,
+        "descr": "BHP 3-3/4 SPRING DOOR STOP STN NKL"
+      },
+      {
+        "item_type": "Subcontract",
+        "sku": "0002",
+        "qty": 1.0,
+        "cost_each": 35.0,
+        "descr": "DOORS"
+      }
+    ]
+  },
+  {
+    "name": "INT 2468 PHB",
+    "folder": "Interior Doors",
+    "qty": 1.0,
+    "parts": [
+      {
+        "item_type": "Labor",
+        "sku": "OHLabor",
+        "qty": 8.0,
+        "cost_each": 0.65,
+        "descr": "Overhead Labor"
+      },
+      {
+        "item_type": "Material",
+        "sku": "FJ45868MDFPR",
+        "qty": 1.25,
+        "cost_each": 6.42,
+        "descr": "MDF FLT JAMB 11/16 4-5/8 6/8 PRM"
+      },
+      {
+        "item_type": "Material",
+        "sku": "S8977FPR",
+        "qty": 2.5,
+        "cost_each": 0.45,
+        "descr": "PINE STOP 3/8X1-3/16 7/0 FJ PRM"
+      },
+      {
+        "item_type": "Material",
+        "sku": "QTYID",
+        "qty": 1.0,
+        "cost_each": 0.0,
+        "descr": "QUANTITY OF MANUFACTURED INTERIOR DOORS"
+      },
+      {
+        "item_type": "Material",
+        "sku": "HG3514SN",
+        "qty": 3.0,
+        "cost_each": 0.7,
+        "descr": "3.5\" 1/4\" RAD CNR HINGE STN NKL"
+      },
+      {
+        "item_type": "Material",
+        "sku": "HP2468",
+        "qty": 1.0,
+        "cost_each": 32.4,
+        "descr": "HDBD PRM 1-3/8 2/4X6/8 HC"
+      },
+      {
+        "item_type": "Labor",
+        "sku": "IDLABOR",
+        "qty": 8.0,
+        "cost_each": 1.0,
+        "descr": "Standard Labor"
+      },
+      {
+        "item_type": "Material",
+        "sku": "BHP507SN",
+        "qty": 1.0,
+        "cost_each": 0.35,
+        "descr": "BHP 3-3/4 SPRING DOOR STOP STN NKL"
+      },
+      {
+        "item_type": "Subcontract",
+        "sku": "0002",
+        "qty": 1.0,
+        "cost_each": 35.0,
+        "descr": "DOORS"
+      }
+    ]
+  },
+  {
+    "name": "INT 3080 PHB",
+    "folder": "Interior Doors",
+    "qty": 1.0,
+    "parts": [
+      {
+        "item_type": "Labor",
+        "sku": "OHLabor",
+        "qty": 10.0,
+        "cost_each": 0.65,
+        "descr": "Overhead Labor"
+      },
+      {
+        "item_type": "Material",
+        "sku": "FJ45868MDFPR",
+        "qty": 0.25,
+        "cost_each": 6.42,
+        "descr": "MDF FLT JAMB 11/16 4-5/8 6/8 PRM"
+      },
+      {
+        "item_type": "Material",
+        "sku": "S8977FPR",
+        "qty": 0.5,
+        "cost_each": 0.45,
+        "descr": "PINE STOP 3/8X1-3/16 7/0 FJ PRM"
+      },
+      {
+        "item_type": "Material",
+        "sku": "S8978FPR",
+        "qty": 2.0,
+        "cost_each": 1.2,
+        "descr": "PINE STOP 3/8X1-3/16 8/0 FJ PRM"
+      },
+      {
+        "item_type": "Material",
+        "sku": "FJ45880MDFPR",
+        "qty": 1.0,
+        "cost_each": 7.12,
+        "descr": "MDF FLT JAMB 11/16 4-5/8 8/0 PRM"
+      },
+      {
+        "item_type": "Material",
+        "sku": "QTYID",
+        "qty": 1.0,
+        "cost_each": 0.0,
+        "descr": "QUANTITY OF MANUFACTURED INTERIOR DOORS"
+      },
+      {
+        "item_type": "Material",
+        "sku": "HG3514SN",
+        "qty": 4.0,
+        "cost_each": 0.7,
+        "descr": "3.5\" 1/4\" RAD CNR HINGE STN NKL"
+      },
+      {
+        "item_type": "Material",
+        "sku": "HP3080",
+        "qty": 1.0,
+        "cost_each": 47.1,
+        "descr": "HDBD PRM 1-3/8 3/0X8/0 HC"
+      },
+      {
+        "item_type": "Labor",
+        "sku": "IDLABOR",
+        "qty": 10.0,
+        "cost_each": 1.0,
+        "descr": "Standard Labor"
+      },
+      {
+        "item_type": "Material",
+        "sku": "BHP507SN",
+        "qty": 1.0,
+        "cost_each": 0.35,
+        "descr": "BHP 3-3/4 SPRING DOOR STOP STN NKL"
+      },
+      {
+        "item_type": "Subcontract",
+        "sku": "0002",
+        "qty": 1.0,
+        "cost_each": 35.0,
+        "descr": "DOORS"
+      }
+    ]
+  },
+  {
+    "name": "INT 2880 PHB",
+    "folder": "Interior Doors",
+    "qty": 1.0,
+    "parts": [
+      {
+        "item_type": "Labor",
+        "sku": "OHLabor",
+        "qty": 10.0,
+        "cost_each": 0.65,
+        "descr": "Overhead Labor"
+      },
+      {
+        "item_type": "Material",
+        "sku": "FJ45868MDFPR",
+        "qty": 0.25,
+        "cost_each": 6.42,
+        "descr": "MDF FLT JAMB 11/16 4-5/8 6/8 PRM"
+      },
+      {
+        "item_type": "Material",
+        "sku": "S8977FPR",
+        "qty": 0.5,
+        "cost_each": 0.45,
+        "descr": "PINE STOP 3/8X1-3/16 7/0 FJ PRM"
+      },
+      {
+        "item_type": "Material",
+        "sku": "S8978FPR",
+        "qty": 2.0,
+        "cost_each": 1.2,
+        "descr": "PINE STOP 3/8X1-3/16 8/0 FJ PRM"
+      },
+      {
+        "item_type": "Material",
+        "sku": "FJ45880MDFPR",
+        "qty": 1.0,
+        "cost_each": 7.12,
+        "descr": "MDF FLT JAMB 11/16 4-5/8 8/0 PRM"
+      },
+      {
+        "item_type": "Material",
+        "sku": "QTYID",
+        "qty": 1.0,
+        "cost_each": 0.0,
+        "descr": "QUANTITY OF MANUFACTURED INTERIOR DOORS"
+      },
+      {
+        "item_type": "Material",
+        "sku": "HG3514SN",
+        "qty": 4.0,
+        "cost_each": 0.7,
+        "descr": "3.5\" 1/4\" RAD CNR HINGE STN NKL"
+      },
+      {
+        "item_type": "Material",
+        "sku": "HP2880",
+        "qty": 1.0,
+        "cost_each": 40.3,
+        "descr": "HDBD PRM 1-3/8 2/8X8/0 HC"
+      },
+      {
+        "item_type": "Labor",
+        "sku": "IDLABOR",
+        "qty": 10.0,
+        "cost_each": 1.0,
+        "descr": "Standard Labor"
+      },
+      {
+        "item_type": "Material",
+        "sku": "BHP507SN",
+        "qty": 1.0,
+        "cost_each": 0.35,
+        "descr": "BHP 3-3/4 SPRING DOOR STOP STN NKL"
+      },
+      {
+        "item_type": "Subcontract",
+        "sku": "0002",
+        "qty": 1.0,
+        "cost_each": 35.0,
+        "descr": "DOORS"
+      }
+    ]
+  },
+  {
+    "name": "INT 2480 PHB",
+    "folder": "Interior Doors",
+    "qty": 1.0,
+    "parts": [
+      {
+        "item_type": "Labor",
+        "sku": "OHLabor",
+        "qty": 10.0,
+        "cost_each": 0.65,
+        "descr": "Overhead Labor"
+      },
+      {
+        "item_type": "Material",
+        "sku": "FJ45868MDFPR",
+        "qty": 0.25,
+        "cost_each": 6.42,
+        "descr": "MDF FLT JAMB 11/16 4-5/8 6/8 PRM"
+      },
+      {
+        "item_type": "Material",
+        "sku": "S8977FPR",
+        "qty": 0.5,
+        "cost_each": 0.45,
+        "descr": "PINE STOP 3/8X1-3/16 7/0 FJ PRM"
+      },
+      {
+        "item_type": "Material",
+        "sku": "S8978FPR",
+        "qty": 2.0,
+        "cost_each": 1.2,
+        "descr": "PINE STOP 3/8X1-3/16 8/0 FJ PRM"
+      },
+      {
+        "item_type": "Material",
+        "sku": "FJ45880MDFPR",
+        "qty": 1.0,
+        "cost_each": 7.12,
+        "descr": "MDF FLT JAMB 11/16 4-5/8 8/0 PRM"
+      },
+      {
+        "item_type": "Material",
+        "sku": "QTYID",
+        "qty": 1.0,
+        "cost_each": 0.0,
+        "descr": "QUANTITY OF MANUFACTURED INTERIOR DOORS"
+      },
+      {
+        "item_type": "Material",
+        "sku": "HG3514SN",
+        "qty": 4.0,
+        "cost_each": 0.7,
+        "descr": "3.5\" 1/4\" RAD CNR HINGE STN NKL"
+      },
+      {
+        "item_type": "Material",
+        "sku": "HP2080",
+        "qty": 1.0,
+        "cost_each": 40.1,
+        "descr": "HDBD PRM 1-3/8 2/0X8/0 HC"
+      },
+      {
+        "item_type": "Labor",
+        "sku": "IDLABOR",
+        "qty": 10.0,
+        "cost_each": 1.0,
+        "descr": "Standard Labor"
+      },
+      {
+        "item_type": "Material",
+        "sku": "BHP507SN",
+        "qty": 1.0,
+        "cost_each": 0.35,
+        "descr": "BHP 3-3/4 SPRING DOOR STOP STN NKL"
+      },
+      {
+        "item_type": "Subcontract",
+        "sku": "0002",
+        "qty": 1.0,
+        "cost_each": 35.0,
+        "descr": "DOORS"
+      }
+    ]
+  },
+  {
+    "name": "INT PR 6080 PHB",
+    "folder": "Interior Doors",
+    "qty": 1.0,
+    "parts": [
+      {
+        "item_type": "Labor",
+        "sku": "OHLabor",
+        "qty": 24.0,
+        "cost_each": 0.65,
+        "descr": "Overhead Labor"
+      },
+      {
+        "item_type": "Material",
+        "sku": "FJ45868MDFPR",
+        "qty": 0.5,
+        "cost_each": 6.42,
+        "descr": "MDF FLT JAMB 11/16 4-5/8 6/8 PRM"
+      },
+      {
+        "item_type": "Material",
+        "sku": "S8977FPR",
+        "qty": 1.0,
+        "cost_each": 0.45,
+        "descr": "PINE STOP 3/8X1-3/16 7/0 FJ PRM"
+      },
+      {
+        "item_type": "Material",
+        "sku": "S8978FPR",
+        "qty": 2.0,
+        "cost_each": 1.2,
+        "descr": "PINE STOP 3/8X1-3/16 8/0 FJ PRM"
+      },
+      {
+        "item_type": "Material",
+        "sku": "FJ45880MDFPR",
+        "qty": 1.0,
+        "cost_each": 7.12,
+        "descr": "MDF FLT JAMB 11/16 4-5/8 8/0 PRM"
+      },
+      {
+        "item_type": "Material",
+        "sku": "TAST80HBPR",
+        "qty": 1.0,
+        "cost_each": 26.65,
+        "descr": "PINE T-AST 1-3/8 8/0 CLR RH HEAD BOLT PREP"
+      },
+      {
+        "item_type": "Material",
+        "sku": "QTYID",
+        "qty": 2.0,
+        "cost_each": 0.0,
+        "descr": "QUANTITY OF MANUFACTURED INTERIOR DOORS"
+      },
+      {
+        "item_type": "Material",
+        "sku": "HG3514SN",
+        "qty": 8.0,
+        "cost_each": 0.7,
+        "descr": "3.5\" 1/4\" RAD CNR HINGE STN NKL"
+      },
+      {
+        "item_type": "Material",
+        "sku": "FB1815FL",
+        "qty": 1.0,
+        "cost_each": 8.3,
+        "descr": "FLUSH BOLT 18\" FLIP LOCK STN NKL"
+      },
+      {
+        "item_type": "Material",
+        "sku": "HP3080",
+        "qty": 2.0,
+        "cost_each": 47.1,
+        "descr": "HDBD PRM 1-3/8 3/0X8/0 HC"
+      },
+      {
+        "item_type": "Labor",
+        "sku": "HWLABOR",
+        "qty": 3.0,
+        "cost_each": 1.0,
+        "descr": "Hardware Labor"
+      },
+      {
+        "item_type": "Labor",
+        "sku": "IDLABOR",
+        "qty": 21.0,
+        "cost_each": 1.0,
+        "descr": "Standard Labor"
+      },
+      {
+        "item_type": "Material",
+        "sku": "BHP507SN",
+        "qty": 2.0,
+        "cost_each": 0.35,
+        "descr": "BHP 3-3/4 SPRING DOOR STOP STN NKL"
+      },
+      {
+        "item_type": "Subcontract",
+        "sku": "0002",
+        "qty": 1.0,
+        "cost_each": 35.0,
+        "descr": "DOORS"
+      }
+    ]
+  },
+  {
+    "name": "INT PR 5080 PHB",
+    "folder": "Interior Doors",
+    "qty": 1.0,
+    "parts": [
+      {
+        "item_type": "Labor",
+        "sku": "OHLabor",
+        "qty": 24.0,
+        "cost_each": 0.65,
+        "descr": "Overhead Labor"
+      },
+      {
+        "item_type": "Material",
+        "sku": "FJ45868MDFPR",
+        "qty": 0.5,
+        "cost_each": 6.42,
+        "descr": "MDF FLT JAMB 11/16 4-5/8 6/8 PRM"
+      },
+      {
+        "item_type": "Material",
+        "sku": "S8977FPR",
+        "qty": 1.0,
+        "cost_each": 0.45,
+        "descr": "PINE STOP 3/8X1-3/16 7/0 FJ PRM"
+      },
+      {
+        "item_type": "Material",
+        "sku": "S8978FPR",
+        "qty": 2.0,
+        "cost_each": 1.2,
+        "descr": "PINE STOP 3/8X1-3/16 8/0 FJ PRM"
+      },
+      {
+        "item_type": "Material",
+        "sku": "FJ45880MDFPR",
+        "qty": 1.0,
+        "cost_each": 7.12,
+        "descr": "MDF FLT JAMB 11/16 4-5/8 8/0 PRM"
+      },
+      {
+        "item_type": "Material",
+        "sku": "TAST80HBPR",
+        "qty": 1.0,
+        "cost_each": 26.65,
+        "descr": "PINE T-AST 1-3/8 8/0 CLR RH HEAD BOLT PREP"
+      },
+      {
+        "item_type": "Material",
+        "sku": "QTYID",
+        "qty": 2.0,
+        "cost_each": 0.0,
+        "descr": "QUANTITY OF MANUFACTURED INTERIOR DOORS"
+      },
+      {
+        "item_type": "Material",
+        "sku": "HG3514SN",
+        "qty": 8.0,
+        "cost_each": 0.7,
+        "descr": "3.5\" 1/4\" RAD CNR HINGE STN NKL"
+      },
+      {
+        "item_type": "Material",
+        "sku": "FB1815FL",
+        "qty": 1.0,
+        "cost_each": 8.3,
+        "descr": "FLUSH BOLT 18\" FLIP LOCK STN NKL"
+      },
+      {
+        "item_type": "Material",
+        "sku": "HP2680",
+        "qty": 2.0,
+        "cost_each": 43.5,
+        "descr": "HDBD PRM 1-3/8 2/6X8/0 HC"
+      },
+      {
+        "item_type": "Labor",
+        "sku": "HWLABOR",
+        "qty": 3.0,
+        "cost_each": 1.0,
+        "descr": "Hardware Labor"
+      },
+      {
+        "item_type": "Labor",
+        "sku": "IDLABOR",
+        "qty": 21.0,
+        "cost_each": 1.0,
+        "descr": "Standard Labor"
+      },
+      {
+        "item_type": "Material",
+        "sku": "BHP507SN",
+        "qty": 2.0,
+        "cost_each": 0.35,
+        "descr": "BHP 3-3/4 SPRING DOOR STOP STN NKL"
+      },
+      {
+        "item_type": "Subcontract",
+        "sku": "0002",
+        "qty": 1.0,
+        "cost_each": 35.0,
+        "descr": "DOORS"
+      }
+    ]
+  },
+  {
+    "name": "INT PR 6068 PHB",
+    "folder": "Interior Doors",
+    "qty": 1.0,
+    "parts": [
+      {
+        "item_type": "Labor",
+        "sku": "OHLabor",
+        "qty": 22.0,
+        "cost_each": 0.65,
+        "descr": "Overhead Labor"
+      },
+      {
+        "item_type": "Material",
+        "sku": "FJ45868MDFPR",
+        "qty": 1.5,
+        "cost_each": 6.42,
+        "descr": "MDF FLT JAMB 11/16 4-5/8 6/8 PRM"
+      },
+      {
+        "item_type": "Material",
+        "sku": "S8977FPR",
+        "qty": 3.0,
+        "cost_each": 0.45,
+        "descr": "PINE STOP 3/8X1-3/16 7/0 FJ PRM"
+      },
+      {
+        "item_type": "Material",
+        "sku": "TAST70",
+        "qty": 1.0,
+        "cost_each": 8.15,
+        "descr": "PINE T-AST 1-3/8 7/0 CLR "
+      },
+      {
+        "item_type": "Material",
+        "sku": "QTYID",
+        "qty": 2.0,
+        "cost_each": 0.0,
+        "descr": "QUANTITY OF MANUFACTURED INTERIOR DOORS"
+      },
+      {
+        "item_type": "Material",
+        "sku": "HG3514SN",
+        "qty": 6.0,
+        "cost_each": 0.7,
+        "descr": "3.5\" 1/4\" RAD CNR HINGE STN NKL"
+      },
+      {
+        "item_type": "Material",
+        "sku": "FB156",
+        "qty": 1.0,
+        "cost_each": 4.55,
+        "descr": "FLUSH BOLT 6\" STN NKL "
+      },
+      {
+        "item_type": "Material",
+        "sku": "HP3068",
+        "qty": 2.0,
+        "cost_each": 36.15,
+        "descr": "HDBD PRM 1-3/8 3/0X6/8 HC"
+      },
+      {
+        "item_type": "Labor",
+        "sku": "HWLABOR",
+        "qty": 5.0,
+        "cost_each": 1.0,
+        "descr": "Hardware Labor"
+      },
+      {
+        "item_type": "Labor",
+        "sku": "IDLABOR",
+        "qty": 17.0,
+        "cost_each": 1.0,
+        "descr": "Standard Labor"
+      },
+      {
+        "item_type": "Material",
+        "sku": "BHP507SN",
+        "qty": 2.0,
+        "cost_each": 0.35,
+        "descr": "BHP 3-3/4 SPRING DOOR STOP STN NKL"
+      },
+      {
+        "item_type": "Subcontract",
+        "sku": "0002",
+        "qty": 1.0,
+        "cost_each": 35.0,
+        "descr": "DOORS"
+      }
+    ]
+  },
+  {
+    "name": "INT PR 5068 PHB",
+    "folder": "Interior Doors",
+    "qty": 1.0,
+    "parts": [
+      {
+        "item_type": "Labor",
+        "sku": "OHLabor",
+        "qty": 22.0,
+        "cost_each": 0.65,
+        "descr": "Overhead Labor"
+      },
+      {
+        "item_type": "Material",
+        "sku": "FJ45868MDFPR",
+        "qty": 1.5,
+        "cost_each": 6.42,
+        "descr": "MDF FLT JAMB 11/16 4-5/8 6/8 PRM"
+      },
+      {
+        "item_type": "Material",
+        "sku": "S8977FPR",
+        "qty": 3.0,
+        "cost_each": 0.45,
+        "descr": "PINE STOP 3/8X1-3/16 7/0 FJ PRM"
+      },
+      {
+        "item_type": "Material",
+        "sku": "TAST70",
+        "qty": 1.0,
+        "cost_each": 8.15,
+        "descr": "PINE T-AST 1-3/8 7/0 CLR "
+      },
+      {
+        "item_type": "Material",
+        "sku": "QTYID",
+        "qty": 2.0,
+        "cost_each": 0.0,
+        "descr": "QUANTITY OF MANUFACTURED INTERIOR DOORS"
+      },
+      {
+        "item_type": "Material",
+        "sku": "HG3514SN",
+        "qty": 6.0,
+        "cost_each": 0.7,
+        "descr": "3.5\" 1/4\" RAD CNR HINGE STN NKL"
+      },
+      {
+        "item_type": "Material",
+        "sku": "FB156",
+        "qty": 1.0,
+        "cost_each": 4.55,
+        "descr": "FLUSH BOLT 6\" STN NKL "
+      },
+      {
+        "item_type": "Material",
+        "sku": "HP2668",
+        "qty": 2.0,
+        "cost_each": 32.45,
+        "descr": "HDBD PRM 1-3/8 2/6X6/8 HC"
+      },
+      {
+        "item_type": "Labor",
+        "sku": "HWLABOR",
+        "qty": 5.0,
+        "cost_each": 1.0,
+        "descr": "Hardware Labor"
+      },
+      {
+        "item_type": "Labor",
+        "sku": "IDLABOR",
+        "qty": 17.0,
+        "cost_each": 1.0,
+        "descr": "Standard Labor"
+      },
+      {
+        "item_type": "Material",
+        "sku": "BHP507SN",
+        "qty": 2.0,
+        "cost_each": 0.35,
+        "descr": "BHP 3-3/4 SPRING DOOR STOP STN NKL"
+      },
+      {
+        "item_type": "Subcontract",
+        "sku": "0002",
+        "qty": 1.0,
+        "cost_each": 35.0,
+        "descr": "DOORS"
+      }
+    ]
+  },
+  {
+    "name": "BP-SLAB 3068 RP",
+    "folder": "Interior Doors",
+    "qty": 2.0,
+    "parts": [
+      {
+        "item_type": "Labor",
+        "sku": "OHLabor",
+        "qty": 1.0,
+        "cost_each": 0.65,
+        "descr": "Overhead Labor"
+      },
+      {
+        "item_type": "Material",
+        "sku": "QTYIS",
+        "qty": 1.0,
+        "cost_each": 0.0,
+        "descr": "QUANTITY OF MANUFACTURED INTERIOR DOOR ONLY"
+      },
+      {
+        "item_type": "Material",
+        "sku": "MAS2PSS3068",
+        "qty": 1.0,
+        "cost_each": 42.1,
+        "descr": "MAS 1-3/8 2P SM SQ TOP 3/0X6/8 HC"
+      },
+      {
+        "item_type": "Labor",
+        "sku": "IDLABOR",
+        "qty": 1.0,
+        "cost_each": 1.0,
+        "descr": "Standard Labor"
+      },
+      {
+        "item_type": "Material",
+        "sku": "BPT6",
+        "qty": 1.0,
+        "cost_each": 13.65,
+        "descr": "BYPASS 6/0 TRACK "
+      },
+      {
+        "item_type": "Material",
+        "sku": "COX12079000",
+        "qty": 1.0,
+        "cost_each": 2.58,
+        "descr": "COX BYPASS HDWE BAG 2DR 60#"
+      },
+      {
+        "item_type": "Material",
+        "sku": "BHP235BLK",
+        "qty": 2.0,
+        "cost_each": 0.7,
+        "descr": "BHP 2-1/8\" FINGER PULL BLK"
+      },
+      {
+        "item_type": "Subcontract",
+        "sku": "0002",
+        "qty": 1.0,
+        "cost_each": 35.0,
+        "descr": "DOORS"
+      }
+    ]
+  },
+  {
+    "name": "BP-SLAB 2668 RP",
+    "folder": "Interior Doors",
+    "qty": 2.0,
+    "parts": [
+      {
+        "item_type": "Labor",
+        "sku": "OHLabor",
+        "qty": 1.0,
+        "cost_each": 0.65,
+        "descr": "Overhead Labor"
+      },
+      {
+        "item_type": "Material",
+        "sku": "QTYIS",
+        "qty": 1.0,
+        "cost_each": 0.0,
+        "descr": "QUANTITY OF MANUFACTURED INTERIOR DOOR ONLY"
+      },
+      {
+        "item_type": "Material",
+        "sku": "MAS2PSS2668",
+        "qty": 1.0,
+        "cost_each": 38.5,
+        "descr": "MAS 1-3/8 2P SM SQ TOP 2/6X6/8 HC"
+      },
+      {
+        "item_type": "Labor",
+        "sku": "IDLABOR",
+        "qty": 1.0,
+        "cost_each": 1.0,
+        "descr": "Standard Labor"
+      },
+      {
+        "item_type": "Material",
+        "sku": "BPT5",
+        "qty": 1.0,
+        "cost_each": 13.25,
+        "descr": "BYPASS 5/0 TRACK "
+      },
+      {
+        "item_type": "Material",
+        "sku": "COX12079000",
+        "qty": 1.0,
+        "cost_each": 2.58,
+        "descr": "COX BYPASS HDWE BAG 2DR 60#"
+      },
+      {
+        "item_type": "Material",
+        "sku": "BHP235BLK",
+        "qty": 2.0,
+        "cost_each": 0.7,
+        "descr": "BHP 2-1/8\" FINGER PULL BLK"
+      },
+      {
+        "item_type": "Subcontract",
+        "sku": "0002",
+        "qty": 1.0,
+        "cost_each": 35.0,
+        "descr": "DOORS"
+      }
+    ]
+  },
+  {
+    "name": "BP-SLAB 3080 RP",
+    "folder": "Interior Doors",
+    "qty": 2.0,
+    "parts": [
+      {
+        "item_type": "Labor",
+        "sku": "OHLabor",
+        "qty": 1.0,
+        "cost_each": 0.65,
+        "descr": "Overhead Labor"
+      },
+      {
+        "item_type": "Material",
+        "sku": "QTYIS",
+        "qty": 1.0,
+        "cost_each": 0.0,
+        "descr": "QUANTITY OF MANUFACTURED INTERIOR DOOR ONLY"
+      },
+      {
+        "item_type": "Material",
+        "sku": "MAS2PSS3080",
+        "qty": 1.0,
+        "cost_each": 76.8,
+        "descr": "MAS 1-3/8 2P SM SQ TOP 3/0X8/0 HC"
+      },
+      {
+        "item_type": "Labor",
+        "sku": "IDLABOR",
+        "qty": 1.0,
+        "cost_each": 1.0,
+        "descr": "Standard Labor"
+      },
+      {
+        "item_type": "Material",
+        "sku": "BPT6",
+        "qty": 1.0,
+        "cost_each": 13.65,
+        "descr": "BYPASS 6/0 TRACK "
+      },
+      {
+        "item_type": "Material",
+        "sku": "COX12079000",
+        "qty": 1.0,
+        "cost_each": 2.58,
+        "descr": "COX BYPASS HDWE BAG 2DR 60#"
+      },
+      {
+        "item_type": "Material",
+        "sku": "BHP235BLK",
+        "qty": 2.0,
+        "cost_each": 0.7,
+        "descr": "BHP 2-1/8\" FINGER PULL BLK"
+      },
+      {
+        "item_type": "Subcontract",
+        "sku": "0002",
+        "qty": 1.0,
+        "cost_each": 35.0,
+        "descr": "DOORS"
+      }
+    ]
+  },
+  {
+    "name": "BP-SLAB 2680 RP",
+    "folder": "Interior Doors",
+    "qty": 2.0,
+    "parts": [
+      {
+        "item_type": "Labor",
+        "sku": "OHLabor",
+        "qty": 1.0,
+        "cost_each": 0.65,
+        "descr": "Overhead Labor"
+      },
+      {
+        "item_type": "Material",
+        "sku": "QTYIS",
+        "qty": 1.0,
+        "cost_each": 0.0,
+        "descr": "QUANTITY OF MANUFACTURED INTERIOR DOOR ONLY"
+      },
+      {
+        "item_type": "Material",
+        "sku": "MAS2PSS2680",
+        "qty": 1.0,
+        "cost_each": 71.1,
+        "descr": "MAS 1-3/8 2P SM SQ TOP 2/6X8/0 HC"
+      },
+      {
+        "item_type": "Labor",
+        "sku": "IDLABOR",
+        "qty": 1.0,
+        "cost_each": 1.0,
+        "descr": "Standard Labor"
+      },
+      {
+        "item_type": "Material",
+        "sku": "BPT5",
+        "qty": 1.0,
+        "cost_each": 13.25,
+        "descr": "BYPASS 5/0 TRACK "
+      },
+      {
+        "item_type": "Material",
+        "sku": "COX12079000",
+        "qty": 1.0,
+        "cost_each": 2.58,
+        "descr": "COX BYPASS HDWE BAG 2DR 60#"
+      },
+      {
+        "item_type": "Material",
+        "sku": "BHP235BLK",
+        "qty": 2.0,
+        "cost_each": 0.7,
+        "descr": "BHP 2-1/8\" FINGER PULL BLK"
+      },
+      {
+        "item_type": "Subcontract",
+        "sku": "0002",
+        "qty": 1.0,
+        "cost_each": 35.0,
+        "descr": "DOORS"
+      }
+    ]
+  },
+  {
+    "name": "BP-SLAB 3068 FP",
+    "folder": "Interior Doors",
+    "qty": 2.0,
+    "parts": [
+      {
+        "item_type": "Labor",
+        "sku": "OHLabor",
+        "qty": 1.0,
+        "cost_each": 0.65,
+        "descr": "Overhead Labor"
+      },
+      {
+        "item_type": "Material",
+        "sku": "QTYIS",
+        "qty": 1.0,
+        "cost_each": 0.0,
+        "descr": "QUANTITY OF MANUFACTURED INTERIOR DOOR ONLY"
+      },
+      {
+        "item_type": "Material",
+        "sku": "LINC3068",
+        "qty": 1.0,
+        "cost_each": 54.75,
+        "descr": "LINCOLN PARK 1P SHAKER 1-3/8 3/0X6/8 HC"
+      },
+      {
+        "item_type": "Labor",
+        "sku": "IDLABOR",
+        "qty": 1.0,
+        "cost_each": 1.0,
+        "descr": "Standard Labor"
+      },
+      {
+        "item_type": "Material",
+        "sku": "BPT6",
+        "qty": 1.0,
+        "cost_each": 13.65,
+        "descr": "BYPASS 6/0 TRACK "
+      },
+      {
+        "item_type": "Material",
+        "sku": "COX12079000",
+        "qty": 1.0,
+        "cost_each": 2.58,
+        "descr": "COX BYPASS HDWE BAG 2DR 60#"
+      },
+      {
+        "item_type": "Material",
+        "sku": "BHP235BLK",
+        "qty": 2.0,
+        "cost_each": 0.7,
+        "descr": "BHP 2-1/8\" FINGER PULL BLK"
+      },
+      {
+        "item_type": "Subcontract",
+        "sku": "0002",
+        "qty": 1.0,
+        "cost_each": 35.0,
+        "descr": "DOORS"
+      }
+    ]
+  },
+  {
+    "name": "BP-SLAB 2668 FP",
+    "folder": "Interior Doors",
+    "qty": 2.0,
+    "parts": [
+      {
+        "item_type": "Labor",
+        "sku": "OHLabor",
+        "qty": 1.0,
+        "cost_each": 0.65,
+        "descr": "Overhead Labor"
+      },
+      {
+        "item_type": "Material",
+        "sku": "QTYIS",
+        "qty": 1.0,
+        "cost_each": 0.0,
+        "descr": "QUANTITY OF MANUFACTURED INTERIOR DOOR ONLY"
+      },
+      {
+        "item_type": "Material",
+        "sku": "LINC2668",
+        "qty": 1.0,
+        "cost_each": 51.0,
+        "descr": "LINCOLN PARK 1P SHAKER 1-3/8 2/6X6/8 HC"
+      },
+      {
+        "item_type": "Labor",
+        "sku": "IDLABOR",
+        "qty": 1.0,
+        "cost_each": 1.0,
+        "descr": "Standard Labor"
+      },
+      {
+        "item_type": "Material",
+        "sku": "BPT5",
+        "qty": 1.0,
+        "cost_each": 13.25,
+        "descr": "BYPASS 5/0 TRACK "
+      },
+      {
+        "item_type": "Material",
+        "sku": "COX12079000",
+        "qty": 1.0,
+        "cost_each": 2.58,
+        "descr": "COX BYPASS HDWE BAG 2DR 60#"
+      },
+      {
+        "item_type": "Material",
+        "sku": "BHP235BLK",
+        "qty": 2.0,
+        "cost_each": 0.7,
+        "descr": "BHP 2-1/8\" FINGER PULL BLK"
+      },
+      {
+        "item_type": "Subcontract",
+        "sku": "0002",
+        "qty": 1.0,
+        "cost_each": 35.0,
+        "descr": "DOORS"
+      }
+    ]
+  },
+  {
+    "name": "BP-SLAB 3080 FP",
+    "folder": "Interior Doors",
+    "qty": 2.0,
+    "parts": [
+      {
+        "item_type": "Labor",
+        "sku": "OHLabor",
+        "qty": 1.0,
+        "cost_each": 0.65,
+        "descr": "Overhead Labor"
+      },
+      {
+        "item_type": "Material",
+        "sku": "QTYIS",
+        "qty": 1.0,
+        "cost_each": 0.0,
+        "descr": "QUANTITY OF MANUFACTURED INTERIOR DOOR ONLY"
+      },
+      {
+        "item_type": "Material",
+        "sku": "LINC3080",
+        "qty": 1.0,
+        "cost_each": 102.95,
+        "descr": "LINCOLN PARK 1P SHAKER 1-3/8 3/0X8/0 HC"
+      },
+      {
+        "item_type": "Labor",
+        "sku": "IDLABOR",
+        "qty": 1.0,
+        "cost_each": 1.0,
+        "descr": "Standard Labor"
+      },
+      {
+        "item_type": "Material",
+        "sku": "BPT6",
+        "qty": 1.0,
+        "cost_each": 13.65,
+        "descr": "BYPASS 6/0 TRACK "
+      },
+      {
+        "item_type": "Material",
+        "sku": "COX12079000",
+        "qty": 1.0,
+        "cost_each": 2.58,
+        "descr": "COX BYPASS HDWE BAG 2DR 60#"
+      },
+      {
+        "item_type": "Material",
+        "sku": "BHP235BLK",
+        "qty": 2.0,
+        "cost_each": 0.7,
+        "descr": "BHP 2-1/8\" FINGER PULL BLK"
+      },
+      {
+        "item_type": "Subcontract",
+        "sku": "0002",
+        "qty": 1.0,
+        "cost_each": 35.0,
+        "descr": "DOORS"
+      }
+    ]
+  },
+  {
+    "name": "BP-SLAB 2680 FP",
+    "folder": "Interior Doors",
+    "qty": 2.0,
+    "parts": [
+      {
+        "item_type": "Labor",
+        "sku": "OHLabor",
+        "qty": 1.0,
+        "cost_each": 0.65,
+        "descr": "Overhead Labor"
+      },
+      {
+        "item_type": "Material",
+        "sku": "QTYIS",
+        "qty": 1.0,
+        "cost_each": 0.0,
+        "descr": "QUANTITY OF MANUFACTURED INTERIOR DOOR ONLY"
+      },
+      {
+        "item_type": "Material",
+        "sku": "LINC2680",
+        "qty": 1.0,
+        "cost_each": 90.7,
+        "descr": "LINCOLN PARK 1P SHAKER 1-3/8 2/6X8/0 HC"
+      },
+      {
+        "item_type": "Labor",
+        "sku": "IDLABOR",
+        "qty": 1.0,
+        "cost_each": 1.0,
+        "descr": "Standard Labor"
+      },
+      {
+        "item_type": "Material",
+        "sku": "BPT5",
+        "qty": 1.0,
+        "cost_each": 13.25,
+        "descr": "BYPASS 5/0 TRACK "
+      },
+      {
+        "item_type": "Material",
+        "sku": "COX12079000",
+        "qty": 1.0,
+        "cost_each": 2.58,
+        "descr": "COX BYPASS HDWE BAG 2DR 60#"
+      },
+      {
+        "item_type": "Material",
+        "sku": "BHP235BLK",
+        "qty": 2.0,
+        "cost_each": 0.7,
+        "descr": "BHP 2-1/8\" FINGER PULL BLK"
+      },
+      {
+        "item_type": "Subcontract",
+        "sku": "0002",
+        "qty": 1.0,
+        "cost_each": 35.0,
+        "descr": "DOORS"
+      }
+    ]
+  },
+  {
+    "name": "BP-SLAB 3068 PHB",
+    "folder": "Interior Doors",
+    "qty": 2.0,
+    "parts": [
+      {
+        "item_type": "Labor",
+        "sku": "OHLabor",
+        "qty": 1.0,
+        "cost_each": 0.65,
+        "descr": "Overhead Labor"
+      },
+      {
+        "item_type": "Material",
+        "sku": "QTYIS",
+        "qty": 1.0,
+        "cost_each": 0.0,
+        "descr": "QUANTITY OF MANUFACTURED INTERIOR DOOR ONLY"
+      },
+      {
+        "item_type": "Material",
+        "sku": "HP3068",
+        "qty": 1.0,
+        "cost_each": 36.15,
+        "descr": "HDBD PRM 1-3/8 3/0X6/8 HC"
+      },
+      {
+        "item_type": "Labor",
+        "sku": "IDLABOR",
+        "qty": 1.0,
+        "cost_each": 1.0,
+        "descr": "Standard Labor"
+      },
+      {
+        "item_type": "Material",
+        "sku": "BPT6",
+        "qty": 1.0,
+        "cost_each": 13.65,
+        "descr": "BYPASS 6/0 TRACK "
+      },
+      {
+        "item_type": "Material",
+        "sku": "COX12079000",
+        "qty": 1.0,
+        "cost_each": 2.58,
+        "descr": "COX BYPASS HDWE BAG 2DR 60#"
+      },
+      {
+        "item_type": "Material",
+        "sku": "BHP235BLK",
+        "qty": 2.0,
+        "cost_each": 0.7,
+        "descr": "BHP 2-1/8\" FINGER PULL BLK"
+      },
+      {
+        "item_type": "Subcontract",
+        "sku": "0002",
+        "qty": 1.0,
+        "cost_each": 35.0,
+        "descr": "DOORS"
+      }
+    ]
+  },
+  {
+    "name": "BP-SLAB 2668 PHB",
+    "folder": "Interior Doors",
+    "qty": 2.0,
+    "parts": [
+      {
+        "item_type": "Labor",
+        "sku": "OHLabor",
+        "qty": 1.0,
+        "cost_each": 0.65,
+        "descr": "Overhead Labor"
+      },
+      {
+        "item_type": "Material",
+        "sku": "QTYIS",
+        "qty": 1.0,
+        "cost_each": 0.0,
+        "descr": "QUANTITY OF MANUFACTURED INTERIOR DOOR ONLY"
+      },
+      {
+        "item_type": "Material",
+        "sku": "HP2668",
+        "qty": 1.0,
+        "cost_each": 32.45,
+        "descr": "HDBD PRM 1-3/8 2/6X6/8 HC"
+      },
+      {
+        "item_type": "Labor",
+        "sku": "IDLABOR",
+        "qty": 1.0,
+        "cost_each": 1.0,
+        "descr": "Standard Labor"
+      },
+      {
+        "item_type": "Material",
+        "sku": "BPT5",
+        "qty": 1.0,
+        "cost_each": 13.25,
+        "descr": "BYPASS 5/0 TRACK "
+      },
+      {
+        "item_type": "Material",
+        "sku": "COX12079000",
+        "qty": 1.0,
+        "cost_each": 2.58,
+        "descr": "COX BYPASS HDWE BAG 2DR 60#"
+      },
+      {
+        "item_type": "Material",
+        "sku": "BHP235BLK",
+        "qty": 2.0,
+        "cost_each": 0.7,
+        "descr": "BHP 2-1/8\" FINGER PULL BLK"
+      },
+      {
+        "item_type": "Subcontract",
+        "sku": "0002",
+        "qty": 1.0,
+        "cost_each": 35.0,
+        "descr": "DOORS"
+      }
+    ]
+  },
+  {
+    "name": "BP-SLAB 3080 PHB",
+    "folder": "Interior Doors",
+    "qty": 2.0,
+    "parts": [
+      {
+        "item_type": "Labor",
+        "sku": "OHLabor",
+        "qty": 1.0,
+        "cost_each": 0.65,
+        "descr": "Overhead Labor"
+      },
+      {
+        "item_type": "Material",
+        "sku": "QTYIS",
+        "qty": 1.0,
+        "cost_each": 0.0,
+        "descr": "QUANTITY OF MANUFACTURED INTERIOR DOOR ONLY"
+      },
+      {
+        "item_type": "Material",
+        "sku": "HP3080",
+        "qty": 1.0,
+        "cost_each": 47.1,
+        "descr": "HDBD PRM 1-3/8 3/0X8/0 HC"
+      },
+      {
+        "item_type": "Labor",
+        "sku": "IDLABOR",
+        "qty": 1.0,
+        "cost_each": 1.0,
+        "descr": "Standard Labor"
+      },
+      {
+        "item_type": "Material",
+        "sku": "BPT6",
+        "qty": 1.0,
+        "cost_each": 13.65,
+        "descr": "BYPASS 6/0 TRACK "
+      },
+      {
+        "item_type": "Material",
+        "sku": "COX12079000",
+        "qty": 1.0,
+        "cost_each": 2.58,
+        "descr": "COX BYPASS HDWE BAG 2DR 60#"
+      },
+      {
+        "item_type": "Material",
+        "sku": "BHP235BLK",
+        "qty": 2.0,
+        "cost_each": 0.7,
+        "descr": "BHP 2-1/8\" FINGER PULL BLK"
+      },
+      {
+        "item_type": "Subcontract",
+        "sku": "0002",
+        "qty": 1.0,
+        "cost_each": 35.0,
+        "descr": "DOORS"
+      }
+    ]
+  },
+  {
+    "name": "BP-SLAB 2680 PHB",
+    "folder": "Interior Doors",
+    "qty": 2.0,
+    "parts": [
+      {
+        "item_type": "Labor",
+        "sku": "OHLabor",
+        "qty": 1.0,
+        "cost_each": 0.65,
+        "descr": "Overhead Labor"
+      },
+      {
+        "item_type": "Material",
+        "sku": "QTYIS",
+        "qty": 1.0,
+        "cost_each": 0.0,
+        "descr": "QUANTITY OF MANUFACTURED INTERIOR DOOR ONLY"
+      },
+      {
+        "item_type": "Material",
+        "sku": "HP2680",
+        "qty": 1.0,
+        "cost_each": 43.5,
+        "descr": "HDBD PRM 1-3/8 2/6X8/0 HC"
+      },
+      {
+        "item_type": "Labor",
+        "sku": "IDLABOR",
+        "qty": 1.0,
+        "cost_each": 1.0,
+        "descr": "Standard Labor"
+      },
+      {
+        "item_type": "Material",
+        "sku": "BPT5",
+        "qty": 1.0,
+        "cost_each": 13.25,
+        "descr": "BYPASS 5/0 TRACK "
+      },
+      {
+        "item_type": "Material",
+        "sku": "COX12079000",
+        "qty": 1.0,
+        "cost_each": 2.58,
+        "descr": "COX BYPASS HDWE BAG 2DR 60#"
+      },
+      {
+        "item_type": "Material",
+        "sku": "BHP235BLK",
+        "qty": 2.0,
+        "cost_each": 0.7,
+        "descr": "BHP 2-1/8\" FINGER PULL BLK"
+      },
+      {
+        "item_type": "Subcontract",
+        "sku": "0002",
+        "qty": 1.0,
+        "cost_each": 35.0,
+        "descr": "DOORS"
+      }
+    ]
+  },
+  {
+    "name": "T1 BASE 603 MDF",
+    "folder": "Base",
+    "qty": 1.0,
+    "parts": [
+      {
+        "item_type": "Material",
+        "sku": "MDFB603PR",
+        "qty": 1.0,
+        "cost_each": 0.2675,
+        "descr": "MDF BASE 1/2X5 #603 SCANT E1E PRM"
+      },
+      {
+        "item_type": "Subcontract",
+        "sku": "0006",
+        "qty": 1.0,
+        "cost_each": 0.3,
+        "descr": "BASE"
+      }
+    ]
+  },
+  {
+    "name": "T2 BASE B555W FJP",
+    "folder": "Base",
+    "qty": 1.0,
+    "parts": [
+      {
+        "item_type": "Material",
+        "sku": "B555WFPR",
+        "qty": 1.0,
+        "cost_each": 0.6774,
+        "descr": "PINE BASE 9/16X5-1/4 #B555W FJ PRM"
+      },
+      {
+        "item_type": "Subcontract",
+        "sku": "0006",
+        "qty": 1.0,
+        "cost_each": 0.3,
+        "descr": "BASE"
+      }
+    ]
+  },
+  {
+    "name": "T1 CASE 6/8 MDF",
+    "folder": "Casing",
+    "qty": 1.0,
+    "parts": [
+      {
+        "item_type": "Material",
+        "sku": "MDFC366PR",
+        "qty": 37.0,
+        "cost_each": 0.2,
+        "descr": "MDF CSG 11/16X2-1/4 WM366 PRM"
+      },
+      {
+        "item_type": "Labor",
+        "sku": "MWLABOR",
+        "qty": 6.0,
+        "cost_each": 1.0,
+        "descr": "Labor"
+      }
+    ]
+  },
+  {
+    "name": "T1 CASE 8/0 MDF",
+    "folder": "Casing",
+    "qty": 1.0,
+    "parts": [
+      {
+        "item_type": "Material",
+        "sku": "MDFC366PR",
+        "qty": 73.0,
+        "cost_each": 0.2,
+        "descr": "MDF CSG 11/16X2-1/4 WM366 PRM"
+      },
+      {
+        "item_type": "Labor",
+        "sku": "MWLABOR",
+        "qty": 6.0,
+        "cost_each": 1.0,
+        "descr": "Labor"
+      }
+    ]
+  },
+  {
+    "name": "T2 CASE 6/8 FJP",
+    "folder": "Casing",
+    "qty": 1.0,
+    "parts": [
+      {
+        "item_type": "Material",
+        "sku": "C3667FPR",
+        "qty": 5.0,
+        "cost_each": 2.46,
+        "descr": "PINE CSG 11/16X2-1/4 7/0 WM366 FJ PRM"
+      },
+      {
+        "item_type": "Labor",
+        "sku": "MWLABOR",
+        "qty": 6.0,
+        "cost_each": 1.0,
+        "descr": "Labor"
+      }
+    ]
+  },
+  {
+    "name": "T2 CASE 8/0 FJP",
+    "folder": "Casing",
+    "qty": 1.0,
+    "parts": [
+      {
+        "item_type": "Material",
+        "sku": "C366FPR",
+        "qty": 36.0,
+        "cost_each": 0.3175,
+        "descr": "PINE CSG 11/16X2-1/4 WM366 FJ PRM"
+      },
+      {
+        "item_type": "Material",
+        "sku": "C3667FPR",
+        "qty": 5.0,
+        "cost_each": 2.46,
+        "descr": "PINE CSG 11/16X2-1/4 7/0 WM366 FJ PRM"
+      },
+      {
+        "item_type": "Labor",
+        "sku": "MWLABOR",
+        "qty": 6.0,
+        "cost_each": 1.0,
+        "descr": "Labor"
+      }
+    ]
+  },
+  {
+    "name": "8FT Closet Pack",
+    "folder": "Closets",
+    "qty": 1.0,
+    "parts": [
+      {
+        "item_type": "Material",
+        "sku": "PB3412192",
+        "qty": 16.0,
+        "cost_each": 0.718,
+        "descr": "PART BD 3/4X12X192\" SHELVING"
+      },
+      {
+        "item_type": "Material",
+        "sku": "YP233",
+        "qty": 16.0,
+        "cost_each": 0.3181,
+        "descr": "YPINE 1-5/16 FULL RND WM233 CLR"
+      },
+      {
+        "item_type": "Material",
+        "sku": "MDF314",
+        "qty": 16.0,
+        "cost_each": 0.23399999999999999,
+        "descr": "MDF 3-1/4 HOOK STRIP RAW "
+      },
+      {
+        "item_type": "Material",
+        "sku": "JH49500",
+        "qty": 2.0,
+        "cost_each": 1.14,
+        "descr": "JOHNSON SHELF AND ROD BRKT"
+      },
+      {
+        "item_type": "Material",
+        "sku": "BHP938W",
+        "qty": 1.0,
+        "cost_each": 0.55,
+        "descr": "BHP  CLOSET POLE SOCKET METAL WHT"
+      },
+      {
+        "item_type": "Subcontract",
+        "sku": "0003",
+        "qty": 16.0,
+        "cost_each": 1.0,
+        "descr": "SHELVING"
+      }
+    ]
+  },
+  {
+    "name": "Master Closet",
+    "folder": "Closets",
+    "qty": 1.0,
+    "parts": [
+      {
+        "item_type": "Material",
+        "sku": "PB3412192",
+        "qty": 32.0,
+        "cost_each": 0.718,
+        "descr": "PART BD 3/4X12X192\" SHELVING"
+      },
+      {
+        "item_type": "Material",
+        "sku": "YP233",
+        "qty": 32.0,
+        "cost_each": 0.3181,
+        "descr": "YPINE 1-5/16 FULL RND WM233 CLR"
+      },
+      {
+        "item_type": "Material",
+        "sku": "MDF314",
+        "qty": 64.0,
+        "cost_each": 0.23399999999999999,
+        "descr": "MDF 3-1/4 HOOK STRIP RAW "
+      },
+      {
+        "item_type": "Material",
+        "sku": "JH49500",
+        "qty": 8.0,
+        "cost_each": 1.14,
+        "descr": "JOHNSON SHELF AND ROD BRKT"
+      },
+      {
+        "item_type": "Material",
+        "sku": "BHP938W",
+        "qty": 3.0,
+        "cost_each": 0.55,
+        "descr": "BHP  CLOSET POLE SOCKET METAL WHT"
+      },
+      {
+        "item_type": "Subcontract",
+        "sku": "0003",
+        "qty": 32.0,
+        "cost_each": 1.0,
+        "descr": "SHELVING"
+      }
+    ]
+  },
+  {
+    "name": "Small L Closet",
+    "folder": "Closets",
+    "qty": 1.0,
+    "parts": [
+      {
+        "item_type": "Material",
+        "sku": "PB3412192",
+        "qty": 16.0,
+        "cost_each": 0.718,
+        "descr": "PART BD 3/4X12X192\" SHELVING"
+      },
+      {
+        "item_type": "Material",
+        "sku": "YP233",
+        "qty": 16.0,
+        "cost_each": 0.3181,
+        "descr": "YPINE 1-5/16 FULL RND WM233 CLR"
+      },
+      {
+        "item_type": "Material",
+        "sku": "MDF314",
+        "qty": 32.0,
+        "cost_each": 0.23399999999999999,
+        "descr": "MDF 3-1/4 HOOK STRIP RAW "
+      },
+      {
+        "item_type": "Material",
+        "sku": "JH49500",
+        "qty": 2.0,
+        "cost_each": 1.14,
+        "descr": "JOHNSON SHELF AND ROD BRKT"
+      },
+      {
+        "item_type": "Material",
+        "sku": "BHP938W",
+        "qty": 1.0,
+        "cost_each": 0.55,
+        "descr": "BHP  CLOSET POLE SOCKET METAL WHT"
+      },
+      {
+        "item_type": "Subcontract",
+        "sku": "0003",
+        "qty": 16.0,
+        "cost_each": 1.0,
+        "descr": "SHELVING"
+      }
+    ]
+  },
+  {
+    "name": "Large L Closet",
+    "folder": "Closets",
+    "qty": 1.0,
+    "parts": [
+      {
+        "item_type": "Material",
+        "sku": "PB3412192",
+        "qty": 32.0,
+        "cost_each": 0.718,
+        "descr": "PART BD 3/4X12X192\" SHELVING"
+      },
+      {
+        "item_type": "Material",
+        "sku": "YP233",
+        "qty": 24.0,
+        "cost_each": 0.3181,
+        "descr": "YPINE 1-5/16 FULL RND WM233 CLR"
+      },
+      {
+        "item_type": "Material",
+        "sku": "MDF314",
+        "qty": 48.0,
+        "cost_each": 0.23399999999999999,
+        "descr": "MDF 3-1/4 HOOK STRIP RAW "
+      },
+      {
+        "item_type": "Material",
+        "sku": "JH49500",
+        "qty": 6.0,
+        "cost_each": 1.14,
+        "descr": "JOHNSON SHELF AND ROD BRKT"
+      },
+      {
+        "item_type": "Material",
+        "sku": "BHP938W",
+        "qty": 2.0,
+        "cost_each": 0.55,
+        "descr": "BHP  CLOSET POLE SOCKET METAL WHT"
+      },
+      {
+        "item_type": "Subcontract",
+        "sku": "0003",
+        "qty": 32.0,
+        "cost_each": 1.0,
+        "descr": "SHELVING"
+      }
+    ]
+  },
+  {
+    "name": "Small U Closet",
+    "folder": "Closets",
+    "qty": 1.0,
+    "parts": [
+      {
+        "item_type": "Material",
+        "sku": "PB3412192",
+        "qty": 16.0,
+        "cost_each": 0.718,
+        "descr": "PART BD 3/4X12X192\" SHELVING"
+      },
+      {
+        "item_type": "Material",
+        "sku": "YP233",
+        "qty": 16.0,
+        "cost_each": 0.3181,
+        "descr": "YPINE 1-5/16 FULL RND WM233 CLR"
+      },
+      {
+        "item_type": "Material",
+        "sku": "MDF314",
+        "qty": 32.0,
+        "cost_each": 0.23399999999999999,
+        "descr": "MDF 3-1/4 HOOK STRIP RAW "
+      },
+      {
+        "item_type": "Material",
+        "sku": "JH49500",
+        "qty": 3.0,
+        "cost_each": 1.14,
+        "descr": "JOHNSON SHELF AND ROD BRKT"
+      },
+      {
+        "item_type": "Material",
+        "sku": "BHP938W",
+        "qty": 3.0,
+        "cost_each": 0.55,
+        "descr": "BHP  CLOSET POLE SOCKET METAL WHT"
+      },
+      {
+        "item_type": "Subcontract",
+        "sku": "0003",
+        "qty": 16.0,
+        "cost_each": 1.0,
+        "descr": "SHELVING"
+      }
+    ]
+  },
+  {
+    "name": "Large U Closet",
+    "folder": "Closets",
+    "qty": 1.0,
+    "parts": [
+      {
+        "item_type": "Material",
+        "sku": "PB3412192",
+        "qty": 48.0,
+        "cost_each": 0.718,
+        "descr": "PART BD 3/4X12X192\" SHELVING"
+      },
+      {
+        "item_type": "Material",
+        "sku": "YP233",
+        "qty": 48.0,
+        "cost_each": 0.3181,
+        "descr": "YPINE 1-5/16 FULL RND WM233 CLR"
+      },
+      {
+        "item_type": "Material",
+        "sku": "MDF314",
+        "qty": 64.0,
+        "cost_each": 0.23399999999999999,
+        "descr": "MDF 3-1/4 HOOK STRIP RAW "
+      },
+      {
+        "item_type": "Material",
+        "sku": "JH49500",
+        "qty": 9.0,
+        "cost_each": 1.14,
+        "descr": "JOHNSON SHELF AND ROD BRKT"
+      },
+      {
+        "item_type": "Material",
+        "sku": "BHP938W",
+        "qty": 3.0,
+        "cost_each": 0.55,
+        "descr": "BHP  CLOSET POLE SOCKET METAL WHT"
+      },
+      {
+        "item_type": "Subcontract",
+        "sku": "0003",
+        "qty": 48.0,
+        "cost_each": 1.0,
+        "descr": "SHELVING"
+      }
+    ]
+  },
+  {
+    "name": "3FT Bulkhead Linen",
+    "folder": "Closets",
+    "qty": 1.0,
+    "parts": [
+      {
+        "item_type": "Material",
+        "sku": "BULKHEAD87",
+        "qty": 2.0,
+        "cost_each": 13.9,
+        "descr": "87\" SHELVING BULKHEAD "
+      },
+      {
+        "item_type": "Material",
+        "sku": "PB3416192BNS",
+        "qty": 16.0,
+        "cost_each": 0.718,
+        "descr": "PART BD 3/4X16X192\" BULL NOSE SHELVING"
+      },
+      {
+        "item_type": "Material",
+        "sku": "LDFCS12112",
+        "qty": 48.0,
+        "cost_each": 0.138,
+        "descr": "LDF CLEAT STRIP 1/2X1-1/2"
+      },
+      {
+        "item_type": "Subcontract",
+        "sku": "0003",
+        "qty": 16.0,
+        "cost_each": 1.0,
+        "descr": "SHELVING"
+      }
+    ]
+  },
+  {
+    "name": "3FT Pantry Linen",
+    "folder": "Closets",
+    "qty": 1.0,
+    "parts": [
+      {
+        "item_type": "Material",
+        "sku": "PB3416192BNS",
+        "qty": 16.0,
+        "cost_each": 0.718,
+        "descr": "PART BD 3/4X16X192\" BULL NOSE SHELVING"
+      },
+      {
+        "item_type": "Material",
+        "sku": "LDFCS12112",
+        "qty": 48.0,
+        "cost_each": 0.138,
+        "descr": "LDF CLEAT STRIP 1/2X1-1/2"
+      },
+      {
+        "item_type": "Subcontract",
+        "sku": "0003",
+        "qty": 16.0,
+        "cost_each": 1.0,
+        "descr": "SHELVING"
+      }
+    ]
+  },
+  {
+    "name": "5-6FT Pantry Linen",
+    "folder": "Closets",
+    "qty": 1.0,
+    "parts": [
+      {
+        "item_type": "Material",
+        "sku": "PB3416192BNS",
+        "qty": 32.0,
+        "cost_each": 0.718,
+        "descr": "PART BD 3/4X16X192\" BULL NOSE SHELVING"
+      },
+      {
+        "item_type": "Material",
+        "sku": "LDFCS12112",
+        "qty": 64.0,
+        "cost_each": 0.138,
+        "descr": "LDF CLEAT STRIP 1/2X1-1/2"
+      },
+      {
+        "item_type": "Subcontract",
+        "sku": "0003",
+        "qty": 32.0,
+        "cost_each": 1.0,
+        "descr": "SHELVING"
+      }
+    ]
+  },
+  {
+    "name": "8-9FT Panry Linen",
+    "folder": "Closets",
+    "qty": 1.0,
+    "parts": [
+      {
+        "item_type": "Material",
+        "sku": "PB3416192BNS",
+        "qty": 80.0,
+        "cost_each": 0.718,
+        "descr": "PART BD 3/4X16X192\" BULL NOSE SHELVING"
+      },
+      {
+        "item_type": "Material",
+        "sku": "LDFCS12112",
+        "qty": 96.0,
+        "cost_each": 0.138,
+        "descr": "LDF CLEAT STRIP 1/2X1-1/2"
+      },
+      {
+        "item_type": "Subcontract",
+        "sku": "0003",
+        "qty": 80.0,
+        "cost_each": 1.0,
+        "descr": "SHELVING"
+      }
+    ]
+  },
+  {
+    "name": "Small L Pantry Linen",
+    "folder": "Closets",
+    "qty": 1.0,
+    "parts": [
+      {
+        "item_type": "Material",
+        "sku": "PB3416192BNS",
+        "qty": 32.0,
+        "cost_each": 0.718,
+        "descr": "PART BD 3/4X16X192\" BULL NOSE SHELVING"
+      },
+      {
+        "item_type": "Material",
+        "sku": "LDFCS12112",
+        "qty": 64.0,
+        "cost_each": 0.138,
+        "descr": "LDF CLEAT STRIP 1/2X1-1/2"
+      },
+      {
+        "item_type": "Material",
+        "sku": "TAST70",
+        "qty": 1.0,
+        "cost_each": 8.15,
+        "descr": "PINE T-AST 1-3/8 7/0 CLR "
+      },
+      {
+        "item_type": "Subcontract",
+        "sku": "0003",
+        "qty": 32.0,
+        "cost_each": 1.0,
+        "descr": "SHELVING"
+      }
+    ]
+  },
+  {
+    "name": "Large L Pantry Linen",
+    "folder": "Closets",
+    "qty": 1.0,
+    "parts": [
+      {
+        "item_type": "Material",
+        "sku": "PB3416192BNS",
+        "qty": 96.0,
+        "cost_each": 0.718,
+        "descr": "PART BD 3/4X16X192\" BULL NOSE SHELVING"
+      },
+      {
+        "item_type": "Material",
+        "sku": "LDFCS12112",
+        "qty": 128.0,
+        "cost_each": 0.138,
+        "descr": "LDF CLEAT STRIP 1/2X1-1/2"
+      },
+      {
+        "item_type": "Material",
+        "sku": "TAST70",
+        "qty": 1.0,
+        "cost_each": 8.15,
+        "descr": "PINE T-AST 1-3/8 7/0 CLR "
+      },
+      {
+        "item_type": "Subcontract",
+        "sku": "0003",
+        "qty": 96.0,
+        "cost_each": 1.0,
+        "descr": "SHELVING"
+      }
+    ]
+  },
+  {
+    "name": "Large U Pantry Linen",
+    "folder": "Closets",
+    "qty": 1.0,
+    "parts": [
+      {
+        "item_type": "Material",
+        "sku": "PB3416192BNS",
+        "qty": 144.0,
+        "cost_each": 0.718,
+        "descr": "PART BD 3/4X16X192\" BULL NOSE SHELVING"
+      },
+      {
+        "item_type": "Material",
+        "sku": "LDFCS12112",
+        "qty": 192.0,
+        "cost_each": 0.138,
+        "descr": "LDF CLEAT STRIP 1/2X1-1/2"
+      },
+      {
+        "item_type": "Material",
+        "sku": "TAST70",
+        "qty": 4.0,
+        "cost_each": 8.15,
+        "descr": "PINE T-AST 1-3/8 7/0 CLR "
+      },
+      {
+        "item_type": "Subcontract",
+        "sku": "0003",
+        "qty": 144.0,
+        "cost_each": 1.0,
+        "descr": "SHELVING"
+      }
+    ]
+  },
+  {
+    "name": "Access Scuttle",
+    "folder": "Closets",
+    "qty": 1.0,
+    "parts": [
+      {
+        "item_type": "Material",
+        "sku": "SCUTTLE",
+        "qty": 1.0,
+        "cost_each": 11.29,
+        "descr": "3/4X1-1/2 WEATHER STRIP ATTIC SCUTTLE"
+      }
+    ]
+  },
+  {
+    "name": "Stair Handrail",
+    "folder": "Stairs",
+    "qty": 1.0,
+    "parts": [
+      {
+        "item_type": "Material",
+        "sku": "HR240",
+        "qty": 20.0,
+        "cost_each": 2.495,
+        "descr": "PINE HANDRAIL 240 1-1/4X2-1/4"
+      },
+      {
+        "item_type": "Material",
+        "sku": "CRHDHB4015",
+        "qty": 8.0,
+        "cost_each": 2.25,
+        "descr": "CAL ROYAL HVY DTY HANDRAIL BRKT STN NKL"
+      },
+      {
+        "item_type": "Subcontract",
+        "sku": "0004",
+        "qty": 1.0,
+        "cost_each": 50.0,
+        "descr": "HAND RAIL"
+      }
+    ]
+  },
+  {
+    "name": "Hardware",
+    "folder": "Hardware",
+    "qty": 1.0,
+    "parts": [
+      {
+        "item_type": "Material",
+        "sku": "KW687DA15PSMT",
+        "qty": 1.0,
+        "cost_each": 45.8,
+        "descr": "KWIKSET DAKOTA O/S HNDLSET STN NKL SMT"
+      },
+      {
+        "item_type": "Material",
+        "sku": "KW966P15",
+        "qty": 1.0,
+        "cost_each": 23.35,
+        "descr": "KWIKSET POLO INT TRIM STN NKL"
+      },
+      {
+        "item_type": "Material",
+        "sku": "KW400P15SMT",
+        "qty": 1.0,
+        "cost_each": 10.1,
+        "descr": "KWIKSET POLO ENTRY STN NKL SMT"
+      },
+      {
+        "item_type": "Material",
+        "sku": "KW66015SMT",
+        "qty": 1.0,
+        "cost_each": 16.3,
+        "descr": "KWIKSET DBLT SGL CYL STN NKL SMT"
+      },
+      {
+        "item_type": "Material",
+        "sku": "KW300P15",
+        "qty": 1.0,
+        "cost_each": 10.25,
+        "descr": "KWIKSET POLO PRIVACY STN NKL"
+      },
+      {
+        "item_type": "Material",
+        "sku": "KW818SCE514SMT",
+        "qty": 1.0,
+        "cost_each": 131.5,
+        "descr": "KWIKSET SAN CLEMENTE OS HND BLK SMT"
+      },
+      {
+        "item_type": "Material",
+        "sku": "KW971HFLSQT514",
+        "qty": 1.0,
+        "cost_each": 29.9,
+        "descr": "KWIKSET HALIFAX INT PK SQ IRON BLK"
+      },
+      {
+        "item_type": "Material",
+        "sku": "KW158SQT514SMT",
+        "qty": 1.0,
+        "cost_each": 28.2,
+        "descr": "KWIKSET DBLT SGL CYL IRON BLK"
+      },
+      {
+        "item_type": "Material",
+        "sku": "KW740HFL514SMT",
+        "qty": 1.0,
+        "cost_each": 45.4,
+        "descr": "KWIKSET HALIFAX ROSE ENTRY SQ BLK SMT"
+      },
+      {
+        "item_type": "Material",
+        "sku": "KW730HFLSQT514",
+        "qty": 1.0,
+        "cost_each": 30.4,
+        "descr": "KWIKSET HALIFAX PRIVACY SQ IRON BLK"
+      },
+      {
+        "item_type": "Material",
+        "sku": "KW788HFLSQT514",
+        "qty": 1.0,
+        "cost_each": 13.6,
+        "descr": "KWIKSET HALIFAX DUMMY SQ HALF IRON BLK"
+      },
+      {
+        "item_type": "Material",
+        "sku": "DXJH58BAR619",
+        "qty": 1.0,
+        "cost_each": 38.3,
+        "descr": "DEXTER BARCELONA O/S TRIM HNDLSET STN NKL"
+      },
+      {
+        "item_type": "Material",
+        "sku": "DXJH59CNA625",
+        "qty": 1.0,
+        "cost_each": 26.2,
+        "descr": "DEXTER CORONA INTER TRIM BRT CHRM"
+      },
+      {
+        "item_type": "Material",
+        "sku": "DXJ54CNA625",
+        "qty": 1.0,
+        "cost_each": 14.65,
+        "descr": "DEXTER CORONA ENTRY KNOB KEYED BRT CHRM"
+      },
+      {
+        "item_type": "Material",
+        "sku": "SCB60N625",
+        "qty": 1.0,
+        "cost_each": 17.4,
+        "descr": "SCHLAGE DBLT SGL BRT CHRM"
+      },
+      {
+        "item_type": "Material",
+        "sku": "DXJ40CNA625",
+        "qty": 1.0,
+        "cost_each": 11.15,
+        "descr": "DEXTER CORONA PRIVACY BRT CHRM"
+      },
+      {
+        "item_type": "Material",
+        "sku": "DXJ170CNA625",
+        "qty": 1.0,
+        "cost_each": 5.4,
+        "descr": "DEXTER CORONA DUMMY BRT CHRM"
+      },
+      {
+        "item_type": "Material",
+        "sku": "SCF58PLY622",
+        "qty": 1.0,
+        "cost_each": 105.65,
+        "descr": "SCHLAGE PLYMOUTH O/S HNDLSET MAT BLK"
+      },
+      {
+        "item_type": "Material",
+        "sku": "SCF59LAT622",
+        "qty": 1.0,
+        "cost_each": 67.4,
+        "descr": "SCHLAGE LATITUDE INT TRIM MAT BLK"
+      },
+      {
+        "item_type": "Material",
+        "sku": "SCF51AGLAT622",
+        "qty": 1.0,
+        "cost_each": 63.6,
+        "descr": "SCHLAGE LATITUDE ENTRY MAT BLK"
+      },
+      {
+        "item_type": "Material",
+        "sku": "SCB60622",
+        "qty": 1.0,
+        "cost_each": 33.15,
+        "descr": "SCHLAGE DBLT MAT BLK "
+      },
+      {
+        "item_type": "Material",
+        "sku": "SCF40LAT622",
+        "qty": 1.0,
+        "cost_each": 34.6,
+        "descr": "SCHLAGE LATITUDE PRIVACY MAT BLK"
+      },
+      {
+        "item_type": "Material",
+        "sku": "SCF170LAT622",
+        "qty": 1.0,
+        "cost_each": 17.3,
+        "descr": "SCHLAGE LATITUDE DUMMY MAT BLK"
+      }
+    ]
+  },
+  {
+    "name": "Parts",
+    "folder": "Misc",
+    "qty": 1.0,
+    "parts": [
+      {
+        "item_type": "Material",
+        "sku": "PB3412192",
+        "qty": 1.0,
+        "cost_each": 0.718,
+        "descr": "PART BD 3/4X12X192\" SHELVING"
+      },
+      {
+        "item_type": "Material",
+        "sku": "YP233",
+        "qty": 1.0,
+        "cost_each": 0.3181,
+        "descr": "YPINE 1-5/16 FULL RND WM233 CLR"
+      },
+      {
+        "item_type": "Material",
+        "sku": "MDF314",
+        "qty": 1.0,
+        "cost_each": 0.23399999999999999,
+        "descr": "MDF 3-1/4 HOOK STRIP RAW "
+      },
+      {
+        "item_type": "Material",
+        "sku": "JH49500",
+        "qty": 1.0,
+        "cost_each": 1.14,
+        "descr": "JOHNSON SHELF AND ROD BRKT"
+      },
+      {
+        "item_type": "Material",
+        "sku": "BHP938W",
+        "qty": 1.0,
+        "cost_each": 0.55,
+        "descr": "BHP  CLOSET POLE SOCKET METAL WHT"
+      },
+      {
+        "item_type": "Material",
+        "sku": "BULKHEAD18",
+        "qty": 1.0,
+        "cost_each": 7.22,
+        "descr": "18\" SHELVING BULKHEAD "
+      },
+      {
+        "item_type": "Material",
+        "sku": "BULKHEAD56",
+        "qty": 1.0,
+        "cost_each": 10.56,
+        "descr": "56\" SHELVING BULKHEAD "
+      },
+      {
+        "item_type": "Material",
+        "sku": "BULKHEAD87",
+        "qty": 1.0,
+        "cost_each": 13.9,
+        "descr": "87\" SHELVING BULKHEAD "
+      },
+      {
+        "item_type": "Material",
+        "sku": "PB3416192BNS",
+        "qty": 1.0,
+        "cost_each": 0.718,
+        "descr": "PART BD 3/4X16X192\" BULL NOSE SHELVING"
+      },
+      {
+        "item_type": "Material",
+        "sku": "TAST70",
+        "qty": 1.0,
+        "cost_each": 8.15,
+        "descr": "PINE T-AST 1-3/8 7/0 CLR "
+      },
+      {
+        "item_type": "Material",
+        "sku": "SCUTTLE",
+        "qty": 1.0,
+        "cost_each": 11.29,
+        "descr": "3/4X1-1/2 WEATHER STRIP ATTIC SCUTTLE"
+      },
+      {
+        "item_type": "Material",
+        "sku": "HR240",
+        "qty": 1.0,
+        "cost_each": 2.495,
+        "descr": "PINE HANDRAIL 240 1-1/4X2-1/4"
+      },
+      {
+        "item_type": "Material",
+        "sku": "CRHDHB4015",
+        "qty": 1.0,
+        "cost_each": 2.25,
+        "descr": "CAL ROYAL HVY DTY HANDRAIL BRKT STN NKL"
+      },
+      {
+        "item_type": "Material",
+        "sku": "BHP507SN",
+        "qty": 1.0,
+        "cost_each": 0.35,
+        "descr": "BHP 3-3/4 SPRING DOOR STOP STN NKL"
+      },
+      {
+        "item_type": "Material",
+        "sku": "DSDOORSTOPHPHD15",
+        "qty": 1.0,
+        "cost_each": 0.7,
+        "descr": "DOOR STOP HINGE PIN HD STN NKL"
+      },
+      {
+        "item_type": "Material",
+        "sku": "BHP235BLK",
+        "qty": 1.0,
+        "cost_each": 0.7,
+        "descr": "BHP 2-1/8\" FINGER PULL BLK"
+      },
+      {
+        "item_type": "Material",
+        "sku": "COX12079000",
+        "qty": 1.0,
+        "cost_each": 2.58,
+        "descr": "COX BYPASS HDWE BAG 2DR 60#"
+      },
+      {
+        "item_type": "Material",
+        "sku": "BPT5",
+        "qty": 1.0,
+        "cost_each": 13.25,
+        "descr": "BYPASS 5/0 TRACK "
+      },
+      {
+        "item_type": "Material",
+        "sku": "BPT6",
+        "qty": 1.0,
+        "cost_each": 13.65,
+        "descr": "BYPASS 6/0 TRACK "
+      }
+    ]
+  }
+]
