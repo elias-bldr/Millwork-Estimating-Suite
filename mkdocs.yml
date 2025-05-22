@@ -49,11 +49,10 @@ nav:
       - Quick-start • Plugin Package: getting-started/quick-start-plugin-package.md
       - Quick-start • Assembly Builder: getting-started/quick-start-assembly-builder.md
   - How-to:
-      - Creating A Custom Assembly: how-to/creating-a-custom-assembly.md
-      - Creating Option Items: how-to/creating-option-items.md
+      - Create A Custom Assembly: how-to/create-a-custom-assembly.md
+      - Create Option Items: how-to/create-option-items.md
+      - Use PlanSwift Reports: how-to/use-planswift-reports.md
       - Generate Bulk Tools: how-to/generate-bulk-tools.md
-      - Run Custom Reports: how-to/run-custom-reports.md
-      - Structure Takeoff Tools: how-to/structure-takeoff-tools.md
       - Update Inventory Database: how-to/update-inventory-database.md
   - Reference:
       - Field definitions:
