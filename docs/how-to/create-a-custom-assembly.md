@@ -1,4 +1,4 @@
-<!-- docs/how-to/create-custom-item.md -->
+<!-- docs/how-to/create-a-custom-item.md -->
 
 ## Use-case
 
@@ -54,7 +54,3 @@ It is important to understand that certain PlanSwift Reports will separate Part 
         &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;├─ Labor (Inhouse manufacturing labor)  
         &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;├─ Subcontract (Install labor)  
         &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;└─ Other (Option items)  
-
-You’re done!  
-
-Ready for automation? Head to [Quick-start • Assembly Builder](../getting-started/quick-start-assembly-builder.md).

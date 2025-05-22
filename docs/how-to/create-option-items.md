@@ -1,3 +1,5 @@
+<!-- docs/how-to/create-option-items.md -->
+
 ## Use-case
 
 You need to include an external item in an Assembly.
